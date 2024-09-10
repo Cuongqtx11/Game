@@ -7,21 +7,18 @@
       <dict>
         <key>DNSSettings</key>
         <dict>
-          <key>DNS</key>
-          <dict>
-            <key>ServerAddresses</key>
-            <array>
-              <string>8.8.8.8</string>
-              <string>8.8.4.4</string>
-            </array>
-          </dict>
+          <key>ServerAddresses</key>
+          <array>
+            <string>8.8.8.8</string>
+            <string>8.8.4.4</string>
+          </array>
         </dict>
         <key>PayloadType</key>
         <string>com.apple.dnsSettings.managed</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
         <key>PayloadIdentifier</key>
-        <string>com.example.dnsprofile</string>
+        <string>com.example.dnsprofile.settings</string>
         <key>PayloadUUID</key>
         <string>6B1E5F8B-4F7D-4F7A-9445-3C5ECE2429EE</string>
         <key>PayloadDisplayName</key>
@@ -39,6 +36,6 @@
     <key>PayloadUUID</key>
     <string>CAE5E7AA-F8E2-4F2D-8B0A-7F447D64F3EE</string>
     <key>PayloadDisplayName</key>
-    <string>Custom DNS Settings</string>
+    <string>Custom DNS Profile</string>
   </dict>
 </plist>

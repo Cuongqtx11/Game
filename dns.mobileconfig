@@ -36,7 +36,7 @@
 			<key>PayloadIdentifier</key>
 			<string>com.apple.dnsSettings.managed.9d981129-d086-4891-b2cf-165ede3f8a90</string>
 			<key>PayloadOrganization</key>
-			<string>kvip</string>
+			<string>kvip🇻🇳</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
@@ -76,7 +76,7 @@
 			<key>PayloadIdentifier</key>
 			<string>com.apple.dnsSettings.managed.fac89862-8acc-466a-a412-81fdc856dae2</string>
 			<key>PayloadOrganization</key>
-			<string>kvip</string>
+			<string>kvip🇻🇳</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
@@ -86,9 +86,11 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>  vvk❤</string>
+	<string>  vvk❤️ 🇻🇳
+
+- I come from Vietnam 🇻🇳 </string>
 	<key>PayloadDisplayName</key>
-	<string>DNS Chặn Thu Hồi </string>
+	<string>DNS Chặn Thu Hồi</string>
 	<key>PayloadIdentifier</key>
 	<string>com.khoindvn.apple-dns.9cb3031c-a76f-4cc3-a919-d3187093eb9b</string>
 	<key>PayloadRemovalDisallowed</key>

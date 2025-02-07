@@ -14,7 +14,7 @@ nav {
 
 .menu-icon {
     flex-direction: column;
-    font-size: 30px;
+    font-size: 40px;
     cursor: pointer;
 }
 
@@ -91,7 +91,7 @@ p3 {
             font-weight: bold;
         }
         .menu-toggle {
-            font-size: 30px;
+            font-size: 45px;
             display: none;
             flex-direction: column;
             cursor: pointer;

@@ -32,8 +32,40 @@ function switchScreen(screen) {
   qsa('.app-tab').forEach(tab => tab.classList.remove('active'));
   qsa(`.app-tab[data-screen="${screen}"]`).forEach(tab => tab.classList.add('active'));
   renderSubmenu(screen);
+  renderScreenContent(screen);
   qs('#sidebar').classList.remove('open');
   window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function renderScreenContent(screen) {
+  if (screen === 'home') {
+    renderAppInfo();
+    return;
+  }
+  if (screen === 'learn') {
+    renderLearnModules();
+    renderChapters();
+    renderQuick7();
+    renderSpeak30();
+    return;
+  }
+  if (screen === 'words') {
+    renderTopics();
+    renderVocabulary();
+    renderDailyWordsBox();
+    renderSavedWordsBox();
+    return;
+  }
+  if (screen === 'practice') {
+    renderTests();
+    renderGrammar();
+    renderDialogues();
+    renderTopik();
+    return;
+  }
+  if (screen === 'profile') {
+    updateProfileUI();
+  }
 }
 
 function renderSubmenu(screen) {
@@ -216,7 +248,11 @@ function initOnboarding() { if (!state.onboardingDone) { qs('#onboarding').class
 async function init() {
   loadState(); applyTheme();
   const res = await fetch('./data/content.json'); content = await res.json();
-  renderAppInfo(); renderLearnModules(); renderChapters(); renderQuick7(); renderSpeak30(); renderTopics(); renderVocabulary(); renderGrammar(); renderDialogues(); renderTopik(); renderTests(); updateProfileUI(); bindUI(); initOnboarding(); switchScreen(state.screen || 'home');
+  renderAppInfo();
+  updateProfileUI();
+  bindUI();
+  initOnboarding();
+  switchScreen(state.screen || 'home');
 }
 
 init().catch(() => { document.body.innerHTML = '<div style="padding:24px;font-family:Arial,sans-serif;">Không tải được dữ liệu khóa học.</div>'; });

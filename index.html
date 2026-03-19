@@ -3,40 +3,61 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>HanViet Quest - Học tiếng Hàn từ cơ bản tới giao tiếp</title>
+  <title>HanViet Quest Premium - Học tiếng Hàn</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
+  <div id="onboarding" class="onboarding-screen hidden">
+    <div class="onboarding-card">
+      <span class="pill dark">HANVIET QUEST PREMIUM</span>
+      <h1>Thiết lập hành trình học tiếng Hàn của bạn</h1>
+      <p>Chọn mục tiêu học để app gợi ý lộ trình, nhắc học, và cá nhân hoá giao diện như một ứng dụng thật.</p>
+      <div class="goal-grid">
+        <button class="goal-btn" data-goal="Giao tiếp hằng ngày">💬 Giao tiếp hằng ngày</button>
+        <button class="goal-btn" data-goal="Du lịch Hàn Quốc">✈️ Du lịch Hàn Quốc</button>
+        <button class="goal-btn" data-goal="Học TOPIK">📘 Học TOPIK</button>
+        <button class="goal-btn" data-goal="Làm việc với người Hàn">💼 Công việc</button>
+      </div>
+      <button id="start-app" class="primary-btn wide">Bắt đầu học</button>
+    </div>
+  </div>
+
   <div class="mobile-topbar">
     <button id="menu-toggle" class="icon-btn">☰</button>
     <div>
       <strong>HanViet Quest</strong>
-      <div class="topbar-sub">Korean Learning App</div>
+      <div class="topbar-sub" id="goal-display">Korean Learning App</div>
     </div>
+    <button id="theme-toggle-mobile" class="icon-btn">🌙</button>
   </div>
 
   <div class="app-shell">
     <aside id="sidebar" class="sidebar card glassy">
-      <div class="brand">
-        <div class="brand-badge">ㅎ</div>
-        <div>
-          <div class="brand-name">HanViet Quest</div>
-          <div class="brand-sub">Học tiếng Hàn cho người Việt</div>
+      <div class="brand-row">
+        <div class="brand">
+          <div class="brand-badge">ㅎ</div>
+          <div>
+            <div class="brand-name">HanViet Quest</div>
+            <div class="brand-sub">Premium Learning UI</div>
+          </div>
         </div>
+        <button id="theme-toggle" class="icon-btn">🌙</button>
       </div>
 
-      <div class="xp-panel">
+      <div class="xp-panel premium-panel">
         <div class="xp-head">
           <span>Tiến độ học</span>
           <strong id="xp-text">0 XP</strong>
         </div>
-        <div class="progress-track big">
-          <div id="xp-bar" class="progress-fill"></div>
+        <div class="progress-track big"><div id="xp-bar" class="progress-fill"></div></div>
+        <div class="streak-mini">
+          <span>🔥 <strong id="streak-count">0</strong> ngày</span>
+          <span>🏅 <strong id="badge-count">0</strong> badge</span>
         </div>
-        <p class="muted">Học bài, mở thẻ từ mới, làm quiz để tăng điểm.</p>
+        <p class="muted">Tiến độ, streak, và badge được lưu ngay trên trình duyệt.</p>
       </div>
 
       <nav class="sidebar-menu">
@@ -49,13 +70,13 @@
     </aside>
 
     <main class="main-content">
-      <header id="overview" class="hero card hero-card app-surface">
+      <header id="overview" class="hero card hero-card app-surface premium-hero">
         <div class="hero-copy">
-          <span class="pill">FULL COURSE • MOBILE + DESKTOP</span>
-          <h1>Học tiếng Hàn như một ứng dụng thật</h1>
+          <span class="pill">PREMIUM APP UI • MOBILE + DESKTOP</span>
+          <h1>Học tiếng Hàn với trải nghiệm như ứng dụng thật</h1>
           <p>
-            Giao diện kiểu app học ngôn ngữ chuyên nghiệp: có menu, các màn học mở dạng sheet/modal,
-            từ mới hiện như flashcard và tương thích cả điện thoại lẫn máy tính.
+            Có onboarding, dark mode, streak, badge, lưu tiến độ, bottom navigation mobile,
+            flashcard lật mặt và các màn học trượt lên kiểu app.
           </p>
           <div class="hero-stats">
             <div class="stat-box"><strong id="stat-levels">4</strong><span>Cấp độ</span></div>
@@ -65,26 +86,25 @@
           </div>
           <div class="hero-actions">
             <button id="open-learning-path" class="primary-btn">Mở màn học</button>
-            <button id="open-vocab-screen" class="secondary-btn">Xem thẻ từ mới</button>
+            <button id="open-vocab-screen" class="secondary-btn">Flashcard</button>
+            <button id="mark-study-done" class="secondary-btn">+1 ngày streak</button>
           </div>
         </div>
         <div class="hero-phone-preview">
-          <div class="phone-shell">
+          <div class="phone-shell premium-phone">
             <div class="phone-notch"></div>
             <div class="phone-card active">
-              <div class="phone-badge">Bài học hôm nay</div>
+              <div class="phone-badge">Daily Mission</div>
               <h3 id="level-title"></h3>
               <p id="level-description" class="level-description"></p>
               <div class="level-progress compact">
                 <span>Tiến độ</span>
-                <div class="progress-track">
-                  <div id="level-bar" class="progress-fill"></div>
-                </div>
+                <div class="progress-track"><div id="level-bar" class="progress-fill"></div></div>
               </div>
               <div class="mini-phone-cards">
-                <div class="mini-card">🔤 Hangul</div>
-                <div class="mini-card">💬 Giao tiếp</div>
-                <div class="mini-card">🧠 Quiz</div>
+                <div class="mini-card">🔥 Streak</div>
+                <div class="mini-card">🎖 Badge</div>
+                <div class="mini-card">🌙 Dark Mode</div>
               </div>
             </div>
           </div>
@@ -98,7 +118,7 @@
               <span class="mini-label">Chọn lộ trình</span>
               <h2>Cấp độ học</h2>
             </div>
-            <span class="coin">⭐ Study Mode</span>
+            <span class="coin">⭐ Premium Mode</span>
           </div>
           <div id="level-tabs" class="tabs"></div>
           <div class="quick-actions">
@@ -110,10 +130,10 @@
         <article class="card streak-card app-surface">
           <div class="streak-fire">🔥</div>
           <div>
-            <h3>Chuỗi học gợi ý</h3>
+            <h3>Chuỗi học thông minh</h3>
             <p id="streak-tip">Mỗi ngày học 20–30 phút, làm 1 quiz, nhắc lại từ cũ.</p>
           </div>
-          <div class="streak-days">7 ngày</div>
+          <div class="streak-days" id="streak-big">0 ngày</div>
         </article>
       </section>
 
@@ -135,7 +155,7 @@
               <span class="mini-label">Flashcards</span>
               <h2>Từ vựng theo chủ đề</h2>
             </div>
-            <span class="badge-purple">Korean → Việt</span>
+            <span class="badge-purple">Tap to Flip</span>
           </div>
           <div id="topic-chips" class="chips"></div>
           <div id="vocab-list" class="vocab-list"></div>
@@ -173,13 +193,20 @@
             </div>
             <span class="badge-yellow">Quiz Battle</span>
           </div>
-          <p class="quiz-note">Làm bài trực tiếp trên web. Giao diện giờ có thể mở như màn app riêng trên mobile/desktop.</p>
+          <p class="quiz-note">Điểm số, XP, và badge sẽ được lưu sau khi hoàn thành quiz.</p>
           <form id="quiz-form" class="quiz-form"></form>
           <button id="submit-quiz" class="primary-btn">Nộp bài ngay</button>
           <div id="quiz-result" class="quiz-result hidden"></div>
         </article>
       </section>
     </main>
+  </div>
+
+  <div class="bottom-nav">
+    <button class="bottom-nav-item active" data-scroll="overview">🏠<span>Home</span></button>
+    <button class="bottom-nav-item" data-scroll="vocabulary">💎<span>Words</span></button>
+    <button class="bottom-nav-item" data-scroll="dialogue">🗣️<span>Talk</span></button>
+    <button class="bottom-nav-item" data-scroll="quiz">🎯<span>Quiz</span></button>
   </div>
 
   <div id="screen-overlay" class="screen-overlay hidden"></div>

@@ -173,7 +173,8 @@
               ],
               "grammarFocus": "-이에요 / -예요"
             }
-          ]
+          ],
+          "dailyWordFlow": true
         },
         {
           "title": "Unit 1 - Chào hỏi & giới thiệu bản thân",
@@ -234,7 +235,8 @@
               ],
               "grammarFocus": "-이에요 / -예요"
             }
-          ]
+          ],
+          "dailyWordFlow": true
         },
         {
           "title": "Unit 2 - Số đếm, ngày tháng, giờ giấc",
@@ -295,7 +297,8 @@
               ],
               "grammarFocus": "-이에요 / -예요"
             }
-          ]
+          ],
+          "dailyWordFlow": true
         }
       ]
     },
@@ -1642,7 +1645,7 @@
       "korean": "장소",
       "romanized": "장소",
       "vietnamesePronunciation": "장소",
-      "meaning": "bàn",
+      "meaning": "Địa điểm",
       "context": "Từ vựng chủ đề daily dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1651,7 +1654,7 @@
       "korean": "일상",
       "romanized": "일상",
       "vietnamesePronunciation": "일상",
-      "meaning": "phòng",
+      "meaning": "Hằng ngày",
       "context": "Từ vựng chủ đề daily dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1660,7 +1663,7 @@
       "korean": "생활",
       "romanized": "생활",
       "vietnamesePronunciation": "생활",
-      "meaning": "cửa sổ",
+      "meaning": "Cuộc sống",
       "context": "Từ vựng chủ đề daily dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1669,7 +1672,7 @@
       "korean": "방",
       "romanized": "방",
       "vietnamesePronunciation": "방",
-      "meaning": "giường",
+      "meaning": "Phòng",
       "context": "Từ vựng chủ đề daily dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1678,7 +1681,7 @@
       "korean": "창문",
       "romanized": "창문",
       "vietnamesePronunciation": "창문",
-      "meaning": "bữa trưa",
+      "meaning": "Cửa sổ",
       "context": "Từ vựng chủ đề daily dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1687,7 +1690,7 @@
       "korean": "침대",
       "romanized": "침대",
       "vietnamesePronunciation": "침대",
-      "meaning": "buổi tối",
+      "meaning": "Giường",
       "context": "Từ vựng chủ đề daily dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1696,7 +1699,7 @@
       "korean": "점심",
       "romanized": "점심",
       "vietnamesePronunciation": "점심",
-      "meaning": "đường phố",
+      "meaning": "Bữa trưa",
       "context": "Từ vựng chủ đề daily dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1705,7 +1708,7 @@
       "korean": "저녁",
       "romanized": "저녁",
       "vietnamesePronunciation": "저녁",
-      "meaning": "khu phố",
+      "meaning": "Buổi tối",
       "context": "Từ vựng chủ đề daily dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1714,7 +1717,7 @@
       "korean": "거리",
       "romanized": "거리",
       "vietnamesePronunciation": "거리",
-      "meaning": "nhà bếp",
+      "meaning": "Đường phố",
       "context": "Từ vựng chủ đề daily dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1723,7 +1726,7 @@
       "korean": "주방",
       "romanized": "주방",
       "vietnamesePronunciation": "주방",
-      "meaning": "phòng tắm",
+      "meaning": "Nhà bếp",
       "context": "Từ vựng chủ đề daily dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1732,7 +1735,7 @@
       "korean": "욕실",
       "romanized": "욕실",
       "vietnamesePronunciation": "욕실",
-      "meaning": "quần áo",
+      "meaning": "Phòng tắm",
       "context": "Từ vựng chủ đề daily dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1741,7 +1744,7 @@
       "korean": "옷",
       "romanized": "옷",
       "vietnamesePronunciation": "옷",
-      "meaning": "giày dép",
+      "meaning": "Quần áo",
       "context": "Từ vựng chủ đề daily dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1750,7 +1753,7 @@
       "korean": "신발",
       "romanized": "신발",
       "vietnamesePronunciation": "신발",
-      "meaning": "thức ăn",
+      "meaning": "Giày dép",
       "context": "Từ vựng chủ đề daily dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1759,7 +1762,7 @@
       "korean": "음식",
       "romanized": "음식",
       "vietnamesePronunciation": "음식",
-      "meaning": "đồ uống",
+      "meaning": "Thức ăn",
       "context": "Từ vựng chủ đề daily dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1768,7 +1771,7 @@
       "korean": "음료",
       "romanized": "음료",
       "vietnamesePronunciation": "음료",
-      "meaning": "thói quen",
+      "meaning": "Đồ uống",
       "context": "Từ vựng chủ đề daily dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1777,7 +1780,7 @@
       "korean": "습관",
       "romanized": "습관",
       "vietnamesePronunciation": "습관",
-      "meaning": "bài kiểm tra",
+      "meaning": "Thói quen",
       "context": "Từ vựng chủ đề school dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1786,7 +1789,7 @@
       "korean": "시험",
       "romanized": "시험",
       "vietnamesePronunciation": "시험",
-      "meaning": "ghi chú",
+      "meaning": "Bài kiểm tra",
       "context": "Từ vựng chủ đề school dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1795,7 +1798,7 @@
       "korean": "노트",
       "romanized": "노트",
       "vietnamesePronunciation": "노트",
-      "meaning": "vở",
+      "meaning": "Ghi chú",
       "context": "Từ vựng chủ đề school dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1804,7 +1807,7 @@
       "korean": "공책",
       "romanized": "공책",
       "vietnamesePronunciation": "공책",
-      "meaning": "bút",
+      "meaning": "Vở",
       "context": "Từ vựng chủ đề school dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1813,7 +1816,7 @@
       "korean": "펜",
       "romanized": "펜",
       "vietnamesePronunciation": "펜",
-      "meaning": "lớp trưởng",
+      "meaning": "Bút",
       "context": "Từ vựng chủ đề school dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1822,7 +1825,7 @@
       "korean": "반장",
       "romanized": "반장",
       "vietnamesePronunciation": "반장",
-      "meaning": "môn toán",
+      "meaning": "Lớp trưởng",
       "context": "Từ vựng chủ đề school dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1831,7 +1834,7 @@
       "korean": "수학",
       "romanized": "수학",
       "vietnamesePronunciation": "수학",
-      "meaning": "môn văn",
+      "meaning": "Môn toán",
       "context": "Từ vựng chủ đề school dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1840,7 +1843,7 @@
       "korean": "문학",
       "romanized": "문학",
       "vietnamesePronunciation": "문학",
-      "meaning": "môn tiếng Hàn",
+      "meaning": "Môn văn",
       "context": "Từ vựng chủ đề school dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1849,7 +1852,7 @@
       "korean": "한국어",
       "romanized": "한국어",
       "vietnamesePronunciation": "한국어",
-      "meaning": "giờ ra chơi",
+      "meaning": "Tiếng Hàn",
       "context": "Từ vựng chủ đề school dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1858,7 +1861,7 @@
       "korean": "쉬는 시간",
       "romanized": "쉬는 시간",
       "vietnamesePronunciation": "쉬는 시간",
-      "meaning": "học kỳ",
+      "meaning": "Giờ ra chơi",
       "context": "Từ vựng chủ đề school dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1867,7 +1870,7 @@
       "korean": "학기",
       "romanized": "학기",
       "vietnamesePronunciation": "학기",
-      "meaning": "điểm số",
+      "meaning": "Học kỳ",
       "context": "Từ vựng chủ đề school dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1876,7 +1879,7 @@
       "korean": "점수",
       "romanized": "점수",
       "vietnamesePronunciation": "점수",
-      "meaning": "bài giảng",
+      "meaning": "Điểm số",
       "context": "Từ vựng chủ đề school dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1885,7 +1888,7 @@
       "korean": "강의",
       "romanized": "강의",
       "vietnamesePronunciation": "강의",
-      "meaning": "học nhóm",
+      "meaning": "Bài giảng",
       "context": "Từ vựng chủ đề school dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1894,7 +1897,7 @@
       "korean": "스터디",
       "romanized": "스터디",
       "vietnamesePronunciation": "스터디",
-      "meaning": "giải lao",
+      "meaning": "Học nhóm",
       "context": "Từ vựng chủ đề school dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1903,7 +1906,7 @@
       "korean": "휴식",
       "romanized": "휴식",
       "vietnamesePronunciation": "휴식",
-      "meaning": "lịch học",
+      "meaning": "Giải lao",
       "context": "Từ vựng chủ đề school dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1912,7 +1915,7 @@
       "korean": "시간표",
       "romanized": "시간표",
       "vietnamesePronunciation": "시간표",
-      "meaning": "đồng nghiệp",
+      "meaning": "Lịch học",
       "context": "Từ vựng chủ đề work dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1921,7 +1924,7 @@
       "korean": "동료",
       "romanized": "동료",
       "vietnamesePronunciation": "동료",
-      "meaning": "giám đốc",
+      "meaning": "Đồng nghiệp",
       "context": "Từ vựng chủ đề work dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1930,7 +1933,7 @@
       "korean": "사장님",
       "romanized": "사장님",
       "vietnamesePronunciation": "사장님",
-      "meaning": "nhân viên",
+      "meaning": "Giám đốc",
       "context": "Từ vựng chủ đề work dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1939,7 +1942,7 @@
       "korean": "직원",
       "romanized": "직원",
       "vietnamesePronunciation": "직원",
-      "meaning": "nhiệm vụ",
+      "meaning": "Nhân viên",
       "context": "Từ vựng chủ đề work dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1948,7 +1951,7 @@
       "korean": "업무",
       "romanized": "업무",
       "vietnamesePronunciation": "업무",
-      "meaning": "kế hoạch",
+      "meaning": "Nhiệm vụ",
       "context": "Từ vựng chủ đề work dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1957,7 +1960,7 @@
       "korean": "계획",
       "romanized": "계획",
       "vietnamesePronunciation": "계획",
-      "meaning": "báo cáo tuần",
+      "meaning": "Kế hoạch",
       "context": "Từ vựng chủ đề work dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1975,7 +1978,7 @@
       "korean": "전화",
       "romanized": "전화",
       "vietnamesePronunciation": "전화",
-      "meaning": "khách hàng",
+      "meaning": "Cuộc gọi",
       "context": "Từ vựng chủ đề work dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1984,7 +1987,7 @@
       "korean": "회의실",
       "romanized": "회의실",
       "vietnamesePronunciation": "회의실",
-      "meaning": "email",
+      "meaning": "Phòng họp",
       "context": "Từ vựng chủ đề work dùng trong ngữ cảnh thực tế."
     },
     {
@@ -1993,7 +1996,7 @@
       "korean": "이메일",
       "romanized": "이메일",
       "vietnamesePronunciation": "이메일",
-      "meaning": "tài liệu",
+      "meaning": "Email",
       "context": "Từ vựng chủ đề work dùng trong ngữ cảnh thực tế."
     },
     {
@@ -2002,7 +2005,7 @@
       "korean": "자료",
       "romanized": "자료",
       "vietnamesePronunciation": "자료",
-      "meaning": "xác nhận",
+      "meaning": "Tài liệu",
       "context": "Từ vựng chủ đề work dùng trong ngữ cảnh thực tế."
     },
     {
@@ -2011,7 +2014,7 @@
       "korean": "확인",
       "romanized": "확인",
       "vietnamesePronunciation": "확인",
-      "meaning": "tiến độ",
+      "meaning": "Xác nhận",
       "context": "Từ vựng chủ đề work dùng trong ngữ cảnh thực tế."
     },
     {
@@ -2020,7 +2023,7 @@
       "korean": "진행",
       "romanized": "진행",
       "vietnamesePronunciation": "진행",
-      "meaning": "dự án",
+      "meaning": "Tiến độ",
       "context": "Từ vựng chủ đề work dùng trong ngữ cảnh thực tế."
     },
     {
@@ -2029,7 +2032,7 @@
       "korean": "프로젝트",
       "romanized": "프로젝트",
       "vietnamesePronunciation": "프로젝트",
-      "meaning": "hạn nộp",
+      "meaning": "Dự án",
       "context": "Từ vựng chủ đề work dùng trong ngữ cảnh thực tế."
     },
     {
@@ -2038,7 +2041,7 @@
       "korean": "마감일",
       "romanized": "마감일",
       "vietnamesePronunciation": "마감일",
-      "meaning": "món chính",
+      "meaning": "Hạn nộp",
       "context": "Từ vựng chủ đề restaurant dùng trong ngữ cảnh thực tế."
     },
     {
@@ -3359,2167 +3362,3087 @@
     {
       "id": 1,
       "level": "beginner",
-      "question": "Từ tiếng Hàn tương ứng với 'Xin chào' là gì?",
+      "type": "meaning_of_korean",
+      "korean": "안녕하세요",
+      "question": "Từ '안녕하세요' có nghĩa là gì?",
       "options": [
-        "감사합니다",
-        "안녕하세요",
-        "학교",
-        "가족"
+        "Gia đình",
+        "Xin chào",
+        "Cảm ơn",
+        "Trường học"
       ],
-      "answer": "안녕하세요"
+      "answer": "Xin chào"
     },
     {
       "id": 2,
       "level": "beginner",
-      "question": "'감사합니다' có nghĩa là gì?",
-      "options": [
-        "Xin lỗi",
-        "Bao nhiêu tiền",
-        "Cảm ơn",
-        "Cuộc họp"
-      ],
-      "answer": "Cảm ơn"
-    },
-    {
-      "id": 3,
-      "level": "foundation",
-      "question": "Câu nào dùng để hỏi giá tiền?",
-      "options": [
-        "얼마예요?",
-        "맛있어요",
-        "학교예요",
-        "도와주세요"
-      ],
-      "answer": "얼마예요?"
-    },
-    {
-      "id": 4,
-      "level": "intermediate",
-      "question": "'회의' có nghĩa là gì?",
-      "options": [
-        "Cuộc họp",
-        "Khách sạn",
-        "Gia đình",
-        "Bệnh viện"
-      ],
-      "answer": "Cuộc họp"
-    },
-    {
-      "id": 5,
-      "level": "advanced",
-      "question": "Câu nào phù hợp khi nhờ người khác xem tài liệu?",
-      "options": [
-        "검토해 주세요",
-        "안녕하세요",
-        "비빔밥 주세요",
-        "물 주세요"
-      ],
-      "answer": "검토해 주세요"
-    },
-    {
-      "id": 100,
-      "level": "beginner",
-      "question": "Từ '안녕하세요' có nghĩa là gì?",
-      "options": [
-        "Xin hãy xem xét giúp",
-        "Trưởng nhóm",
-        "Lớp học",
-        "Xin chào"
-      ],
-      "answer": "Xin chào"
-    },
-    {
-      "id": 101,
-      "level": "beginner",
-      "question": "Từ '감사합니다' có nghĩa là gì?",
-      "options": [
-        "Thoải mái",
-        "Hộ chiếu",
-        "Cảm ơn",
-        "Lịch trình"
-      ],
-      "answer": "Cảm ơn"
-    },
-    {
-      "id": 102,
-      "level": "beginner",
-      "question": "Từ '가족' có nghĩa là gì?",
-      "options": [
-        "Khởi hành",
-        "Khách hàng",
-        "Em",
-        "Gia đình"
-      ],
-      "answer": "Gia đình"
-    },
-    {
-      "id": 103,
-      "level": "beginner",
-      "question": "Từ '학교' có nghĩa là gì?",
-      "options": [
-        "Tôi lo lắng",
-        "Bao nhiêu tiền?",
-        "Trường học",
-        "Em"
-      ],
-      "answer": "Trường học"
-    },
-    {
-      "id": 104,
-      "level": "foundation",
-      "question": "Từ '비빔밥' có nghĩa là gì?",
-      "options": [
-        "Cơm trộn",
-        "Thanh toán",
-        "Thuốc",
-        "Hành lý"
-      ],
-      "answer": "Cơm trộn"
-    },
-    {
-      "id": 105,
-      "level": "foundation",
-      "question": "Từ '얼마예요?' có nghĩa là gì?",
-      "options": [
-        "Mì",
-        "Xin chào",
-        "Khách sạn",
-        "Bao nhiêu tiền?"
-      ],
-      "answer": "Bao nhiêu tiền?"
-    },
-    {
-      "id": 106,
-      "level": "foundation",
-      "question": "Từ '숙제' có nghĩa là gì?",
-      "options": [
-        "Khởi hành",
-        "Bài tập về nhà",
-        "Cuộc họp",
-        "Giáo viên"
-      ],
-      "answer": "Bài tập về nhà"
-    },
-    {
-      "id": 107,
-      "level": "intermediate",
-      "question": "Từ '길을 잃었어요' có nghĩa là gì?",
-      "options": [
-        "Tôi bị lạc đường",
-        "Gọi món",
-        "Bao nhiêu tiền?",
-        "Tôi lo lắng"
-      ],
-      "answer": "Tôi bị lạc đường"
-    },
-    {
-      "id": 108,
-      "level": "intermediate",
-      "question": "Từ '회의' có nghĩa là gì?",
-      "options": [
-        "Buổi sáng",
-        "Thẻ lên máy bay",
-        "Cuộc họp",
-        "Tôi hạnh phúc"
-      ],
-      "answer": "Cuộc họp"
-    },
-    {
-      "id": 109,
-      "level": "intermediate",
-      "question": "Từ '긴장돼요' có nghĩa là gì?",
-      "options": [
-        "Tôi đang căng thẳng",
-        "Nhà",
-        "Công ty",
-        "Cái ghế"
-      ],
-      "answer": "Tôi đang căng thẳng"
-    },
-    {
-      "id": 110,
-      "level": "advanced",
-      "question": "Từ '검토해 주세요' có nghĩa là gì?",
-      "options": [
-        "Thư viện",
-        "Xin hãy xem xét giúp",
-        "Tôi hạnh phúc",
-        "Giáo viên"
-      ],
-      "answer": "Xin hãy xem xét giúp"
-    },
-    {
-      "id": 111,
-      "level": "advanced",
-      "question": "Từ '괜찮으시면' có nghĩa là gì?",
-      "options": [
-        "Nếu tiện / nếu được",
-        "Xin chào",
-        "Hộ chiếu",
-        "Giảm giá"
-      ],
-      "answer": "Nếu tiện / nếu được"
-    },
-    {
-      "id": 112,
-      "level": "beginner",
-      "question": "Từ '집' có nghĩa là gì?",
-      "options": [
-        "Nhà",
-        "Giáo viên",
-        "Khách sạn",
-        "Lớp học"
-      ],
-      "answer": "Nhà"
-    },
-    {
-      "id": 113,
-      "level": "beginner",
-      "question": "Từ '문' có nghĩa là gì?",
-      "options": [
-        "Cửa",
-        "Khởi hành",
-        "Khách hàng",
-        "Máy tính"
-      ],
-      "answer": "Cửa"
-    },
-    {
-      "id": 114,
-      "level": "beginner",
-      "question": "Từ '의자' có nghĩa là gì?",
-      "options": [
-        "Cái ghế",
-        "Tôi bị lạc đường",
-        "Họ hàng",
-        "Hợp đồng"
-      ],
-      "answer": "Cái ghế"
-    },
-    {
-      "id": 115,
-      "level": "beginner",
-      "question": "Từ '아침' có nghĩa là gì?",
-      "options": [
-        "Nhà",
-        "Trưởng nhóm",
-        "Buổi sáng",
-        "Tôi đang căng thẳng"
-      ],
-      "answer": "Buổi sáng"
-    },
-    {
-      "id": 116,
-      "level": "beginner",
-      "question": "Từ '도서관' có nghĩa là gì?",
-      "options": [
-        "Giảm giá",
-        "Thư viện",
-        "Bác sĩ",
-        "Hợp đồng"
-      ],
-      "answer": "Thư viện"
-    },
-    {
-      "id": 117,
-      "level": "beginner",
-      "question": "Từ '교실' có nghĩa là gì?",
-      "options": [
-        "Bản đồ",
-        "Lịch trình",
-        "Gọi món",
-        "Lớp học"
-      ],
-      "answer": "Lớp học"
-    },
-    {
-      "id": 118,
-      "level": "beginner",
-      "question": "Từ '선생님' có nghĩa là gì?",
-      "options": [
-        "Cái ghế",
-        "Thuốc",
-        "Xin chào",
-        "Giáo viên"
-      ],
-      "answer": "Giáo viên"
-    },
-    {
-      "id": 119,
-      "level": "beginner",
-      "question": "Từ '학생' có nghĩa là gì?",
-      "options": [
-        "Học sinh",
-        "Xin chào",
-        "Buổi sáng",
-        "Cảm ơn"
-      ],
-      "answer": "Học sinh"
-    },
-    {
-      "id": 120,
-      "level": "beginner",
-      "question": "Từ '회사' có nghĩa là gì?",
-      "options": [
-        "Doanh thu",
-        "Cửa",
-        "Công ty",
-        "Thuốc"
-      ],
-      "answer": "Công ty"
-    },
-    {
-      "id": 121,
-      "level": "beginner",
-      "question": "Từ '보고서' có nghĩa là gì?",
-      "options": [
-        "Bài tập về nhà",
-        "Cái ghế",
-        "Báo cáo",
-        "Bao nhiêu tiền?"
-      ],
-      "answer": "Báo cáo"
-    },
-    {
-      "id": 122,
-      "level": "beginner",
-      "question": "Từ '일정' có nghĩa là gì?",
-      "options": [
-        "Khám bệnh",
-        "Lịch trình",
-        "Thoải mái",
-        "Trưởng nhóm"
-      ],
-      "answer": "Lịch trình"
-    },
-    {
-      "id": 123,
-      "level": "beginner",
-      "question": "Từ '팀장' có nghĩa là gì?",
-      "options": [
-        "Trưởng nhóm",
-        "Hóa đơn",
-        "Nhà",
-        "Thoải mái"
-      ],
-      "answer": "Trưởng nhóm"
-    },
-    {
-      "id": 200,
-      "level": "foundation",
-      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Gọi món'",
-      "options": [
-        "검토해 주세요",
-        "주문",
-        "슬퍼요",
-        "여권"
-      ],
-      "answer": "주문"
-    },
-    {
-      "id": 201,
-      "level": "foundation",
-      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Thanh toán'",
-      "options": [
-        "계산",
-        "안녕하세요",
-        "영수증",
-        "진료"
-      ],
-      "answer": "계산"
-    },
-    {
-      "id": 202,
-      "level": "foundation",
-      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Thực đơn'",
-      "options": [
-        "메뉴",
-        "일정",
-        "아버지",
-        "도착"
-      ],
-      "answer": "메뉴"
-    },
-    {
-      "id": 203,
-      "level": "foundation",
-      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Mì'",
-      "options": [
-        "컴퓨터",
-        "동생",
-        "국수",
-        "팀장"
-      ],
-      "answer": "국수"
-    },
-    {
-      "id": 204,
-      "level": "foundation",
-      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Giảm giá'",
-      "options": [
-        "주문",
-        "지도",
-        "출발",
-        "할인"
-      ],
-      "answer": "할인"
-    },
-    {
-      "id": 205,
-      "level": "foundation",
-      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Hóa đơn'",
-      "options": [
-        "사이즈",
-        "영수증",
-        "아버지",
-        "아파요"
-      ],
-      "answer": "영수증"
-    },
-    {
-      "id": 206,
-      "level": "foundation",
-      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Kích cỡ'",
-      "options": [
-        "사이즈",
-        "색깔",
-        "팀장",
-        "도착"
-      ],
-      "answer": "사이즈"
-    },
-    {
-      "id": 207,
-      "level": "foundation",
-      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Màu sắc'",
-      "options": [
-        "색깔",
-        "탑승권",
-        "가족",
-        "진료"
-      ],
-      "answer": "색깔"
-    },
-    {
-      "id": 208,
-      "level": "foundation",
-      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Hộ chiếu'",
-      "options": [
-        "여권",
-        "편해요",
-        "회사",
-        "숙제"
-      ],
-      "answer": "여권"
-    },
-    {
-      "id": 209,
-      "level": "foundation",
-      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Khách sạn'",
-      "options": [
-        "국수",
-        "호텔",
-        "아버지",
-        "탑승권"
-      ],
-      "answer": "호텔"
-    },
-    {
-      "id": 210,
-      "level": "foundation",
-      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Bản đồ'",
-      "options": [
-        "계약",
-        "학교",
-        "어머니",
-        "지도"
-      ],
-      "answer": "지도"
-    },
-    {
-      "id": 211,
-      "level": "foundation",
-      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Tham quan'",
-      "options": [
-        "아침",
-        "관광",
-        "편해요",
-        "탑승권"
-      ],
-      "answer": "관광"
-    },
-    {
-      "id": 212,
-      "level": "intermediate",
-      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Khởi hành'",
-      "options": [
-        "의사",
-        "출발",
-        "아버지",
-        "긴장돼요"
-      ],
-      "answer": "출발"
-    },
-    {
-      "id": 213,
-      "level": "intermediate",
-      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Đến nơi'",
-      "options": [
-        "여권",
-        "탑승권",
-        "도착",
-        "아버지"
-      ],
-      "answer": "도착"
-    },
-    {
-      "id": 214,
-      "level": "intermediate",
-      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Hành lý'",
-      "options": [
-        "수하물",
-        "여권",
-        "사이즈",
-        "계약"
-      ],
-      "answer": "수하물"
-    },
-    {
-      "id": 215,
-      "level": "intermediate",
-      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Thẻ lên máy bay'",
-      "options": [
-        "팀장",
-        "탑승권",
-        "의사",
-        "고객"
-      ],
-      "answer": "탑승권"
-    },
-    {
-      "id": 216,
-      "level": "intermediate",
-      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Bác sĩ'",
-      "options": [
-        "지도",
-        "국수",
-        "의사",
-        "영수증"
-      ],
-      "answer": "의사"
-    },
-    {
-      "id": 217,
-      "level": "intermediate",
-      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Thuốc'",
-      "options": [
-        "약",
-        "팀장",
-        "얼마예요?",
-        "도착"
-      ],
-      "answer": "약"
-    },
-    {
-      "id": 218,
-      "level": "intermediate",
-      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Tôi đau'",
-      "options": [
-        "걱정돼요",
-        "프로그램",
-        "아파요",
-        "감사합니다"
-      ],
-      "answer": "아파요"
-    },
-    {
-      "id": 219,
-      "level": "intermediate",
-      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Khám bệnh'",
-      "options": [
-        "진료",
-        "길을 잃었어요",
-        "비빔밥",
-        "아파요"
-      ],
-      "answer": "진료"
-    },
-    {
-      "id": 220,
-      "level": "intermediate",
-      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Tôi hạnh phúc'",
-      "options": [
-        "프로그램",
-        "계산",
-        "색깔",
-        "행복해요"
-      ],
-      "answer": "행복해요"
-    },
-    {
-      "id": 221,
-      "level": "intermediate",
-      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Tôi buồn'",
-      "options": [
-        "집",
-        "행복해요",
-        "슬퍼요",
-        "친척"
-      ],
-      "answer": "슬퍼요"
-    },
-    {
-      "id": 222,
-      "level": "intermediate",
-      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Tôi lo lắng'",
-      "options": [
-        "도서관",
-        "아침",
-        "얼마예요?",
-        "걱정돼요"
-      ],
-      "answer": "걱정돼요"
-    },
-    {
-      "id": 223,
-      "level": "intermediate",
-      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Thoải mái'",
-      "options": [
-        "아침",
-        "편해요",
-        "의사",
-        "슬퍼요"
-      ],
-      "answer": "편해요"
-    },
-    {
-      "id": 224,
-      "level": "beginner",
-      "question": "Từ '안녕하세요' có nghĩa là gì?",
-      "options": [
-        "Hóa đơn",
-        "bàn",
-        "kimchi",
-        "Xin chào"
-      ],
-      "answer": "Xin chào"
-    },
-    {
-      "id": 225,
-      "level": "beginner",
+      "type": "choose_korean",
+      "korean": "안녕하세요",
       "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Xin chào'",
       "options": [
-        "방",
-        "사촌 형",
+        "학교",
+        "가족",
         "안녕하세요",
-        "걱정"
+        "감사합니다"
       ],
       "answer": "안녕하세요"
     },
     {
-      "id": 226,
+      "id": 3,
       "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "감사합니다",
       "question": "Từ '감사합니다' có nghĩa là gì?",
       "options": [
-        "cháu",
-        "lo lắng",
-        "quần áo",
-        "Cảm ơn"
+        "Cảm ơn",
+        "Gia đình",
+        "Xin chào",
+        "Trường học"
       ],
       "answer": "Cảm ơn"
     },
     {
-      "id": 227,
+      "id": 4,
       "level": "beginner",
+      "type": "choose_korean",
+      "korean": "감사합니다",
       "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Cảm ơn'",
       "options": [
-        "집",
         "감사합니다",
-        "프로그램",
-        "배터리"
+        "가족",
+        "학교",
+        "안녕하세요"
       ],
       "answer": "감사합니다"
     },
     {
-      "id": 228,
+      "id": 5,
       "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "가족",
       "question": "Từ '가족' có nghĩa là gì?",
       "options": [
-        "phân tích",
         "Gia đình",
-        "khách hàng",
-        "bàn phím"
+        "Xin chào",
+        "Cảm ơn",
+        "Trường học"
       ],
       "answer": "Gia đình"
     },
     {
-      "id": 229,
+      "id": 6,
       "level": "beginner",
+      "type": "choose_korean",
+      "korean": "가족",
       "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Gia đình'",
       "options": [
-        "매장",
-        "사장님",
         "가족",
+        "감사합니다",
+        "학교",
         "안녕하세요"
       ],
       "answer": "가족"
     },
     {
-      "id": 230,
+      "id": 7,
       "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "학교",
       "question": "Từ '학교' có nghĩa là gì?",
       "options": [
-        "khám tổng quát",
-        "cửa hàng",
-        "hướng dẫn viên",
+        "Cảm ơn",
+        "Xin chào",
+        "Gia đình",
         "Trường học"
       ],
       "answer": "Trường học"
     },
     {
-      "id": 231,
+      "id": 8,
       "level": "beginner",
+      "type": "choose_korean",
+      "korean": "학교",
       "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Trường học'",
       "options": [
+        "안녕하세요",
         "학교",
-        "선생님",
-        "다운로드",
-        "계약"
+        "가족",
+        "감사합니다"
       ],
       "answer": "학교"
     },
     {
-      "id": 232,
-      "level": "foundation",
-      "question": "Từ '비빔밥' có nghĩa là gì?",
-      "options": [
-        "Chương trình",
-        "đồ uống",
-        "Tôi buồn",
-        "Cơm trộn"
-      ],
-      "answer": "Cơm trộn"
-    },
-    {
-      "id": 233,
-      "level": "foundation",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Cơm trộn'",
-      "options": [
-        "비빔밥",
-        "좌석",
-        "일정표",
-        "배터리"
-      ],
-      "answer": "비빔밥"
-    },
-    {
-      "id": 234,
-      "level": "foundation",
-      "question": "Từ '얼마예요?' có nghĩa là gì?",
-      "options": [
-        "Khám bệnh",
-        "Học sinh",
-        "Bao nhiêu tiền?",
-        "kế hoạch"
-      ],
-      "answer": "Bao nhiêu tiền?"
-    },
-    {
-      "id": 235,
-      "level": "foundation",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Bao nhiêu tiền?'",
-      "options": [
-        "얼마예요?",
-        "입국장",
-        "탑승권",
-        "왕복표"
-      ],
-      "answer": "얼마예요?"
-    },
-    {
-      "id": 236,
-      "level": "foundation",
-      "question": "Từ '숙제' có nghĩa là gì?",
-      "options": [
-        "bút",
-        "Bài tập về nhà",
-        "biết ơn",
-        "Tôi hạnh phúc"
-      ],
-      "answer": "Bài tập về nhà"
-    },
-    {
-      "id": 237,
-      "level": "foundation",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Bài tập về nhà'",
-      "options": [
-        "브라우저",
-        "숙제",
-        "음식",
-        "걱정돼요"
-      ],
-      "answer": "숙제"
-    },
-    {
-      "id": 238,
-      "level": "intermediate",
-      "question": "Từ '길을 잃었어요' có nghĩa là gì?",
-      "options": [
-        "thị trường",
-        "giường",
-        "Tôi bị lạc đường",
-        "Thuốc"
-      ],
-      "answer": "Tôi bị lạc đường"
-    },
-    {
-      "id": 239,
-      "level": "intermediate",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Tôi bị lạc đường'",
-      "options": [
-        "이모",
-        "길을 잃었어요",
-        "음료",
-        "수학"
-      ],
-      "answer": "길을 잃었어요"
-    },
-    {
-      "id": 240,
-      "level": "intermediate",
-      "question": "Từ '회의' có nghĩa là gì?",
-      "options": [
-        "hóa đơn",
-        "vali",
-        "Cuộc họp",
-        "quần áo"
-      ],
-      "answer": "Cuộc họp"
-    },
-    {
-      "id": 241,
-      "level": "intermediate",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Cuộc họp'",
-      "options": [
-        "이익",
-        "걱정",
-        "회의",
-        "화면"
-      ],
-      "answer": "회의"
-    },
-    {
-      "id": 242,
-      "level": "intermediate",
-      "question": "Từ '긴장돼요' có nghĩa là gì?",
-      "options": [
-        "bút",
-        "chất lượng",
-        "Trưởng nhóm",
-        "Tôi đang căng thẳng"
-      ],
-      "answer": "Tôi đang căng thẳng"
-    },
-    {
-      "id": 243,
-      "level": "intermediate",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Tôi đang căng thẳng'",
-      "options": [
-        "마감일",
-        "긴장돼요",
-        "피곤함",
-        "시험"
-      ],
-      "answer": "긴장돼요"
-    },
-    {
-      "id": 244,
-      "level": "advanced",
-      "question": "Từ '검토해 주세요' có nghĩa là gì?",
-      "options": [
-        "mệt mỏi",
-        "giày dép",
-        "Xin hãy xem xét giúp",
-        "mật khẩu"
-      ],
-      "answer": "Xin hãy xem xét giúp"
-    },
-    {
-      "id": 245,
-      "level": "advanced",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Xin hãy xem xét giúp'",
-      "options": [
-        "가방",
-        "디저트",
-        "검토해 주세요",
-        "비행기"
-      ],
-      "answer": "검토해 주세요"
-    },
-    {
-      "id": 246,
-      "level": "advanced",
-      "question": "Từ '괜찮으시면' có nghĩa là gì?",
-      "options": [
-        "lợi nhuận",
-        "Nếu tiện / nếu được",
-        "môn tiếng Hàn",
-        "khách hàng"
-      ],
-      "answer": "Nếu tiện / nếu được"
-    },
-    {
-      "id": 247,
-      "level": "advanced",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Nếu tiện / nếu được'",
-      "options": [
-        "지루함",
-        "음료",
-        "괜찮으시면",
-        "수학"
-      ],
-      "answer": "괜찮으시면"
-    },
-    {
-      "id": 248,
+      "id": 9,
       "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "집",
       "question": "Từ '집' có nghĩa là gì?",
       "options": [
-        "ghế ngồi",
-        "Khám bệnh",
-        "hồi hộp",
-        "Nhà"
+        "Nhà",
+        "Gia đình",
+        "Xin chào",
+        "Cảm ơn"
       ],
       "answer": "Nhà"
     },
     {
-      "id": 249,
+      "id": 10,
       "level": "beginner",
+      "type": "choose_korean",
+      "korean": "집",
       "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Nhà'",
       "options": [
-        "비빔밥",
-        "로그인",
+        "감사합니다",
         "집",
-        "고객"
+        "안녕하세요",
+        "가족"
       ],
       "answer": "집"
     },
     {
-      "id": 250,
+      "id": 11,
       "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "문",
       "question": "Từ '문' có nghĩa là gì?",
       "options": [
         "Gia đình",
-        "kiểm tra an ninh",
-        "xe buýt",
+        "Xin chào",
+        "Cảm ơn",
         "Cửa"
       ],
       "answer": "Cửa"
     },
     {
-      "id": 251,
+      "id": 12,
       "level": "beginner",
+      "type": "choose_korean",
+      "korean": "문",
       "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Cửa'",
       "options": [
-        "환승",
-        "시간표",
-        "처방전",
-        "문"
+        "가족",
+        "감사합니다",
+        "문",
+        "안녕하세요"
       ],
       "answer": "문"
     },
     {
-      "id": 252,
+      "id": 13,
       "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "의자",
       "question": "Từ '의자' có nghĩa là gì?",
       "options": [
-        "khách hàng",
-        "chú",
-        "mệt mỏi",
-        "Cái ghế"
+        "Xin chào",
+        "Cái ghế",
+        "Cảm ơn",
+        "Gia đình"
       ],
       "answer": "Cái ghế"
     },
     {
-      "id": 253,
+      "id": 14,
       "level": "beginner",
+      "type": "choose_korean",
+      "korean": "의자",
       "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Cái ghế'",
       "options": [
-        "두근거림",
-        "계산대",
-        "아내",
-        "의자"
+        "가족",
+        "의자",
+        "감사합니다",
+        "안녕하세요"
       ],
       "answer": "의자"
     },
     {
-      "id": 254,
+      "id": 15,
       "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "아침",
       "question": "Từ '아침' có nghĩa là gì?",
       "options": [
         "Buổi sáng",
-        "Bao nhiêu tiền?",
-        "sốt",
-        "cửa sổ"
+        "Cảm ơn",
+        "Gia đình",
+        "Xin chào"
       ],
       "answer": "Buổi sáng"
     },
     {
-      "id": 255,
+      "id": 16,
       "level": "beginner",
+      "type": "choose_korean",
+      "korean": "아침",
       "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Buổi sáng'",
       "options": [
         "아침",
-        "슬퍼요",
-        "차분함",
-        "앱"
+        "안녕하세요",
+        "감사합니다",
+        "가족"
       ],
       "answer": "아침"
     },
     {
-      "id": 256,
+      "id": 17,
       "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "도서관",
       "question": "Từ '도서관' có nghĩa là gì?",
       "options": [
-        "con trai",
-        "Cơm trộn",
+        "Cảm ơn",
+        "Xin chào",
         "Thư viện",
-        "lịch trình"
+        "Gia đình"
       ],
       "answer": "Thư viện"
     },
     {
-      "id": 257,
+      "id": 18,
       "level": "beginner",
+      "type": "choose_korean",
+      "korean": "도서관",
       "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Thư viện'",
       "options": [
-        "비용",
+        "가족",
+        "감사합니다",
         "도서관",
-        "편해요",
-        "긴장돼요"
+        "안녕하세요"
       ],
       "answer": "도서관"
     },
     {
-      "id": 258,
+      "id": 19,
       "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "교실",
       "question": "Từ '교실' có nghĩa là gì?",
       "options": [
         "Lớp học",
-        "báo cáo tuần",
-        "Thực đơn",
-        "vợ"
+        "Gia đình",
+        "Cảm ơn",
+        "Xin chào"
       ],
       "answer": "Lớp học"
     },
     {
-      "id": 259,
+      "id": 20,
       "level": "beginner",
+      "type": "choose_korean",
+      "korean": "교실",
       "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Lớp học'",
       "options": [
-        "메인 요리",
-        "디자인",
-        "교실",
-        "산책"
+        "안녕하세요",
+        "감사합니다",
+        "가족",
+        "교실"
       ],
       "answer": "교실"
     },
     {
-      "id": 260,
+      "id": 21,
       "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "선생님",
       "question": "Từ '선생님' có nghĩa là gì?",
       "options": [
-        "hộ chiếu",
-        "Giáo viên",
-        "chiếc áo",
-        "chất lượng"
+        "Xin chào",
+        "Cảm ơn",
+        "Gia đình",
+        "Giáo viên"
       ],
       "answer": "Giáo viên"
     },
     {
-      "id": 261,
+      "id": 22,
       "level": "beginner",
+      "type": "choose_korean",
+      "korean": "선생님",
       "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Giáo viên'",
       "options": [
-        "로그인",
-        "사이즈",
-        "전략",
-        "선생님"
+        "안녕하세요",
+        "감사합니다",
+        "선생님",
+        "가족"
       ],
       "answer": "선생님"
     },
     {
-      "id": 262,
+      "id": 23,
       "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "학생",
       "question": "Từ '학생' có nghĩa là gì?",
       "options": [
-        "Học sinh",
-        "hồi hộp",
-        "món chính",
-        "Khách hàng"
+        "Xin chào",
+        "Gia đình",
+        "Cảm ơn",
+        "Học sinh"
       ],
       "answer": "Học sinh"
     },
     {
-      "id": 263,
+      "id": 24,
       "level": "beginner",
+      "type": "choose_korean",
+      "korean": "학생",
       "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Học sinh'",
       "options": [
-        "국",
-        "교실",
+        "가족",
         "학생",
-        "목 통증"
+        "안녕하세요",
+        "감사합니다"
       ],
       "answer": "학생"
     },
     {
-      "id": 264,
+      "id": 25,
       "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "회사",
       "question": "Từ '회사' có nghĩa là gì?",
       "options": [
-        "Bài tập về nhà",
-        "vé tàu",
-        "vở",
-        "Công ty"
+        "Công ty",
+        "Xin chào",
+        "Cảm ơn",
+        "Gia đình"
       ],
       "answer": "Công ty"
     },
     {
-      "id": 265,
+      "id": 26,
       "level": "beginner",
+      "type": "choose_korean",
+      "korean": "회사",
       "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Công ty'",
       "options": [
-        "의사",
-        "복통",
-        "파일",
-        "회사"
+        "회사",
+        "안녕하세요",
+        "가족",
+        "감사합니다"
       ],
       "answer": "회사"
     },
     {
-      "id": 266,
+      "id": 27,
       "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "보고서",
       "question": "Từ '보고서' có nghĩa là gì?",
       "options": [
-        "giày dép",
+        "Cảm ơn",
         "Báo cáo",
-        "thói quen",
-        "háo hức"
+        "Xin chào",
+        "Gia đình"
       ],
       "answer": "Báo cáo"
     },
     {
-      "id": 267,
+      "id": 28,
       "level": "beginner",
+      "type": "choose_korean",
+      "korean": "보고서",
       "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Báo cáo'",
       "options": [
-        "관광",
-        "할머니",
+        "가족",
         "보고서",
-        "선생님"
+        "안녕하세요",
+        "감사합니다"
       ],
       "answer": "보고서"
     },
     {
-      "id": 268,
+      "id": 29,
       "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "일정",
       "question": "Từ '일정' có nghĩa là gì?",
       "options": [
-        "máy bay",
-        "công viên",
-        "đăng xuất",
+        "Xin chào",
+        "Gia đình",
+        "Cảm ơn",
         "Lịch trình"
       ],
       "answer": "Lịch trình"
     },
     {
-      "id": 269,
+      "id": 30,
       "level": "beginner",
+      "type": "choose_korean",
+      "korean": "일정",
       "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Lịch trình'",
       "options": [
+        "감사합니다",
+        "안녕하세요",
         "일정",
-        "회의실",
-        "카드",
-        "얼마예요?"
+        "가족"
       ],
       "answer": "일정"
     },
     {
-      "id": 270,
+      "id": 31,
       "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "팀장",
       "question": "Từ '팀장' có nghĩa là gì?",
       "options": [
-        "đổi trả",
+        "Gia đình",
         "Trưởng nhóm",
-        "đề xuất",
-        "giường"
+        "Cảm ơn",
+        "Xin chào"
       ],
       "answer": "Trưởng nhóm"
     },
     {
-      "id": 271,
+      "id": 32,
       "level": "beginner",
+      "type": "choose_korean",
+      "korean": "팀장",
       "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Trưởng nhóm'",
       "options": [
-        "체크인 카운터",
-        "행복해요",
-        "색깔",
-        "팀장"
+        "감사합니다",
+        "안녕하세요",
+        "팀장",
+        "가족"
       ],
       "answer": "팀장"
     },
     {
-      "id": 272,
-      "level": "foundation",
-      "question": "Từ '주문' có nghĩa là gì?",
-      "options": [
-        "Gọi món",
-        "tự tin",
-        "Đến nơi",
-        "Thực đơn"
-      ],
-      "answer": "Gọi món"
-    },
-    {
-      "id": 273,
-      "level": "foundation",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Gọi món'",
-      "options": [
-        "주문",
-        "불고기",
-        "고객",
-        "국수"
-      ],
-      "answer": "주문"
-    },
-    {
-      "id": 274,
-      "level": "foundation",
-      "question": "Từ '계산' có nghĩa là gì?",
-      "options": [
-        "Thư viện",
-        "Lớp học",
-        "căng thẳng",
-        "Thanh toán"
-      ],
-      "answer": "Thanh toán"
-    },
-    {
-      "id": 275,
-      "level": "foundation",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Thanh toán'",
-      "options": [
-        "간호사",
-        "로그아웃",
-        "계산",
-        "예산"
-      ],
-      "answer": "계산"
-    },
-    {
-      "id": 276,
-      "level": "foundation",
-      "question": "Từ '메뉴' có nghĩa là gì?",
-      "options": [
-        "chất lượng",
-        "Thực đơn",
-        "Tôi đang căng thẳng",
-        "Tệp tin"
-      ],
-      "answer": "Thực đơn"
-    },
-    {
-      "id": 277,
-      "level": "foundation",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Thực đơn'",
-      "options": [
-        "진행",
-        "남편",
-        "아버지",
-        "메뉴"
-      ],
-      "answer": "메뉴"
-    },
-    {
-      "id": 278,
-      "level": "foundation",
-      "question": "Từ '국수' có nghĩa là gì?",
-      "options": [
-        "bảo tàng",
-        "Mì",
-        "xác nhận",
-        "học nhóm"
-      ],
-      "answer": "Mì"
-    },
-    {
-      "id": 279,
-      "level": "foundation",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Mì'",
-      "options": [
-        "진료",
-        "문학",
-        "국수",
-        "웹사이트"
-      ],
-      "answer": "국수"
-    },
-    {
-      "id": 280,
-      "level": "foundation",
-      "question": "Từ '할인' có nghĩa là gì?",
-      "options": [
-        "Giảm giá",
-        "đồ cay",
-        "vui vẻ",
-        "mật khẩu"
-      ],
-      "answer": "Giảm giá"
-    },
-    {
-      "id": 281,
-      "level": "foundation",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Giảm giá'",
-      "options": [
-        "충전기",
-        "아내",
-        "비빔밥",
-        "할인"
-      ],
-      "answer": "할인"
-    },
-    {
-      "id": 282,
-      "level": "foundation",
-      "question": "Từ '영수증' có nghĩa là gì?",
-      "options": [
-        "quần dài",
-        "Hóa đơn",
-        "dị ứng",
-        "thương lượng"
-      ],
-      "answer": "Hóa đơn"
-    },
-    {
-      "id": 283,
-      "level": "foundation",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Hóa đơn'",
-      "options": [
-        "음료",
-        "영수증",
-        "회의",
-        "회의실"
-      ],
-      "answer": "영수증"
-    },
-    {
-      "id": 284,
-      "level": "foundation",
-      "question": "Từ '사이즈' có nghĩa là gì?",
-      "options": [
-        "đồ ngọt",
-        "Kích cỡ",
-        "mật khẩu",
-        "Chương trình"
-      ],
-      "answer": "Kích cỡ"
-    },
-    {
-      "id": 285,
-      "level": "foundation",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Kích cỡ'",
-      "options": [
-        "안녕하세요",
-        "음료",
-        "운동화",
-        "사이즈"
-      ],
-      "answer": "사이즈"
-    },
-    {
-      "id": 286,
-      "level": "foundation",
-      "question": "Từ '색깔' có nghĩa là gì?",
-      "options": [
-        "Màu sắc",
-        "bàn phím",
-        "vali",
-        "háo hức"
-      ],
-      "answer": "Màu sắc"
-    },
-    {
-      "id": 287,
-      "level": "foundation",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Màu sắc'",
-      "options": [
-        "긴장돼요",
-        "버스",
-        "색깔",
-        "가방"
-      ],
-      "answer": "색깔"
-    },
-    {
-      "id": 288,
-      "level": "foundation",
-      "question": "Từ '여권' có nghĩa là gì?",
-      "options": [
-        "tải xuống",
-        "Buổi sáng",
-        "Nhà",
-        "Hộ chiếu"
-      ],
-      "answer": "Hộ chiếu"
-    },
-    {
-      "id": 289,
-      "level": "foundation",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Hộ chiếu'",
-      "options": [
-        "여권",
-        "피곤함",
-        "설정",
-        "실망"
-      ],
-      "answer": "여권"
-    },
-    {
-      "id": 290,
-      "level": "foundation",
-      "question": "Từ '호텔' có nghĩa là gì?",
-      "options": [
-        "đồ ngọt",
-        "Khách sạn",
-        "tàu cao tốc",
-        "khuyến mãi"
-      ],
-      "answer": "Khách sạn"
-    },
-    {
-      "id": 291,
-      "level": "foundation",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Khách sạn'",
-      "options": [
-        "전략",
-        "신남",
-        "호텔",
-        "체크인 카운터"
-      ],
-      "answer": "호텔"
-    },
-    {
-      "id": 292,
-      "level": "foundation",
-      "question": "Từ '지도' có nghĩa là gì?",
-      "options": [
-        "Chiến lược",
-        "canh",
-        "ga đi",
-        "Bản đồ"
-      ],
-      "answer": "Bản đồ"
-    },
-    {
-      "id": 293,
-      "level": "foundation",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Bản đồ'",
-      "options": [
-        "기기",
-        "지도",
-        "자신감",
-        "좌석"
-      ],
-      "answer": "지도"
-    },
-    {
-      "id": 294,
-      "level": "foundation",
-      "question": "Từ '관광' có nghĩa là gì?",
-      "options": [
-        "phòng tắm",
-        "Tham quan",
-        "đồ uống",
-        "Tôi hạnh phúc"
-      ],
-      "answer": "Tham quan"
-    },
-    {
-      "id": 295,
-      "level": "foundation",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Tham quan'",
-      "options": [
-        "관광",
-        "지연",
-        "비빔밥",
-        "걱정돼요"
-      ],
-      "answer": "관광"
-    },
-    {
-      "id": 296,
-      "level": "intermediate",
-      "question": "Từ '출발' có nghĩa là gì?",
-      "options": [
-        "Cái ghế",
-        "Khởi hành",
-        "tệp đính kèm",
-        "Bao nhiêu tiền?"
-      ],
-      "answer": "Khởi hành"
-    },
-    {
-      "id": 297,
-      "level": "intermediate",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Khởi hành'",
-      "options": [
-        "출발",
-        "딸",
-        "배터리",
-        "기념품"
-      ],
-      "answer": "출발"
-    },
-    {
-      "id": 298,
-      "level": "intermediate",
-      "question": "Từ '도착' có nghĩa là gì?",
-      "options": [
-        "Tôi lo lắng",
-        "học nhóm",
-        "Đến nơi",
-        "bàn phím"
-      ],
-      "answer": "Đến nơi"
-    },
-    {
-      "id": 299,
-      "level": "intermediate",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Đến nơi'",
-      "options": [
-        "결과",
-        "팀장",
-        "진료 예약",
-        "도착"
-      ],
-      "answer": "도착"
-    },
-    {
-      "id": 300,
-      "level": "intermediate",
-      "question": "Từ '수하물' có nghĩa là gì?",
-      "options": [
-        "chuyến bay",
-        "Hành lý",
-        "giải lao",
-        "Internet"
-      ],
-      "answer": "Hành lý"
-    },
-    {
-      "id": 301,
-      "level": "intermediate",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Hành lý'",
-      "options": [
-        "주방",
-        "수하물",
-        "보고서",
-        "스터디"
-      ],
-      "answer": "수하물"
-    },
-    {
-      "id": 302,
-      "level": "intermediate",
-      "question": "Từ '탑승권' có nghĩa là gì?",
-      "options": [
-        "Thẻ lên máy bay",
-        "Tôi lo lắng",
-        "anh họ",
-        "chất lượng"
-      ],
-      "answer": "Thẻ lên máy bay"
-    },
-    {
-      "id": 303,
-      "level": "intermediate",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Thẻ lên máy bay'",
-      "options": [
-        "탑승권",
-        "비밀번호",
-        "거리",
-        "사이즈"
-      ],
-      "answer": "탑승권"
-    },
-    {
-      "id": 304,
-      "level": "intermediate",
-      "question": "Từ '의사' có nghĩa là gì?",
-      "options": [
-        "hướng dẫn viên",
-        "Thẻ lên máy bay",
-        "Bác sĩ",
-        "trì hoãn"
-      ],
-      "answer": "Bác sĩ"
-    },
-    {
-      "id": 305,
-      "level": "intermediate",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Bác sĩ'",
-      "options": [
-        "체크인 카운터",
-        "고객",
-        "열",
-        "의사"
-      ],
-      "answer": "의사"
-    },
-    {
-      "id": 306,
-      "level": "intermediate",
-      "question": "Từ '약' có nghĩa là gì?",
-      "options": [
-        "màn hình",
-        "kimchi",
-        "Thuốc",
-        "khu phố"
-      ],
-      "answer": "Thuốc"
-    },
-    {
-      "id": 307,
-      "level": "intermediate",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Thuốc'",
-      "options": [
-        "약",
-        "진료",
-        "매운 음식",
-        "관광"
-      ],
-      "answer": "약"
-    },
-    {
-      "id": 308,
-      "level": "intermediate",
-      "question": "Từ '아파요' có nghĩa là gì?",
-      "options": [
-        "lịch trình",
-        "Tôi lo lắng",
-        "đặt lịch khám",
-        "Tôi đau"
-      ],
-      "answer": "Tôi đau"
-    },
-    {
-      "id": 309,
-      "level": "intermediate",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Tôi đau'",
-      "options": [
-        "아파요",
-        "차분함",
-        "계산대",
-        "옷"
-      ],
-      "answer": "아파요"
-    },
-    {
-      "id": 310,
-      "level": "intermediate",
-      "question": "Từ '진료' có nghĩa là gì?",
-      "options": [
-        "Khám bệnh",
-        "ho",
-        "hạn nộp",
-        "nhiệm vụ"
-      ],
-      "answer": "Khám bệnh"
-    },
-    {
-      "id": 311,
-      "level": "intermediate",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Khám bệnh'",
-      "options": [
-        "학생",
-        "견적",
-        "진료",
-        "가이드"
-      ],
-      "answer": "진료"
-    },
-    {
-      "id": 312,
-      "level": "intermediate",
-      "question": "Từ '행복해요' có nghĩa là gì?",
-      "options": [
-        "kế hoạch",
-        "vợ",
-        "Tôi hạnh phúc",
-        "nhân viên"
-      ],
-      "answer": "Tôi hạnh phúc"
-    },
-    {
-      "id": 313,
-      "level": "intermediate",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Tôi hạnh phúc'",
-      "options": [
-        "행복해요",
-        "안녕하세요",
-        "주문",
-        "전화"
-      ],
-      "answer": "행복해요"
-    },
-    {
-      "id": 314,
-      "level": "intermediate",
-      "question": "Từ '슬퍼요' có nghĩa là gì?",
-      "options": [
-        "thiết bị",
-        "cháu",
-        "Tôi buồn",
-        "người thân"
-      ],
-      "answer": "Tôi buồn"
-    },
-    {
-      "id": 315,
-      "level": "intermediate",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Tôi buồn'",
-      "options": [
-        "처방전",
-        "충전기",
-        "슬퍼요",
-        "놀람"
-      ],
-      "answer": "슬퍼요"
-    },
-    {
-      "id": 316,
-      "level": "intermediate",
-      "question": "Từ '걱정돼요' có nghĩa là gì?",
-      "options": [
-        "ngạc nhiên",
-        "Tôi lo lắng",
-        "Mì",
-        "hạ cánh"
-      ],
-      "answer": "Tôi lo lắng"
-    },
-    {
-      "id": 317,
-      "level": "intermediate",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Tôi lo lắng'",
-      "options": [
-        "피팅룸",
-        "걱정돼요",
-        "옷",
-        "입국장"
-      ],
-      "answer": "걱정돼요"
-    },
-    {
-      "id": 318,
-      "level": "intermediate",
-      "question": "Từ '편해요' có nghĩa là gì?",
-      "options": [
-        "thương hiệu",
-        "Gia đình",
-        "Đến nơi",
-        "Thoải mái"
-      ],
-      "answer": "Thoải mái"
-    },
-    {
-      "id": 319,
-      "level": "intermediate",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Thoải mái'",
-      "options": [
-        "저녁",
-        "편해요",
-        "국수",
-        "팀장"
-      ],
-      "answer": "편해요"
-    },
-    {
-      "id": 320,
-      "level": "advanced",
-      "question": "Từ '어머니' có nghĩa là gì?",
-      "options": [
-        "Mẹ",
-        "đau họng",
-        "Gia đình",
-        "Kích cỡ"
-      ],
-      "answer": "Mẹ"
-    },
-    {
-      "id": 321,
-      "level": "advanced",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Mẹ'",
-      "options": [
-        "다운로드",
-        "어머니",
-        "목적지",
-        "신발"
-      ],
-      "answer": "어머니"
-    },
-    {
-      "id": 322,
-      "level": "advanced",
-      "question": "Từ '아버지' có nghĩa là gì?",
-      "options": [
-        "Công ty",
-        "tour",
-        "Bố",
-        "triệu chứng"
-      ],
-      "answer": "Bố"
-    },
-    {
-      "id": 323,
-      "level": "advanced",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Bố'",
-      "options": [
-        "왕복표",
-        "남편",
-        "선생님",
-        "아버지"
-      ],
-      "answer": "아버지"
-    },
-    {
-      "id": 324,
-      "level": "advanced",
-      "question": "Từ '동생' có nghĩa là gì?",
-      "options": [
-        "Chương trình",
-        "Em",
-        "chiếc áo",
-        "thương lượng"
-      ],
-      "answer": "Em"
-    },
-    {
-      "id": 325,
-      "level": "advanced",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Em'",
-      "options": [
-        "사촌 누나",
-        "동생",
-        "선생님",
-        "영수증"
-      ],
-      "answer": "동생"
-    },
-    {
-      "id": 326,
-      "level": "advanced",
-      "question": "Từ '친척' có nghĩa là gì?",
-      "options": [
-        "Bao nhiêu tiền?",
-        "Họ hàng",
-        "Mì",
-        "đồ cay"
-      ],
-      "answer": "Họ hàng"
-    },
-    {
-      "id": 327,
-      "level": "advanced",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Họ hàng'",
-      "options": [
-        "마감일",
-        "친척",
-        "체온",
-        "숙제"
-      ],
-      "answer": "친척"
-    },
-    {
-      "id": 328,
-      "level": "advanced",
-      "question": "Từ '컴퓨터' có nghĩa là gì?",
-      "options": [
-        "Máy tính",
-        "Đến nơi",
-        "quá cảnh",
-        "bãi biển"
-      ],
-      "answer": "Máy tính"
-    },
-    {
-      "id": 329,
-      "level": "advanced",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Máy tính'",
-      "options": [
-        "컴퓨터",
-        "음식",
-        "여행가방",
-        "매출"
-      ],
-      "answer": "컴퓨터"
-    },
-    {
-      "id": 330,
-      "level": "advanced",
-      "question": "Từ '파일' có nghĩa là gì?",
-      "options": [
-        "chi phí",
-        "Tệp tin",
-        "đi bộ",
-        "đặt chỗ"
-      ],
-      "answer": "Tệp tin"
-    },
-    {
-      "id": 331,
-      "level": "advanced",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Tệp tin'",
-      "options": [
-        "남편",
-        "로그인",
-        "파일",
-        "따뜻함"
-      ],
-      "answer": "파일"
-    },
-    {
-      "id": 332,
-      "level": "advanced",
-      "question": "Từ '인터넷' có nghĩa là gì?",
-      "options": [
-        "món phụ",
-        "bàn",
-        "báo cáo tuần",
-        "Internet"
-      ],
-      "answer": "Internet"
-    },
-    {
-      "id": 333,
-      "level": "advanced",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Internet'",
-      "options": [
-        "찬 음료",
-        "동료",
-        "인터넷",
-        "강의"
-      ],
-      "answer": "인터넷"
-    },
-    {
-      "id": 334,
-      "level": "advanced",
-      "question": "Từ '프로그램' có nghĩa là gì?",
-      "options": [
-        "xe buýt",
-        "Chương trình",
-        "sản phẩm",
-        "thương lượng"
-      ],
-      "answer": "Chương trình"
-    },
-    {
-      "id": 335,
-      "level": "advanced",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Chương trình'",
-      "options": [
-        "산",
-        "전화",
-        "프로그램",
-        "이익"
-      ],
-      "answer": "프로그램"
-    },
-    {
-      "id": 336,
-      "level": "advanced",
-      "question": "Từ '계약' có nghĩa là gì?",
-      "options": [
-        "Hợp đồng",
-        "bác",
-        "vở",
-        "hồi hộp"
-      ],
-      "answer": "Hợp đồng"
-    },
-    {
-      "id": 337,
-      "level": "advanced",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Hợp đồng'",
-      "options": [
-        "회의실",
-        "계약",
-        "웹사이트",
-        "탑승권"
-      ],
-      "answer": "계약"
-    },
-    {
-      "id": 338,
-      "level": "advanced",
-      "question": "Từ '고객' có nghĩa là gì?",
-      "options": [
-        "Khách hàng",
-        "Trường học",
-        "Màu sắc",
-        "khẩn cấp"
-      ],
-      "answer": "Khách hàng"
-    },
-    {
-      "id": 339,
-      "level": "advanced",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Khách hàng'",
-      "options": [
-        "고객",
-        "추가 주문",
-        "여권",
-        "예산"
-      ],
-      "answer": "고객"
-    },
-    {
-      "id": 340,
-      "level": "advanced",
-      "question": "Từ '전략' có nghĩa là gì?",
-      "options": [
-        "Chiến lược",
-        "sạc",
-        "nhiệm vụ",
-        "Họ hàng"
-      ],
-      "answer": "Chiến lược"
-    },
-    {
-      "id": 341,
-      "level": "advanced",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Chiến lược'",
-      "options": [
-        "키보드",
-        "목 통증",
-        "전략",
-        "동료"
-      ],
-      "answer": "전략"
-    },
-    {
-      "id": 342,
-      "level": "advanced",
-      "question": "Từ '매출' có nghĩa là gì?",
-      "options": [
-        "Doanh thu",
-        "căng thẳng",
-        "xấu hổ",
-        "hành khách"
-      ],
-      "answer": "Doanh thu"
-    },
-    {
-      "id": 343,
-      "level": "advanced",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Doanh thu'",
-      "options": [
-        "강의",
-        "문",
-        "매출",
-        "프로젝트"
-      ],
-      "answer": "매출"
-    },
-    {
-      "id": 344,
+      "id": 33,
       "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "장소",
       "question": "Từ '장소' có nghĩa là gì?",
       "options": [
-        "Tôi đang căng thẳng",
-        "giày dép",
-        "Giảm giá",
-        "bàn"
+        "Địa điểm",
+        "Gia đình",
+        "Xin chào",
+        "Cảm ơn"
       ],
-      "answer": "bàn"
+      "answer": "Địa điểm"
     },
     {
-      "id": 345,
+      "id": 34,
       "level": "beginner",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'bàn'",
+      "type": "choose_korean",
+      "korean": "장소",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Địa điểm'",
       "options": [
-        "다운로드",
-        "동료",
-        "고모",
-        "장소"
+        "장소",
+        "가족",
+        "감사합니다",
+        "안녕하세요"
       ],
       "answer": "장소"
     },
     {
-      "id": 346,
+      "id": 35,
       "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "일상",
       "question": "Từ '일상' có nghĩa là gì?",
       "options": [
-        "pin",
-        "anh họ",
-        "phòng",
-        "đầu tư"
+        "Xin chào",
+        "Cảm ơn",
+        "Gia đình",
+        "Hằng ngày"
       ],
-      "answer": "phòng"
+      "answer": "Hằng ngày"
     },
     {
-      "id": 347,
+      "id": 36,
       "level": "beginner",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'phòng'",
+      "type": "choose_korean",
+      "korean": "일상",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Hằng ngày'",
       "options": [
-        "전화",
-        "자료",
         "일상",
-        "얼마예요?"
+        "안녕하세요",
+        "가족",
+        "감사합니다"
       ],
       "answer": "일상"
     },
     {
-      "id": 348,
+      "id": 37,
       "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "생활",
       "question": "Từ '생활' có nghĩa là gì?",
       "options": [
-        "cửa sổ",
-        "khu phố",
-        "con gái",
-        "ngạc nhiên"
+        "Cảm ơn",
+        "Xin chào",
+        "Cuộc sống",
+        "Gia đình"
       ],
-      "answer": "cửa sổ"
+      "answer": "Cuộc sống"
     },
     {
-      "id": 349,
+      "id": 38,
       "level": "beginner",
-      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'cửa sổ'",
+      "type": "choose_korean",
+      "korean": "생활",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Cuộc sống'",
       "options": [
-        "저녁",
-        "출발",
-        "증상",
-        "생활"
+        "생활",
+        "안녕하세요",
+        "감사합니다",
+        "가족"
       ],
       "answer": "생활"
     },
     {
-      "id": 350,
+      "id": 39,
       "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "방",
       "question": "Từ '방' có nghĩa là gì?",
       "options": [
-        "giường",
-        "tệp đính kèm",
-        "khu phố",
-        "phân tích"
+        "Xin chào",
+        "Cảm ơn",
+        "Phòng",
+        "Gia đình"
       ],
-      "answer": "giường"
+      "answer": "Phòng"
+    },
+    {
+      "id": 40,
+      "level": "beginner",
+      "type": "choose_korean",
+      "korean": "방",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Phòng'",
+      "options": [
+        "안녕하세요",
+        "가족",
+        "방",
+        "감사합니다"
+      ],
+      "answer": "방"
+    },
+    {
+      "id": 41,
+      "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "창문",
+      "question": "Từ '창문' có nghĩa là gì?",
+      "options": [
+        "Xin chào",
+        "Cảm ơn",
+        "Cửa sổ",
+        "Gia đình"
+      ],
+      "answer": "Cửa sổ"
+    },
+    {
+      "id": 42,
+      "level": "beginner",
+      "type": "choose_korean",
+      "korean": "창문",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Cửa sổ'",
+      "options": [
+        "감사합니다",
+        "가족",
+        "창문",
+        "안녕하세요"
+      ],
+      "answer": "창문"
+    },
+    {
+      "id": 43,
+      "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "침대",
+      "question": "Từ '침대' có nghĩa là gì?",
+      "options": [
+        "Xin chào",
+        "Cảm ơn",
+        "Gia đình",
+        "Giường"
+      ],
+      "answer": "Giường"
+    },
+    {
+      "id": 44,
+      "level": "beginner",
+      "type": "choose_korean",
+      "korean": "침대",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Giường'",
+      "options": [
+        "침대",
+        "가족",
+        "안녕하세요",
+        "감사합니다"
+      ],
+      "answer": "침대"
+    },
+    {
+      "id": 45,
+      "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "점심",
+      "question": "Từ '점심' có nghĩa là gì?",
+      "options": [
+        "Bữa trưa",
+        "Gia đình",
+        "Cảm ơn",
+        "Xin chào"
+      ],
+      "answer": "Bữa trưa"
+    },
+    {
+      "id": 46,
+      "level": "beginner",
+      "type": "choose_korean",
+      "korean": "점심",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Bữa trưa'",
+      "options": [
+        "안녕하세요",
+        "가족",
+        "점심",
+        "감사합니다"
+      ],
+      "answer": "점심"
+    },
+    {
+      "id": 47,
+      "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "저녁",
+      "question": "Từ '저녁' có nghĩa là gì?",
+      "options": [
+        "Cảm ơn",
+        "Buổi tối",
+        "Xin chào",
+        "Gia đình"
+      ],
+      "answer": "Buổi tối"
+    },
+    {
+      "id": 48,
+      "level": "beginner",
+      "type": "choose_korean",
+      "korean": "저녁",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Buổi tối'",
+      "options": [
+        "안녕하세요",
+        "가족",
+        "저녁",
+        "감사합니다"
+      ],
+      "answer": "저녁"
+    },
+    {
+      "id": 49,
+      "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "거리",
+      "question": "Từ '거리' có nghĩa là gì?",
+      "options": [
+        "Gia đình",
+        "Cảm ơn",
+        "Xin chào",
+        "Đường phố"
+      ],
+      "answer": "Đường phố"
+    },
+    {
+      "id": 50,
+      "level": "beginner",
+      "type": "choose_korean",
+      "korean": "거리",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Đường phố'",
+      "options": [
+        "거리",
+        "가족",
+        "안녕하세요",
+        "감사합니다"
+      ],
+      "answer": "거리"
+    },
+    {
+      "id": 51,
+      "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "주방",
+      "question": "Từ '주방' có nghĩa là gì?",
+      "options": [
+        "Xin chào",
+        "Gia đình",
+        "Nhà bếp",
+        "Cảm ơn"
+      ],
+      "answer": "Nhà bếp"
+    },
+    {
+      "id": 52,
+      "level": "beginner",
+      "type": "choose_korean",
+      "korean": "주방",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Nhà bếp'",
+      "options": [
+        "감사합니다",
+        "가족",
+        "주방",
+        "안녕하세요"
+      ],
+      "answer": "주방"
+    },
+    {
+      "id": 53,
+      "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "욕실",
+      "question": "Từ '욕실' có nghĩa là gì?",
+      "options": [
+        "Gia đình",
+        "Xin chào",
+        "Phòng tắm",
+        "Cảm ơn"
+      ],
+      "answer": "Phòng tắm"
+    },
+    {
+      "id": 54,
+      "level": "beginner",
+      "type": "choose_korean",
+      "korean": "욕실",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Phòng tắm'",
+      "options": [
+        "안녕하세요",
+        "가족",
+        "욕실",
+        "감사합니다"
+      ],
+      "answer": "욕실"
+    },
+    {
+      "id": 55,
+      "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "옷",
+      "question": "Từ '옷' có nghĩa là gì?",
+      "options": [
+        "Cảm ơn",
+        "Gia đình",
+        "Quần áo",
+        "Xin chào"
+      ],
+      "answer": "Quần áo"
+    },
+    {
+      "id": 56,
+      "level": "beginner",
+      "type": "choose_korean",
+      "korean": "옷",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Quần áo'",
+      "options": [
+        "옷",
+        "안녕하세요",
+        "가족",
+        "감사합니다"
+      ],
+      "answer": "옷"
+    },
+    {
+      "id": 57,
+      "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "신발",
+      "question": "Từ '신발' có nghĩa là gì?",
+      "options": [
+        "Cảm ơn",
+        "Giày dép",
+        "Xin chào",
+        "Gia đình"
+      ],
+      "answer": "Giày dép"
+    },
+    {
+      "id": 58,
+      "level": "beginner",
+      "type": "choose_korean",
+      "korean": "신발",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Giày dép'",
+      "options": [
+        "감사합니다",
+        "신발",
+        "가족",
+        "안녕하세요"
+      ],
+      "answer": "신발"
+    },
+    {
+      "id": 59,
+      "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "음식",
+      "question": "Từ '음식' có nghĩa là gì?",
+      "options": [
+        "Gia đình",
+        "Thức ăn",
+        "Xin chào",
+        "Cảm ơn"
+      ],
+      "answer": "Thức ăn"
+    },
+    {
+      "id": 60,
+      "level": "beginner",
+      "type": "choose_korean",
+      "korean": "음식",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Thức ăn'",
+      "options": [
+        "음식",
+        "감사합니다",
+        "가족",
+        "안녕하세요"
+      ],
+      "answer": "음식"
+    },
+    {
+      "id": 61,
+      "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "음료",
+      "question": "Từ '음료' có nghĩa là gì?",
+      "options": [
+        "Xin chào",
+        "Cảm ơn",
+        "Gia đình",
+        "Đồ uống"
+      ],
+      "answer": "Đồ uống"
+    },
+    {
+      "id": 62,
+      "level": "beginner",
+      "type": "choose_korean",
+      "korean": "음료",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Đồ uống'",
+      "options": [
+        "감사합니다",
+        "음료",
+        "가족",
+        "안녕하세요"
+      ],
+      "answer": "음료"
+    },
+    {
+      "id": 63,
+      "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "습관",
+      "question": "Từ '습관' có nghĩa là gì?",
+      "options": [
+        "Cảm ơn",
+        "Xin chào",
+        "Thói quen",
+        "Gia đình"
+      ],
+      "answer": "Thói quen"
+    },
+    {
+      "id": 64,
+      "level": "beginner",
+      "type": "choose_korean",
+      "korean": "습관",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Thói quen'",
+      "options": [
+        "습관",
+        "감사합니다",
+        "가족",
+        "안녕하세요"
+      ],
+      "answer": "습관"
+    },
+    {
+      "id": 65,
+      "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "시험",
+      "question": "Từ '시험' có nghĩa là gì?",
+      "options": [
+        "Xin chào",
+        "Bài kiểm tra",
+        "Gia đình",
+        "Cảm ơn"
+      ],
+      "answer": "Bài kiểm tra"
+    },
+    {
+      "id": 66,
+      "level": "beginner",
+      "type": "choose_korean",
+      "korean": "시험",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Bài kiểm tra'",
+      "options": [
+        "안녕하세요",
+        "가족",
+        "시험",
+        "감사합니다"
+      ],
+      "answer": "시험"
+    },
+    {
+      "id": 67,
+      "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "노트",
+      "question": "Từ '노트' có nghĩa là gì?",
+      "options": [
+        "Gia đình",
+        "Cảm ơn",
+        "Ghi chú",
+        "Xin chào"
+      ],
+      "answer": "Ghi chú"
+    },
+    {
+      "id": 68,
+      "level": "beginner",
+      "type": "choose_korean",
+      "korean": "노트",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Ghi chú'",
+      "options": [
+        "가족",
+        "감사합니다",
+        "노트",
+        "안녕하세요"
+      ],
+      "answer": "노트"
+    },
+    {
+      "id": 69,
+      "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "공책",
+      "question": "Từ '공책' có nghĩa là gì?",
+      "options": [
+        "Vở",
+        "Gia đình",
+        "Cảm ơn",
+        "Xin chào"
+      ],
+      "answer": "Vở"
+    },
+    {
+      "id": 70,
+      "level": "beginner",
+      "type": "choose_korean",
+      "korean": "공책",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Vở'",
+      "options": [
+        "공책",
+        "가족",
+        "감사합니다",
+        "안녕하세요"
+      ],
+      "answer": "공책"
+    },
+    {
+      "id": 71,
+      "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "펜",
+      "question": "Từ '펜' có nghĩa là gì?",
+      "options": [
+        "Bút",
+        "Cảm ơn",
+        "Xin chào",
+        "Gia đình"
+      ],
+      "answer": "Bút"
+    },
+    {
+      "id": 72,
+      "level": "beginner",
+      "type": "choose_korean",
+      "korean": "펜",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Bút'",
+      "options": [
+        "펜",
+        "가족",
+        "감사합니다",
+        "안녕하세요"
+      ],
+      "answer": "펜"
+    },
+    {
+      "id": 73,
+      "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "반장",
+      "question": "Từ '반장' có nghĩa là gì?",
+      "options": [
+        "Cảm ơn",
+        "Xin chào",
+        "Gia đình",
+        "Lớp trưởng"
+      ],
+      "answer": "Lớp trưởng"
+    },
+    {
+      "id": 74,
+      "level": "beginner",
+      "type": "choose_korean",
+      "korean": "반장",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Lớp trưởng'",
+      "options": [
+        "안녕하세요",
+        "감사합니다",
+        "반장",
+        "가족"
+      ],
+      "answer": "반장"
+    },
+    {
+      "id": 75,
+      "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "수학",
+      "question": "Từ '수학' có nghĩa là gì?",
+      "options": [
+        "Môn toán",
+        "Cảm ơn",
+        "Gia đình",
+        "Xin chào"
+      ],
+      "answer": "Môn toán"
+    },
+    {
+      "id": 76,
+      "level": "beginner",
+      "type": "choose_korean",
+      "korean": "수학",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Môn toán'",
+      "options": [
+        "안녕하세요",
+        "감사합니다",
+        "가족",
+        "수학"
+      ],
+      "answer": "수학"
+    },
+    {
+      "id": 77,
+      "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "문학",
+      "question": "Từ '문학' có nghĩa là gì?",
+      "options": [
+        "Môn văn",
+        "Cảm ơn",
+        "Gia đình",
+        "Xin chào"
+      ],
+      "answer": "Môn văn"
+    },
+    {
+      "id": 78,
+      "level": "beginner",
+      "type": "choose_korean",
+      "korean": "문학",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Môn văn'",
+      "options": [
+        "가족",
+        "안녕하세요",
+        "감사합니다",
+        "문학"
+      ],
+      "answer": "문학"
+    },
+    {
+      "id": 79,
+      "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "한국어",
+      "question": "Từ '한국어' có nghĩa là gì?",
+      "options": [
+        "Tiếng Hàn",
+        "Xin chào",
+        "Cảm ơn",
+        "Gia đình"
+      ],
+      "answer": "Tiếng Hàn"
+    },
+    {
+      "id": 80,
+      "level": "beginner",
+      "type": "choose_korean",
+      "korean": "한국어",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Tiếng Hàn'",
+      "options": [
+        "한국어",
+        "가족",
+        "안녕하세요",
+        "감사합니다"
+      ],
+      "answer": "한국어"
+    },
+    {
+      "id": 81,
+      "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "쉬는 시간",
+      "question": "Từ '쉬는 시간' có nghĩa là gì?",
+      "options": [
+        "Gia đình",
+        "Cảm ơn",
+        "Giờ ra chơi",
+        "Xin chào"
+      ],
+      "answer": "Giờ ra chơi"
+    },
+    {
+      "id": 82,
+      "level": "beginner",
+      "type": "choose_korean",
+      "korean": "쉬는 시간",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Giờ ra chơi'",
+      "options": [
+        "가족",
+        "감사합니다",
+        "안녕하세요",
+        "쉬는 시간"
+      ],
+      "answer": "쉬는 시간"
+    },
+    {
+      "id": 83,
+      "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "학기",
+      "question": "Từ '학기' có nghĩa là gì?",
+      "options": [
+        "Học kỳ",
+        "Gia đình",
+        "Xin chào",
+        "Cảm ơn"
+      ],
+      "answer": "Học kỳ"
+    },
+    {
+      "id": 84,
+      "level": "beginner",
+      "type": "choose_korean",
+      "korean": "학기",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Học kỳ'",
+      "options": [
+        "학기",
+        "감사합니다",
+        "가족",
+        "안녕하세요"
+      ],
+      "answer": "학기"
+    },
+    {
+      "id": 85,
+      "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "점수",
+      "question": "Từ '점수' có nghĩa là gì?",
+      "options": [
+        "Gia đình",
+        "Điểm số",
+        "Xin chào",
+        "Cảm ơn"
+      ],
+      "answer": "Điểm số"
+    },
+    {
+      "id": 86,
+      "level": "beginner",
+      "type": "choose_korean",
+      "korean": "점수",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Điểm số'",
+      "options": [
+        "안녕하세요",
+        "감사합니다",
+        "가족",
+        "점수"
+      ],
+      "answer": "점수"
+    },
+    {
+      "id": 87,
+      "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "강의",
+      "question": "Từ '강의' có nghĩa là gì?",
+      "options": [
+        "Cảm ơn",
+        "Xin chào",
+        "Gia đình",
+        "Bài giảng"
+      ],
+      "answer": "Bài giảng"
+    },
+    {
+      "id": 88,
+      "level": "beginner",
+      "type": "choose_korean",
+      "korean": "강의",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Bài giảng'",
+      "options": [
+        "가족",
+        "안녕하세요",
+        "강의",
+        "감사합니다"
+      ],
+      "answer": "강의"
+    },
+    {
+      "id": 89,
+      "level": "beginner",
+      "type": "meaning_of_korean",
+      "korean": "스터디",
+      "question": "Từ '스터디' có nghĩa là gì?",
+      "options": [
+        "Học nhóm",
+        "Xin chào",
+        "Gia đình",
+        "Cảm ơn"
+      ],
+      "answer": "Học nhóm"
+    },
+    {
+      "id": 90,
+      "level": "beginner",
+      "type": "choose_korean",
+      "korean": "스터디",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Học nhóm'",
+      "options": [
+        "가족",
+        "스터디",
+        "감사합니다",
+        "안녕하세요"
+      ],
+      "answer": "스터디"
+    },
+    {
+      "id": 91,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "비빔밥",
+      "question": "Từ '비빔밥' có nghĩa là gì?",
+      "options": [
+        "Bài tập về nhà",
+        "Bao nhiêu tiền?",
+        "Gọi món",
+        "Cơm trộn"
+      ],
+      "answer": "Cơm trộn"
+    },
+    {
+      "id": 92,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "비빔밥",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Cơm trộn'",
+      "options": [
+        "비빔밥",
+        "주문",
+        "얼마예요?",
+        "숙제"
+      ],
+      "answer": "비빔밥"
+    },
+    {
+      "id": 93,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "얼마예요?",
+      "question": "Từ '얼마예요?' có nghĩa là gì?",
+      "options": [
+        "Bao nhiêu tiền?",
+        "Gọi món",
+        "Bài tập về nhà",
+        "Cơm trộn"
+      ],
+      "answer": "Bao nhiêu tiền?"
+    },
+    {
+      "id": 94,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "얼마예요?",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Bao nhiêu tiền?'",
+      "options": [
+        "비빔밥",
+        "얼마예요?",
+        "주문",
+        "숙제"
+      ],
+      "answer": "얼마예요?"
+    },
+    {
+      "id": 95,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "숙제",
+      "question": "Từ '숙제' có nghĩa là gì?",
+      "options": [
+        "Bài tập về nhà",
+        "Bao nhiêu tiền?",
+        "Cơm trộn",
+        "Gọi món"
+      ],
+      "answer": "Bài tập về nhà"
+    },
+    {
+      "id": 96,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "숙제",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Bài tập về nhà'",
+      "options": [
+        "숙제",
+        "주문",
+        "비빔밥",
+        "얼마예요?"
+      ],
+      "answer": "숙제"
+    },
+    {
+      "id": 97,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "주문",
+      "question": "Từ '주문' có nghĩa là gì?",
+      "options": [
+        "Gọi món",
+        "Cơm trộn",
+        "Bài tập về nhà",
+        "Bao nhiêu tiền?"
+      ],
+      "answer": "Gọi món"
+    },
+    {
+      "id": 98,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "주문",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Gọi món'",
+      "options": [
+        "얼마예요?",
+        "숙제",
+        "비빔밥",
+        "주문"
+      ],
+      "answer": "주문"
+    },
+    {
+      "id": 99,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "계산",
+      "question": "Từ '계산' có nghĩa là gì?",
+      "options": [
+        "Bài tập về nhà",
+        "Cơm trộn",
+        "Thanh toán",
+        "Bao nhiêu tiền?"
+      ],
+      "answer": "Thanh toán"
+    },
+    {
+      "id": 100,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "계산",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Thanh toán'",
+      "options": [
+        "비빔밥",
+        "얼마예요?",
+        "숙제",
+        "계산"
+      ],
+      "answer": "계산"
+    },
+    {
+      "id": 101,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "메뉴",
+      "question": "Từ '메뉴' có nghĩa là gì?",
+      "options": [
+        "Bao nhiêu tiền?",
+        "Thực đơn",
+        "Cơm trộn",
+        "Bài tập về nhà"
+      ],
+      "answer": "Thực đơn"
+    },
+    {
+      "id": 102,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "메뉴",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Thực đơn'",
+      "options": [
+        "얼마예요?",
+        "메뉴",
+        "비빔밥",
+        "숙제"
+      ],
+      "answer": "메뉴"
+    },
+    {
+      "id": 103,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "국수",
+      "question": "Từ '국수' có nghĩa là gì?",
+      "options": [
+        "Bài tập về nhà",
+        "Cơm trộn",
+        "Mì",
+        "Bao nhiêu tiền?"
+      ],
+      "answer": "Mì"
+    },
+    {
+      "id": 104,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "국수",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Mì'",
+      "options": [
+        "얼마예요?",
+        "비빔밥",
+        "국수",
+        "숙제"
+      ],
+      "answer": "국수"
+    },
+    {
+      "id": 105,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "할인",
+      "question": "Từ '할인' có nghĩa là gì?",
+      "options": [
+        "Cơm trộn",
+        "Bao nhiêu tiền?",
+        "Bài tập về nhà",
+        "Giảm giá"
+      ],
+      "answer": "Giảm giá"
+    },
+    {
+      "id": 106,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "할인",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Giảm giá'",
+      "options": [
+        "얼마예요?",
+        "할인",
+        "비빔밥",
+        "숙제"
+      ],
+      "answer": "할인"
+    },
+    {
+      "id": 107,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "영수증",
+      "question": "Từ '영수증' có nghĩa là gì?",
+      "options": [
+        "Bài tập về nhà",
+        "Hóa đơn",
+        "Bao nhiêu tiền?",
+        "Cơm trộn"
+      ],
+      "answer": "Hóa đơn"
+    },
+    {
+      "id": 108,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "영수증",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Hóa đơn'",
+      "options": [
+        "숙제",
+        "영수증",
+        "비빔밥",
+        "얼마예요?"
+      ],
+      "answer": "영수증"
+    },
+    {
+      "id": 109,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "사이즈",
+      "question": "Từ '사이즈' có nghĩa là gì?",
+      "options": [
+        "Kích cỡ",
+        "Bao nhiêu tiền?",
+        "Bài tập về nhà",
+        "Cơm trộn"
+      ],
+      "answer": "Kích cỡ"
+    },
+    {
+      "id": 110,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "사이즈",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Kích cỡ'",
+      "options": [
+        "사이즈",
+        "얼마예요?",
+        "숙제",
+        "비빔밥"
+      ],
+      "answer": "사이즈"
+    },
+    {
+      "id": 111,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "색깔",
+      "question": "Từ '색깔' có nghĩa là gì?",
+      "options": [
+        "Màu sắc",
+        "Bài tập về nhà",
+        "Cơm trộn",
+        "Bao nhiêu tiền?"
+      ],
+      "answer": "Màu sắc"
+    },
+    {
+      "id": 112,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "색깔",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Màu sắc'",
+      "options": [
+        "숙제",
+        "색깔",
+        "비빔밥",
+        "얼마예요?"
+      ],
+      "answer": "색깔"
+    },
+    {
+      "id": 113,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "여권",
+      "question": "Từ '여권' có nghĩa là gì?",
+      "options": [
+        "Bài tập về nhà",
+        "Hộ chiếu",
+        "Bao nhiêu tiền?",
+        "Cơm trộn"
+      ],
+      "answer": "Hộ chiếu"
+    },
+    {
+      "id": 114,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "여권",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Hộ chiếu'",
+      "options": [
+        "얼마예요?",
+        "비빔밥",
+        "숙제",
+        "여권"
+      ],
+      "answer": "여권"
+    },
+    {
+      "id": 115,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "호텔",
+      "question": "Từ '호텔' có nghĩa là gì?",
+      "options": [
+        "Cơm trộn",
+        "Khách sạn",
+        "Bài tập về nhà",
+        "Bao nhiêu tiền?"
+      ],
+      "answer": "Khách sạn"
+    },
+    {
+      "id": 116,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "호텔",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Khách sạn'",
+      "options": [
+        "호텔",
+        "비빔밥",
+        "얼마예요?",
+        "숙제"
+      ],
+      "answer": "호텔"
+    },
+    {
+      "id": 117,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "지도",
+      "question": "Từ '지도' có nghĩa là gì?",
+      "options": [
+        "Bản đồ",
+        "Bài tập về nhà",
+        "Cơm trộn",
+        "Bao nhiêu tiền?"
+      ],
+      "answer": "Bản đồ"
+    },
+    {
+      "id": 118,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "지도",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Bản đồ'",
+      "options": [
+        "얼마예요?",
+        "비빔밥",
+        "숙제",
+        "지도"
+      ],
+      "answer": "지도"
+    },
+    {
+      "id": 119,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "관광",
+      "question": "Từ '관광' có nghĩa là gì?",
+      "options": [
+        "Bài tập về nhà",
+        "Bao nhiêu tiền?",
+        "Cơm trộn",
+        "Tham quan"
+      ],
+      "answer": "Tham quan"
+    },
+    {
+      "id": 120,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "관광",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Tham quan'",
+      "options": [
+        "관광",
+        "비빔밥",
+        "숙제",
+        "얼마예요?"
+      ],
+      "answer": "관광"
+    },
+    {
+      "id": 121,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "마감일",
+      "question": "Từ '마감일' có nghĩa là gì?",
+      "options": [
+        "Bài tập về nhà",
+        "Bao nhiêu tiền?",
+        "Hạn nộp",
+        "Cơm trộn"
+      ],
+      "answer": "Hạn nộp"
+    },
+    {
+      "id": 122,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "마감일",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Hạn nộp'",
+      "options": [
+        "얼마예요?",
+        "마감일",
+        "비빔밥",
+        "숙제"
+      ],
+      "answer": "마감일"
+    },
+    {
+      "id": 123,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "메인 요리",
+      "question": "Từ '메인 요리' có nghĩa là gì?",
+      "options": [
+        "Cơm trộn",
+        "Bao nhiêu tiền?",
+        "món phụ",
+        "Bài tập về nhà"
+      ],
+      "answer": "món phụ"
+    },
+    {
+      "id": 124,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "메인 요리",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'món phụ'",
+      "options": [
+        "숙제",
+        "얼마예요?",
+        "메인 요리",
+        "비빔밥"
+      ],
+      "answer": "메인 요리"
+    },
+    {
+      "id": 125,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "반찬",
+      "question": "Từ '반찬' có nghĩa là gì?",
+      "options": [
+        "Bao nhiêu tiền?",
+        "Cơm trộn",
+        "Bài tập về nhà",
+        "canh"
+      ],
+      "answer": "canh"
+    },
+    {
+      "id": 126,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "반찬",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'canh'",
+      "options": [
+        "비빔밥",
+        "반찬",
+        "얼마예요?",
+        "숙제"
+      ],
+      "answer": "반찬"
+    },
+    {
+      "id": 127,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "국",
+      "question": "Từ '국' có nghĩa là gì?",
+      "options": [
+        "Cơm trộn",
+        "kimchi",
+        "Bài tập về nhà",
+        "Bao nhiêu tiền?"
+      ],
+      "answer": "kimchi"
+    },
+    {
+      "id": 128,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "국",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'kimchi'",
+      "options": [
+        "숙제",
+        "국",
+        "얼마예요?",
+        "비빔밥"
+      ],
+      "answer": "국"
+    },
+    {
+      "id": 129,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "김치",
+      "question": "Từ '김치' có nghĩa là gì?",
+      "options": [
+        "Cơm trộn",
+        "Bao nhiêu tiền?",
+        "thịt nướng",
+        "Bài tập về nhà"
+      ],
+      "answer": "thịt nướng"
+    },
+    {
+      "id": 130,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "김치",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'thịt nướng'",
+      "options": [
+        "숙제",
+        "얼마예요?",
+        "비빔밥",
+        "김치"
+      ],
+      "answer": "김치"
+    },
+    {
+      "id": 131,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "불고기",
+      "question": "Từ '불고기' có nghĩa là gì?",
+      "options": [
+        "Bài tập về nhà",
+        "Bao nhiêu tiền?",
+        "Cơm trộn",
+        "đặt bàn"
+      ],
+      "answer": "đặt bàn"
+    },
+    {
+      "id": 132,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "불고기",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'đặt bàn'",
+      "options": [
+        "비빔밥",
+        "불고기",
+        "얼마예요?",
+        "숙제"
+      ],
+      "answer": "불고기"
+    },
+    {
+      "id": 133,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "예약",
+      "question": "Từ '예약' có nghĩa là gì?",
+      "options": [
+        "Cơm trộn",
+        "Bao nhiêu tiền?",
+        "Bài tập về nhà",
+        "muỗng"
+      ],
+      "answer": "muỗng"
+    },
+    {
+      "id": 134,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "예약",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'muỗng'",
+      "options": [
+        "얼마예요?",
+        "예약",
+        "숙제",
+        "비빔밥"
+      ],
+      "answer": "예약"
+    },
+    {
+      "id": 135,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "숟가락",
+      "question": "Từ '숟가락' có nghĩa là gì?",
+      "options": [
+        "Bao nhiêu tiền?",
+        "Cơm trộn",
+        "Bài tập về nhà",
+        "đũa"
+      ],
+      "answer": "đũa"
+    },
+    {
+      "id": 136,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "숟가락",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'đũa'",
+      "options": [
+        "숙제",
+        "비빔밥",
+        "얼마예요?",
+        "숟가락"
+      ],
+      "answer": "숟가락"
+    },
+    {
+      "id": 137,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "젓가락",
+      "question": "Từ '젓가락' có nghĩa là gì?",
+      "options": [
+        "Cơm trộn",
+        "Bài tập về nhà",
+        "Bao nhiêu tiền?",
+        "nhà bếp"
+      ],
+      "answer": "nhà bếp"
+    },
+    {
+      "id": 138,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "젓가락",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'nhà bếp'",
+      "options": [
+        "얼마예요?",
+        "비빔밥",
+        "젓가락",
+        "숙제"
+      ],
+      "answer": "젓가락"
+    },
+    {
+      "id": 139,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "결제",
+      "question": "Từ '결제' có nghĩa là gì?",
+      "options": [
+        "Bao nhiêu tiền?",
+        "đồ cay",
+        "Cơm trộn",
+        "Bài tập về nhà"
+      ],
+      "answer": "đồ cay"
+    },
+    {
+      "id": 140,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "결제",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'đồ cay'",
+      "options": [
+        "숙제",
+        "결제",
+        "얼마예요?",
+        "비빔밥"
+      ],
+      "answer": "결제"
+    },
+    {
+      "id": 141,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "매운 음식",
+      "question": "Từ '매운 음식' có nghĩa là gì?",
+      "options": [
+        "Bao nhiêu tiền?",
+        "đồ ngọt",
+        "Cơm trộn",
+        "Bài tập về nhà"
+      ],
+      "answer": "đồ ngọt"
+    },
+    {
+      "id": 142,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "매운 음식",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'đồ ngọt'",
+      "options": [
+        "얼마예요?",
+        "비빔밥",
+        "매운 음식",
+        "숙제"
+      ],
+      "answer": "매운 음식"
+    },
+    {
+      "id": 143,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "디저트",
+      "question": "Từ '디저트' có nghĩa là gì?",
+      "options": [
+        "Bao nhiêu tiền?",
+        "Cơm trộn",
+        "Bài tập về nhà",
+        "đồ uống lạnh"
+      ],
+      "answer": "đồ uống lạnh"
+    },
+    {
+      "id": 144,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "디저트",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'đồ uống lạnh'",
+      "options": [
+        "얼마예요?",
+        "디저트",
+        "비빔밥",
+        "숙제"
+      ],
+      "answer": "디저트"
+    },
+    {
+      "id": 145,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "찬 음료",
+      "question": "Từ '찬 음료' có nghĩa là gì?",
+      "options": [
+        "Bao nhiêu tiền?",
+        "hóa đơn",
+        "Cơm trộn",
+        "Bài tập về nhà"
+      ],
+      "answer": "hóa đơn"
+    },
+    {
+      "id": 146,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "찬 음료",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'hóa đơn'",
+      "options": [
+        "비빔밥",
+        "얼마예요?",
+        "찬 음료",
+        "숙제"
+      ],
+      "answer": "찬 음료"
+    },
+    {
+      "id": 147,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "추가 주문",
+      "question": "Từ '추가 주문' có nghĩa là gì?",
+      "options": [
+        "Cơm trộn",
+        "cửa hàng",
+        "Bài tập về nhà",
+        "Bao nhiêu tiền?"
+      ],
+      "answer": "cửa hàng"
+    },
+    {
+      "id": 148,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "추가 주문",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'cửa hàng'",
+      "options": [
+        "비빔밥",
+        "추가 주문",
+        "얼마예요?",
+        "숙제"
+      ],
+      "answer": "추가 주문"
+    },
+    {
+      "id": 149,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "매장",
+      "question": "Từ '매장' có nghĩa là gì?",
+      "options": [
+        "Cơm trộn",
+        "Bài tập về nhà",
+        "Bao nhiêu tiền?",
+        "thử đồ"
+      ],
+      "answer": "thử đồ"
+    },
+    {
+      "id": 150,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "매장",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'thử đồ'",
+      "options": [
+        "숙제",
+        "얼마예요?",
+        "매장",
+        "비빔밥"
+      ],
+      "answer": "매장"
+    },
+    {
+      "id": 151,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "피팅룸",
+      "question": "Từ '피팅룸' có nghĩa là gì?",
+      "options": [
+        "Cơm trộn",
+        "Bài tập về nhà",
+        "quầy thu ngân",
+        "Bao nhiêu tiền?"
+      ],
+      "answer": "quầy thu ngân"
+    },
+    {
+      "id": 152,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "피팅룸",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'quầy thu ngân'",
+      "options": [
+        "얼마예요?",
+        "비빔밥",
+        "피팅룸",
+        "숙제"
+      ],
+      "answer": "피팅룸"
+    },
+    {
+      "id": 153,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "계산대",
+      "question": "Từ '계산대' có nghĩa là gì?",
+      "options": [
+        "tiền mặt",
+        "Bao nhiêu tiền?",
+        "Cơm trộn",
+        "Bài tập về nhà"
+      ],
+      "answer": "tiền mặt"
+    },
+    {
+      "id": 154,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "계산대",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'tiền mặt'",
+      "options": [
+        "비빔밥",
+        "얼마예요?",
+        "숙제",
+        "계산대"
+      ],
+      "answer": "계산대"
+    },
+    {
+      "id": 155,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "현금",
+      "question": "Từ '현금' có nghĩa là gì?",
+      "options": [
+        "Cơm trộn",
+        "Bao nhiêu tiền?",
+        "thẻ",
+        "Bài tập về nhà"
+      ],
+      "answer": "thẻ"
+    },
+    {
+      "id": 156,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "현금",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'thẻ'",
+      "options": [
+        "비빔밥",
+        "얼마예요?",
+        "현금",
+        "숙제"
+      ],
+      "answer": "현금"
+    },
+    {
+      "id": 157,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "카드",
+      "question": "Từ '카드' có nghĩa là gì?",
+      "options": [
+        "Bài tập về nhà",
+        "Bao nhiêu tiền?",
+        "Cơm trộn",
+        "khuyến mãi"
+      ],
+      "answer": "khuyến mãi"
+    },
+    {
+      "id": 158,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "카드",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'khuyến mãi'",
+      "options": [
+        "비빔밥",
+        "카드",
+        "얼마예요?",
+        "숙제"
+      ],
+      "answer": "카드"
+    },
+    {
+      "id": 159,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "디자인",
+      "question": "Từ '디자인' có nghĩa là gì?",
+      "options": [
+        "Bài tập về nhà",
+        "thương hiệu",
+        "Cơm trộn",
+        "Bao nhiêu tiền?"
+      ],
+      "answer": "thương hiệu"
+    },
+    {
+      "id": 160,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "디자인",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'thương hiệu'",
+      "options": [
+        "얼마예요?",
+        "숙제",
+        "비빔밥",
+        "디자인"
+      ],
+      "answer": "디자인"
+    },
+    {
+      "id": 161,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "브랜드",
+      "question": "Từ '브랜드' có nghĩa là gì?",
+      "options": [
+        "chiếc áo",
+        "Cơm trộn",
+        "Bao nhiêu tiền?",
+        "Bài tập về nhà"
+      ],
+      "answer": "chiếc áo"
+    },
+    {
+      "id": 162,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "브랜드",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'chiếc áo'",
+      "options": [
+        "숙제",
+        "비빔밥",
+        "얼마예요?",
+        "브랜드"
+      ],
+      "answer": "브랜드"
+    },
+    {
+      "id": 163,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "셔츠",
+      "question": "Từ '셔츠' có nghĩa là gì?",
+      "options": [
+        "Bao nhiêu tiền?",
+        "Bài tập về nhà",
+        "quần dài",
+        "Cơm trộn"
+      ],
+      "answer": "quần dài"
+    },
+    {
+      "id": 164,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "셔츠",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'quần dài'",
+      "options": [
+        "비빔밥",
+        "얼마예요?",
+        "셔츠",
+        "숙제"
+      ],
+      "answer": "셔츠"
+    },
+    {
+      "id": 165,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "바지",
+      "question": "Từ '바지' có nghĩa là gì?",
+      "options": [
+        "Bao nhiêu tiền?",
+        "Bài tập về nhà",
+        "Cơm trộn",
+        "giày thể thao"
+      ],
+      "answer": "giày thể thao"
+    },
+    {
+      "id": 166,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "바지",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'giày thể thao'",
+      "options": [
+        "바지",
+        "비빔밥",
+        "숙제",
+        "얼마예요?"
+      ],
+      "answer": "바지"
+    },
+    {
+      "id": 167,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "운동화",
+      "question": "Từ '운동화' có nghĩa là gì?",
+      "options": [
+        "Bài tập về nhà",
+        "túi xách",
+        "Bao nhiêu tiền?",
+        "Cơm trộn"
+      ],
+      "answer": "túi xách"
+    },
+    {
+      "id": 168,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "운동화",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'túi xách'",
+      "options": [
+        "비빔밥",
+        "얼마예요?",
+        "숙제",
+        "운동화"
+      ],
+      "answer": "운동화"
+    },
+    {
+      "id": 169,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "가방",
+      "question": "Từ '가방' có nghĩa là gì?",
+      "options": [
+        "Cơm trộn",
+        "đổi trả",
+        "Bài tập về nhà",
+        "Bao nhiêu tiền?"
+      ],
+      "answer": "đổi trả"
+    },
+    {
+      "id": 170,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "가방",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'đổi trả'",
+      "options": [
+        "숙제",
+        "가방",
+        "비빔밥",
+        "얼마예요?"
+      ],
+      "answer": "가방"
+    },
+    {
+      "id": 171,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "교환",
+      "question": "Từ '교환' có nghĩa là gì?",
+      "options": [
+        "Bao nhiêu tiền?",
+        "sản phẩm",
+        "Bài tập về nhà",
+        "Cơm trộn"
+      ],
+      "answer": "sản phẩm"
+    },
+    {
+      "id": 172,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "교환",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'sản phẩm'",
+      "options": [
+        "교환",
+        "얼마예요?",
+        "비빔밥",
+        "숙제"
+      ],
+      "answer": "교환"
+    },
+    {
+      "id": 173,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "상품",
+      "question": "Từ '상품' có nghĩa là gì?",
+      "options": [
+        "chất lượng",
+        "Cơm trộn",
+        "Bao nhiêu tiền?",
+        "Bài tập về nhà"
+      ],
+      "answer": "chất lượng"
+    },
+    {
+      "id": 174,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "상품",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'chất lượng'",
+      "options": [
+        "비빔밥",
+        "상품",
+        "숙제",
+        "얼마예요?"
+      ],
+      "answer": "상품"
+    },
+    {
+      "id": 175,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "품질",
+      "question": "Từ '품질' có nghĩa là gì?",
+      "options": [
+        "Cơm trộn",
+        "Bao nhiêu tiền?",
+        "điểm đến",
+        "Bài tập về nhà"
+      ],
+      "answer": "điểm đến"
+    },
+    {
+      "id": 176,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "품질",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'điểm đến'",
+      "options": [
+        "비빔밥",
+        "품질",
+        "숙제",
+        "얼마예요?"
+      ],
+      "answer": "품질"
+    },
+    {
+      "id": 177,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "목적지",
+      "question": "Từ '목적지' có nghĩa là gì?",
+      "options": [
+        "lịch trình",
+        "Bài tập về nhà",
+        "Cơm trộn",
+        "Bao nhiêu tiền?"
+      ],
+      "answer": "lịch trình"
+    },
+    {
+      "id": 178,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "목적지",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'lịch trình'",
+      "options": [
+        "얼마예요?",
+        "비빔밥",
+        "목적지",
+        "숙제"
+      ],
+      "answer": "목적지"
+    },
+    {
+      "id": 179,
+      "level": "foundation",
+      "type": "meaning_of_korean",
+      "korean": "일정표",
+      "question": "Từ '일정표' có nghĩa là gì?",
+      "options": [
+        "Bao nhiêu tiền?",
+        "hướng dẫn viên",
+        "Cơm trộn",
+        "Bài tập về nhà"
+      ],
+      "answer": "hướng dẫn viên"
+    },
+    {
+      "id": 180,
+      "level": "foundation",
+      "type": "choose_korean",
+      "korean": "일정표",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'hướng dẫn viên'",
+      "options": [
+        "일정표",
+        "숙제",
+        "얼마예요?",
+        "비빔밥"
+      ],
+      "answer": "일정표"
+    },
+    {
+      "id": 181,
+      "level": "intermediate",
+      "type": "meaning_of_korean",
+      "korean": "길을 잃었어요",
+      "question": "Từ '길을 잃었어요' có nghĩa là gì?",
+      "options": [
+        "Tôi đang căng thẳng",
+        "Cuộc họp",
+        "Tôi bị lạc đường",
+        "Khởi hành"
+      ],
+      "answer": "Tôi bị lạc đường"
+    },
+    {
+      "id": 182,
+      "level": "intermediate",
+      "type": "choose_korean",
+      "korean": "길을 잃었어요",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Tôi bị lạc đường'",
+      "options": [
+        "길을 잃었어요",
+        "출발",
+        "긴장돼요",
+        "회의"
+      ],
+      "answer": "길을 잃었어요"
+    },
+    {
+      "id": 183,
+      "level": "intermediate",
+      "type": "meaning_of_korean",
+      "korean": "회의",
+      "question": "Từ '회의' có nghĩa là gì?",
+      "options": [
+        "Cuộc họp",
+        "Tôi đang căng thẳng",
+        "Khởi hành",
+        "Tôi bị lạc đường"
+      ],
+      "answer": "Cuộc họp"
+    },
+    {
+      "id": 184,
+      "level": "intermediate",
+      "type": "choose_korean",
+      "korean": "회의",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Cuộc họp'",
+      "options": [
+        "긴장돼요",
+        "길을 잃었어요",
+        "회의",
+        "출발"
+      ],
+      "answer": "회의"
+    },
+    {
+      "id": 185,
+      "level": "intermediate",
+      "type": "meaning_of_korean",
+      "korean": "긴장돼요",
+      "question": "Từ '긴장돼요' có nghĩa là gì?",
+      "options": [
+        "Tôi đang căng thẳng",
+        "Cuộc họp",
+        "Tôi bị lạc đường",
+        "Khởi hành"
+      ],
+      "answer": "Tôi đang căng thẳng"
+    },
+    {
+      "id": 186,
+      "level": "intermediate",
+      "type": "choose_korean",
+      "korean": "긴장돼요",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Tôi đang căng thẳng'",
+      "options": [
+        "회의",
+        "출발",
+        "길을 잃었어요",
+        "긴장돼요"
+      ],
+      "answer": "긴장돼요"
+    },
+    {
+      "id": 187,
+      "level": "intermediate",
+      "type": "meaning_of_korean",
+      "korean": "출발",
+      "question": "Từ '출발' có nghĩa là gì?",
+      "options": [
+        "Khởi hành",
+        "Cuộc họp",
+        "Tôi đang căng thẳng",
+        "Tôi bị lạc đường"
+      ],
+      "answer": "Khởi hành"
+    },
+    {
+      "id": 188,
+      "level": "intermediate",
+      "type": "choose_korean",
+      "korean": "출발",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Khởi hành'",
+      "options": [
+        "길을 잃었어요",
+        "긴장돼요",
+        "회의",
+        "출발"
+      ],
+      "answer": "출발"
+    },
+    {
+      "id": 189,
+      "level": "intermediate",
+      "type": "meaning_of_korean",
+      "korean": "도착",
+      "question": "Từ '도착' có nghĩa là gì?",
+      "options": [
+        "Tôi bị lạc đường",
+        "Cuộc họp",
+        "Đến nơi",
+        "Tôi đang căng thẳng"
+      ],
+      "answer": "Đến nơi"
+    },
+    {
+      "id": 190,
+      "level": "intermediate",
+      "type": "choose_korean",
+      "korean": "도착",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Đến nơi'",
+      "options": [
+        "회의",
+        "도착",
+        "길을 잃었어요",
+        "긴장돼요"
+      ],
+      "answer": "도착"
+    },
+    {
+      "id": 191,
+      "level": "intermediate",
+      "type": "meaning_of_korean",
+      "korean": "수하물",
+      "question": "Từ '수하물' có nghĩa là gì?",
+      "options": [
+        "Tôi bị lạc đường",
+        "Hành lý",
+        "Tôi đang căng thẳng",
+        "Cuộc họp"
+      ],
+      "answer": "Hành lý"
+    },
+    {
+      "id": 192,
+      "level": "intermediate",
+      "type": "choose_korean",
+      "korean": "수하물",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Hành lý'",
+      "options": [
+        "긴장돼요",
+        "회의",
+        "길을 잃었어요",
+        "수하물"
+      ],
+      "answer": "수하물"
+    },
+    {
+      "id": 193,
+      "level": "intermediate",
+      "type": "meaning_of_korean",
+      "korean": "탑승권",
+      "question": "Từ '탑승권' có nghĩa là gì?",
+      "options": [
+        "Tôi bị lạc đường",
+        "Cuộc họp",
+        "Thẻ lên máy bay",
+        "Tôi đang căng thẳng"
+      ],
+      "answer": "Thẻ lên máy bay"
+    },
+    {
+      "id": 194,
+      "level": "intermediate",
+      "type": "choose_korean",
+      "korean": "탑승권",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Thẻ lên máy bay'",
+      "options": [
+        "회의",
+        "긴장돼요",
+        "길을 잃었어요",
+        "탑승권"
+      ],
+      "answer": "탑승권"
+    },
+    {
+      "id": 195,
+      "level": "intermediate",
+      "type": "meaning_of_korean",
+      "korean": "의사",
+      "question": "Từ '의사' có nghĩa là gì?",
+      "options": [
+        "Tôi bị lạc đường",
+        "Cuộc họp",
+        "Tôi đang căng thẳng",
+        "Bác sĩ"
+      ],
+      "answer": "Bác sĩ"
+    },
+    {
+      "id": 196,
+      "level": "intermediate",
+      "type": "choose_korean",
+      "korean": "의사",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Bác sĩ'",
+      "options": [
+        "긴장돼요",
+        "의사",
+        "길을 잃었어요",
+        "회의"
+      ],
+      "answer": "의사"
+    },
+    {
+      "id": 197,
+      "level": "intermediate",
+      "type": "meaning_of_korean",
+      "korean": "약",
+      "question": "Từ '약' có nghĩa là gì?",
+      "options": [
+        "Tôi bị lạc đường",
+        "Cuộc họp",
+        "Thuốc",
+        "Tôi đang căng thẳng"
+      ],
+      "answer": "Thuốc"
+    },
+    {
+      "id": 198,
+      "level": "intermediate",
+      "type": "choose_korean",
+      "korean": "약",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Thuốc'",
+      "options": [
+        "길을 잃었어요",
+        "회의",
+        "긴장돼요",
+        "약"
+      ],
+      "answer": "약"
+    },
+    {
+      "id": 199,
+      "level": "intermediate",
+      "type": "meaning_of_korean",
+      "korean": "아파요",
+      "question": "Từ '아파요' có nghĩa là gì?",
+      "options": [
+        "Tôi đau",
+        "Tôi bị lạc đường",
+        "Tôi đang căng thẳng",
+        "Cuộc họp"
+      ],
+      "answer": "Tôi đau"
+    },
+    {
+      "id": 200,
+      "level": "intermediate",
+      "type": "choose_korean",
+      "korean": "아파요",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Tôi đau'",
+      "options": [
+        "아파요",
+        "길을 잃었어요",
+        "회의",
+        "긴장돼요"
+      ],
+      "answer": "아파요"
+    },
+    {
+      "id": 201,
+      "level": "intermediate",
+      "type": "meaning_of_korean",
+      "korean": "진료",
+      "question": "Từ '진료' có nghĩa là gì?",
+      "options": [
+        "Khám bệnh",
+        "Tôi bị lạc đường",
+        "Cuộc họp",
+        "Tôi đang căng thẳng"
+      ],
+      "answer": "Khám bệnh"
+    },
+    {
+      "id": 202,
+      "level": "intermediate",
+      "type": "choose_korean",
+      "korean": "진료",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Khám bệnh'",
+      "options": [
+        "회의",
+        "길을 잃었어요",
+        "진료",
+        "긴장돼요"
+      ],
+      "answer": "진료"
+    },
+    {
+      "id": 203,
+      "level": "intermediate",
+      "type": "meaning_of_korean",
+      "korean": "행복해요",
+      "question": "Từ '행복해요' có nghĩa là gì?",
+      "options": [
+        "Cuộc họp",
+        "Tôi hạnh phúc",
+        "Tôi bị lạc đường",
+        "Tôi đang căng thẳng"
+      ],
+      "answer": "Tôi hạnh phúc"
+    },
+    {
+      "id": 204,
+      "level": "intermediate",
+      "type": "choose_korean",
+      "korean": "행복해요",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Tôi hạnh phúc'",
+      "options": [
+        "회의",
+        "길을 잃었어요",
+        "긴장돼요",
+        "행복해요"
+      ],
+      "answer": "행복해요"
+    },
+    {
+      "id": 205,
+      "level": "intermediate",
+      "type": "meaning_of_korean",
+      "korean": "슬퍼요",
+      "question": "Từ '슬퍼요' có nghĩa là gì?",
+      "options": [
+        "Tôi đang căng thẳng",
+        "Cuộc họp",
+        "Tôi buồn",
+        "Tôi bị lạc đường"
+      ],
+      "answer": "Tôi buồn"
+    },
+    {
+      "id": 206,
+      "level": "intermediate",
+      "type": "choose_korean",
+      "korean": "슬퍼요",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Tôi buồn'",
+      "options": [
+        "긴장돼요",
+        "회의",
+        "길을 잃었어요",
+        "슬퍼요"
+      ],
+      "answer": "슬퍼요"
+    },
+    {
+      "id": 207,
+      "level": "intermediate",
+      "type": "meaning_of_korean",
+      "korean": "걱정돼요",
+      "question": "Từ '걱정돼요' có nghĩa là gì?",
+      "options": [
+        "Tôi bị lạc đường",
+        "Tôi đang căng thẳng",
+        "Tôi lo lắng",
+        "Cuộc họp"
+      ],
+      "answer": "Tôi lo lắng"
+    },
+    {
+      "id": 208,
+      "level": "intermediate",
+      "type": "choose_korean",
+      "korean": "걱정돼요",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Tôi lo lắng'",
+      "options": [
+        "회의",
+        "길을 잃었어요",
+        "걱정돼요",
+        "긴장돼요"
+      ],
+      "answer": "걱정돼요"
+    },
+    {
+      "id": 209,
+      "level": "intermediate",
+      "type": "meaning_of_korean",
+      "korean": "편해요",
+      "question": "Từ '편해요' có nghĩa là gì?",
+      "options": [
+        "Tôi bị lạc đường",
+        "Thoải mái",
+        "Tôi đang căng thẳng",
+        "Cuộc họp"
+      ],
+      "answer": "Thoải mái"
+    },
+    {
+      "id": 210,
+      "level": "intermediate",
+      "type": "choose_korean",
+      "korean": "편해요",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Thoải mái'",
+      "options": [
+        "편해요",
+        "길을 잃었어요",
+        "긴장돼요",
+        "회의"
+      ],
+      "answer": "편해요"
+    },
+    {
+      "id": 211,
+      "level": "intermediate",
+      "type": "meaning_of_korean",
+      "korean": "시간표",
+      "question": "Từ '시간표' có nghĩa là gì?",
+      "options": [
+        "Tôi đang căng thẳng",
+        "Lịch học",
+        "Tôi bị lạc đường",
+        "Cuộc họp"
+      ],
+      "answer": "Lịch học"
+    },
+    {
+      "id": 212,
+      "level": "intermediate",
+      "type": "choose_korean",
+      "korean": "시간표",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Lịch học'",
+      "options": [
+        "시간표",
+        "긴장돼요",
+        "회의",
+        "길을 잃었어요"
+      ],
+      "answer": "시간표"
+    },
+    {
+      "id": 213,
+      "level": "intermediate",
+      "type": "meaning_of_korean",
+      "korean": "동료",
+      "question": "Từ '동료' có nghĩa là gì?",
+      "options": [
+        "Tôi bị lạc đường",
+        "Cuộc họp",
+        "Tôi đang căng thẳng",
+        "Đồng nghiệp"
+      ],
+      "answer": "Đồng nghiệp"
+    },
+    {
+      "id": 214,
+      "level": "intermediate",
+      "type": "choose_korean",
+      "korean": "동료",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Đồng nghiệp'",
+      "options": [
+        "동료",
+        "길을 잃었어요",
+        "긴장돼요",
+        "회의"
+      ],
+      "answer": "동료"
+    },
+    {
+      "id": 215,
+      "level": "intermediate",
+      "type": "meaning_of_korean",
+      "korean": "사장님",
+      "question": "Từ '사장님' có nghĩa là gì?",
+      "options": [
+        "Tôi bị lạc đường",
+        "Tôi đang căng thẳng",
+        "Giám đốc",
+        "Cuộc họp"
+      ],
+      "answer": "Giám đốc"
+    },
+    {
+      "id": 216,
+      "level": "intermediate",
+      "type": "choose_korean",
+      "korean": "사장님",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Giám đốc'",
+      "options": [
+        "회의",
+        "긴장돼요",
+        "사장님",
+        "길을 잃었어요"
+      ],
+      "answer": "사장님"
+    },
+    {
+      "id": 217,
+      "level": "intermediate",
+      "type": "meaning_of_korean",
+      "korean": "직원",
+      "question": "Từ '직원' có nghĩa là gì?",
+      "options": [
+        "Tôi đang căng thẳng",
+        "Nhân viên",
+        "Tôi bị lạc đường",
+        "Cuộc họp"
+      ],
+      "answer": "Nhân viên"
+    },
+    {
+      "id": 218,
+      "level": "intermediate",
+      "type": "choose_korean",
+      "korean": "직원",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Nhân viên'",
+      "options": [
+        "길을 잃었어요",
+        "회의",
+        "긴장돼요",
+        "직원"
+      ],
+      "answer": "직원"
+    },
+    {
+      "id": 219,
+      "level": "intermediate",
+      "type": "meaning_of_korean",
+      "korean": "업무",
+      "question": "Từ '업무' có nghĩa là gì?",
+      "options": [
+        "Tôi đang căng thẳng",
+        "Tôi bị lạc đường",
+        "Nhiệm vụ",
+        "Cuộc họp"
+      ],
+      "answer": "Nhiệm vụ"
+    },
+    {
+      "id": 220,
+      "level": "intermediate",
+      "type": "choose_korean",
+      "korean": "업무",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Nhiệm vụ'",
+      "options": [
+        "회의",
+        "길을 잃었어요",
+        "업무",
+        "긴장돼요"
+      ],
+      "answer": "업무"
     }
   ],
   "meta": {
     "vocabCount": 233,
-    "quizCount": 180
+    "quizCount": 220
   },
   "dailyMissions": [
     "Hoàn thành 1 bài học chính",

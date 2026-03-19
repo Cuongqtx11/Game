@@ -19,6 +19,7 @@ let content = null;
 let currentWordFilter = 'all';
 let exerciseState = null;
 let exerciseTimer = null;
+let dailyWordFlow = null;
 
 function loadState() { try { const raw = localStorage.getItem(STORAGE_KEY); if (raw) Object.assign(state, JSON.parse(raw)); } catch {} }
 function saveState() { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); }
@@ -26,6 +27,14 @@ function applyTheme() { document.body.classList.toggle('dark', state.darkMode); 
 function dayIndex(mod) { const now=new Date(); const start=new Date(now.getFullYear(),0,1); return Math.floor((now-start)/86400000)%mod; }
 function getDailyWords(count=5) { const start = dayIndex(content.vocabulary.length); return Array.from({length:count}, (_,i)=>content.vocabulary[(start+i)%content.vocabulary.length]); }
 function getDailyQuizSet(count=10) { const start = dayIndex(content.quiz.length); return Array.from({length:Math.min(count,content.quiz.length)}, (_,i)=>content.quiz[(start+i)%content.quiz.length]); }
+function getQuizForWords(words, count) {
+  var set = [];
+  var koreanSet = words.map(function(w){ return w.korean; });
+  for (var i = 0; i < content.quiz.length; i++) {
+    if (koreanSet.indexOf(content.quiz[i].korean) >= 0) set.push(content.quiz[i]);
+  }
+  return shuffle(set).slice(0, count || 5);
+}
 function shuffle(arr){ const a=arr.slice(); for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
 
 function switchScreen(screen) {
@@ -88,7 +97,12 @@ function renderAppInfo() {
 
 function renderDailyMissionBox() { qs('#daily-missions').innerHTML = `<ul class="mini-list">${content.dailyMissions.map(m => `<li>${m}</li>`).join('')}</ul>`; }
 function renderContinueLearning() { const blocks = content.chapters.slice(0,2).flatMap(g => g.items.slice(0,2)); qs('#continue-learning').innerHTML = `<ul class="mini-list">${blocks.map(i => `<li>${i.title} • ${i.lessons[0]}</li>`).join('')}</ul>`; }
-function renderDailyWordsBox() { qs('#daily-words-box').innerHTML = `<ul class="mini-list">${getDailyWords(8).map(w => `<li>${w.korean} — ${w.meaning}</li>`).join('')}</ul>`; }
+function renderDailyWordsBox() {
+  var words = getDailyWords(8);
+  qs('#daily-words-box').innerHTML = `<ul class="mini-list">${words.map(w => `<li>${w.korean} — ${w.meaning}</li>`).join('')}</ul><div class="hero-actions" style="margin-top:12px;"><button id="start-daily-word-flow" class="primary-btn">Học từ mới hôm nay</button></div>`;
+  var btn = qs('#start-daily-word-flow');
+  if (btn) btn.addEventListener('click', function(){ startDailyWordFlow(words); });
+}
 function renderSavedWordsBox() { const saved = content.vocabulary.filter(v => state.savedWords.includes(v.korean)); qs('#saved-words-box').innerHTML = saved.length ? `<ul class="mini-list">${saved.slice(0,12).map(w => `<li>${w.korean} — ${w.meaning}</li>`).join('')}</ul>` : 'Chưa có từ nào được lưu.'; }
 
 function renderLearnModules() {
@@ -98,8 +112,11 @@ function renderLearnModules() {
 
 function closeOverlay(id) {
   qs('#screen-overlay').classList.add('hidden');
-  qs(`#${id}`).classList.add('hidden');
+  var el = qs(`#${id}`);
+  if (el) el.classList.add('hidden');
   if (exerciseTimer) clearInterval(exerciseTimer);
+  dailyWordFlow = null;
+  exerciseState = null;
   if (state.onboardingDone) document.body.classList.remove('no-scroll');
 }
 
@@ -135,12 +152,37 @@ function inferLevelFromUnit(unit) {
 
 function startExercise(payload) {
   closeOverlay('learning-screen');
-  exerciseState = { title: payload.title, questions: payload.questions, index: 0, score: 0, answers: [] };
+  exerciseState = { title: payload.title, questions: payload.questions, index: 0, score: 0, answers: [], mode: payload.mode || 'quiz' };
   qs('#exercise-title').textContent = payload.title;
   qs('#screen-overlay').classList.remove('hidden');
   qs('#exercise-screen').classList.remove('hidden');
   document.body.classList.add('no-scroll');
   renderExerciseQuestion();
+}
+
+function startDailyWordFlow(words) {
+  dailyWordFlow = { words: words.slice(), index: 0 };
+  qs('#exercise-title').textContent = 'Học từ mới hôm nay';
+  qs('#screen-overlay').classList.remove('hidden');
+  qs('#exercise-screen').classList.remove('hidden');
+  document.body.classList.add('no-scroll');
+  renderDailyWordCard();
+}
+
+function renderDailyWordCard() {
+  if (!dailyWordFlow) return;
+  if (dailyWordFlow.index >= dailyWordFlow.words.length) {
+    var quizSet = getQuizForWords(dailyWordFlow.words, 6);
+    dailyWordFlow = null;
+    startExercise({ title: 'Quiz từ mới hôm nay', questions: quizSet, mode: 'quiz' });
+    return;
+  }
+  var word = dailyWordFlow.words[dailyWordFlow.index];
+  qs('#exercise-progress').textContent = `Từ ${dailyWordFlow.index + 1}/${dailyWordFlow.words.length}`;
+  qs('#exercise-timer').textContent = '∞';
+  qs('#exercise-feedback').classList.add('hidden');
+  qs('#exercise-feedback').innerHTML = '';
+  qs('#exercise-body').innerHTML = `<div class="screen-lesson"><h3>${word.korean}</h3><p><strong>Nghĩa:</strong> ${word.meaning}</p><p><strong>Romanized:</strong> ${word.romanized}</p><p><strong>Phiên âm Việt:</strong> ${word.vietnamesePronunciation}</p><p><strong>Ngữ cảnh:</strong> ${word.context}</p></div>`;
 }
 
 function buildFillBlankQuestion(source) {
@@ -236,6 +278,11 @@ function advanceExerciseQuestion() {
 }
 
 function nextExerciseQuestion() {
+  if (dailyWordFlow) {
+    dailyWordFlow.index += 1;
+    renderDailyWordCard();
+    return;
+  }
   if (!exerciseState) return;
   if (!exerciseState.answered) {
     submitCurrentExerciseAnswer(false);

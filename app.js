@@ -28,7 +28,8 @@ function getDailyQuizSet(count=10) { const start = dayIndex(content.quiz.length)
 function switchScreen(screen) {
   state.screen = screen; saveState();
   qsa('.app-view').forEach(view => view.classList.add('hidden'));
-  qs(`#screen-${screen}`)?.classList.remove('hidden');
+  var targetScreen = qs(`#screen-${screen}`);
+  if (targetScreen) targetScreen.classList.remove('hidden');
   qsa('.app-tab').forEach(tab => tab.classList.remove('active'));
   qsa(`.app-tab[data-screen="${screen}"]`).forEach(tab => tab.classList.add('active'));
   renderSubmenu(screen);

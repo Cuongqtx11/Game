@@ -98,88 +98,55 @@
         </div>
 
         <div class="dashboard-grid">
-          <article class="feature-card card">
-            <h3>Daily Lesson</h3>
-            <p>Mở bài học hôm nay, học ngắn mà đều.</p>
-          </article>
-          <article class="feature-card card">
-            <h3>Quick Review</h3>
-            <p>Ôn nhanh từ mới và mẫu câu đã học gần đây.</p>
-          </article>
-          <article class="feature-card card">
-            <h3>7-Day Sprint</h3>
-            <p>Khóa nhập môn cấp tốc trong 7 ngày.</p>
-          </article>
-          <article class="feature-card card">
-            <h3>30-Day Speaking</h3>
-            <p>Lộ trình luyện giao tiếp 30 ngày rõ ràng.</p>
-          </article>
+          <article class="feature-card card"><h3>Daily Lesson</h3><p>Mở bài học hôm nay, học ngắn mà đều.</p></article>
+          <article class="feature-card card"><h3>Quick Review</h3><p>Ôn nhanh từ mới và mẫu câu đã học gần đây.</p></article>
+          <article class="feature-card card"><h3>7-Day Sprint</h3><p>Khóa nhập môn cấp tốc trong 7 ngày.</p></article>
+          <article class="feature-card card"><h3>30-Day Speaking</h3><p>Lộ trình luyện giao tiếp 30 ngày rõ ràng.</p></article>
+        </div>
+
+        <div class="feature-grid two-col">
+          <article class="feature-card card"><h3>Daily Mission</h3><div id="daily-missions"></div></article>
+          <article class="feature-card card"><h3>Continue Learning</h3><div id="continue-learning"></div></article>
         </div>
       </section>
 
       <section id="screen-learn" class="app-view hidden">
-        <div class="view-header">
-          <div>
-            <span class="mini-label">Learn Screen</span>
-            <h2>Học theo lộ trình</h2>
-          </div>
-          <span class="badge-purple">Unit / Lesson / Quiz / Test</span>
-        </div>
+        <div class="view-header"><div><span class="mini-label">Learn Screen</span><h2>Học theo lộ trình</h2></div><span class="badge-purple">Unit / Lesson / Quiz / Test</span></div>
         <div class="feature-grid two-col" id="learn-modules"></div>
         <div id="chapter-groups" class="stack-grid"></div>
         <div class="section-divider"></div>
-        <div class="view-header">
-          <div><h3>Học nhanh 7 ngày</h3></div>
-        </div>
+        <div class="view-header"><div><h3>Học nhanh 7 ngày</h3></div></div>
         <div id="quick7-grid" class="feature-grid"></div>
         <div class="section-divider"></div>
-        <div class="view-header">
-          <div><h3>Giao tiếp 30 ngày</h3></div>
-        </div>
+        <div class="view-header"><div><h3>Giao tiếp 30 ngày</h3></div></div>
         <div id="speak30-grid" class="feature-grid three-col"></div>
       </section>
 
       <section id="screen-words" class="app-view hidden">
-        <div class="view-header">
-          <div>
-            <span class="mini-label">Words Screen</span>
-            <h2>Từ mới & lĩnh vực</h2>
-          </div>
-          <span class="badge-blue">Flashcards + Topics</span>
+        <div class="view-header"><div><span class="mini-label">Words Screen</span><h2>Từ mới & lĩnh vực</h2></div><span class="badge-blue">Flashcards + Topics</span></div>
+        <div class="feature-grid two-col">
+          <article class="feature-card card"><h3>Từ hôm nay</h3><div id="daily-words-box"></div></article>
+          <article class="feature-card card"><h3>Từ đã lưu</h3><div id="saved-words-box"></div></article>
         </div>
         <div id="topic-groups" class="topic-grid"></div>
         <div id="vocab-list" class="vocab-list spacious"></div>
       </section>
 
       <section id="screen-practice" class="app-view hidden">
-        <div class="view-header">
-          <div>
-            <span class="mini-label">Practice Screen</span>
-            <h2>Luyện tập & kiểm tra</h2>
-          </div>
-          <span class="badge-yellow">Quiz / TOPIK / Review</span>
-        </div>
+        <div class="view-header"><div><span class="mini-label">Practice Screen</span><h2>Luyện tập & kiểm tra</h2></div><span class="badge-yellow">Quiz / TOPIK / Review</span></div>
         <div id="test-cards" class="feature-grid two-col"></div>
         <div class="section-divider"></div>
-        <div class="view-header">
-          <div><h3>Ngữ pháp trọng tâm</h3></div>
-        </div>
+        <div class="view-header"><div><h3>Ngữ pháp trọng tâm</h3></div></div>
         <div id="grammar-sections" class="feature-grid three-col"></div>
         <div class="section-divider"></div>
-        <div class="view-header">
-          <div><h3>Hội thoại thực tế</h3></div>
-        </div>
+        <div class="view-header"><div><h3>Hội thoại thực tế</h3></div></div>
         <div id="dialogue-list" class="stack-grid"></div>
         <div class="section-divider"></div>
-        <div class="view-header">
-          <div><h3>Luyện thi TOPIK</h3></div>
-        </div>
+        <div class="view-header"><div><h3>Luyện thi TOPIK</h3></div></div>
         <div id="topik-grid" class="feature-grid three-col"></div>
         <div class="section-divider"></div>
         <div class="card quiz-section">
-          <div class="view-header compact">
-            <div><h3>Mini quiz mẫu</h3><p class="muted">Trải nghiệm ngay trong màn Practice.</p></div>
-          </div>
+          <div class="view-header compact"><div><h3>Mini quiz mẫu</h3><p class="muted">Bộ đề xoay theo ngày.</p></div></div>
           <form id="quiz-form" class="quiz-form"></form>
           <button id="submit-quiz" class="primary-btn">Nộp bài</button>
           <div id="quiz-result" class="quiz-result hidden"></div>
@@ -187,13 +154,7 @@
       </section>
 
       <section id="screen-profile" class="app-view hidden">
-        <div class="view-header">
-          <div>
-            <span class="mini-label">Profile Screen</span>
-            <h2>Hồ sơ học tập</h2>
-          </div>
-          <span class="badge-green">My Progress</span>
-        </div>
+        <div class="view-header"><div><span class="mini-label">Profile Screen</span><h2>Hồ sơ học tập</h2></div><span class="badge-green">My Progress</span></div>
         <div class="feature-grid two-col">
           <article class="feature-card card"><h3>Mục tiêu học</h3><p id="profile-goal">Giao tiếp hằng ngày</p></article>
           <article class="feature-card card"><h3>Tổng XP</h3><p id="profile-xp">0 XP</p></article>

@@ -121,7 +121,14 @@
             "Hangul",
             "phát âm",
             "đọc đúng"
-          ]
+          ],
+          "lessons": [
+            "Unit 0 - Hangul cơ bản - Bài 1",
+            "Unit 0 - Hangul cơ bản - Bài 2",
+            "Unit 0 - Hangul cơ bản - Bài 3",
+            "Unit 0 - Hangul cơ bản - Bài 4"
+          ],
+          "quizCount": 4
         },
         {
           "title": "Unit 1 - Chào hỏi & giới thiệu bản thân",
@@ -130,7 +137,14 @@
             "chào hỏi",
             "giới thiệu",
             "lịch sự"
-          ]
+          ],
+          "lessons": [
+            "Unit 1 - Chào hỏi & giới thiệu bản thân - Bài 1",
+            "Unit 1 - Chào hỏi & giới thiệu bản thân - Bài 2",
+            "Unit 1 - Chào hỏi & giới thiệu bản thân - Bài 3",
+            "Unit 1 - Chào hỏi & giới thiệu bản thân - Bài 4"
+          ],
+          "quizCount": 4
         },
         {
           "title": "Unit 2 - Số đếm, ngày tháng, giờ giấc",
@@ -139,7 +153,14 @@
             "số đếm",
             "ngày",
             "thời gian"
-          ]
+          ],
+          "lessons": [
+            "Unit 2 - Số đếm, ngày tháng, giờ giấc - Bài 1",
+            "Unit 2 - Số đếm, ngày tháng, giờ giấc - Bài 2",
+            "Unit 2 - Số đếm, ngày tháng, giờ giấc - Bài 3",
+            "Unit 2 - Số đếm, ngày tháng, giờ giấc - Bài 4"
+          ],
+          "quizCount": 4
         }
       ]
     },
@@ -153,7 +174,14 @@
             "cơ bản",
             "mẫu câu",
             "ví dụ"
-          ]
+          ],
+          "lessons": [
+            "Unit 3 - Ngữ pháp cơ bản - Bài 1",
+            "Unit 3 - Ngữ pháp cơ bản - Bài 2",
+            "Unit 3 - Ngữ pháp cơ bản - Bài 3",
+            "Unit 3 - Ngữ pháp cơ bản - Bài 4"
+          ],
+          "quizCount": 4
         },
         {
           "title": "Unit 4 - Ngữ pháp trung cấp",
@@ -162,7 +190,14 @@
             "trung cấp",
             "lý do",
             "kế hoạch"
-          ]
+          ],
+          "lessons": [
+            "Unit 4 - Ngữ pháp trung cấp - Bài 1",
+            "Unit 4 - Ngữ pháp trung cấp - Bài 2",
+            "Unit 4 - Ngữ pháp trung cấp - Bài 3",
+            "Unit 4 - Ngữ pháp trung cấp - Bài 4"
+          ],
+          "quizCount": 4
         },
         {
           "title": "Unit 5 - Ngữ pháp nâng cao",
@@ -171,7 +206,14 @@
             "nâng cao",
             "suy đoán",
             "cam kết"
-          ]
+          ],
+          "lessons": [
+            "Unit 5 - Ngữ pháp nâng cao - Bài 1",
+            "Unit 5 - Ngữ pháp nâng cao - Bài 2",
+            "Unit 5 - Ngữ pháp nâng cao - Bài 3",
+            "Unit 5 - Ngữ pháp nâng cao - Bài 4"
+          ],
+          "quizCount": 4
         }
       ]
     },
@@ -185,7 +227,14 @@
             "đời sống",
             "mua sắm",
             "trường học"
-          ]
+          ],
+          "lessons": [
+            "Unit 6 - Ăn uống, mua sắm, trường học - Bài 1",
+            "Unit 6 - Ăn uống, mua sắm, trường học - Bài 2",
+            "Unit 6 - Ăn uống, mua sắm, trường học - Bài 3",
+            "Unit 6 - Ăn uống, mua sắm, trường học - Bài 4"
+          ],
+          "quizCount": 4
         },
         {
           "title": "Unit 7 - Du lịch & hỏi đường",
@@ -194,7 +243,14 @@
             "du lịch",
             "sân bay",
             "khách sạn"
-          ]
+          ],
+          "lessons": [
+            "Unit 7 - Du lịch & hỏi đường - Bài 1",
+            "Unit 7 - Du lịch & hỏi đường - Bài 2",
+            "Unit 7 - Du lịch & hỏi đường - Bài 3",
+            "Unit 7 - Du lịch & hỏi đường - Bài 4"
+          ],
+          "quizCount": 4
         },
         {
           "title": "Unit 8 - Công việc & giao tiếp xã hội",
@@ -203,7 +259,14 @@
             "công việc",
             "meeting",
             "xã giao"
-          ]
+          ],
+          "lessons": [
+            "Unit 8 - Công việc & giao tiếp xã hội - Bài 1",
+            "Unit 8 - Công việc & giao tiếp xã hội - Bài 2",
+            "Unit 8 - Công việc & giao tiếp xã hội - Bài 3",
+            "Unit 8 - Công việc & giao tiếp xã hội - Bài 4"
+          ],
+          "quizCount": 4
         }
       ]
     }
@@ -1167,6 +1230,1563 @@
       "vietnamesePronunciation": "me-chul",
       "meaning": "Doanh thu",
       "context": "Kinh doanh"
+    },
+    {
+      "level": "beginner",
+      "topic": "daily",
+      "korean": "장소",
+      "romanized": "장소",
+      "vietnamesePronunciation": "장소",
+      "meaning": "bàn",
+      "context": "Từ vựng chủ đề daily dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "daily",
+      "korean": "일상",
+      "romanized": "일상",
+      "vietnamesePronunciation": "일상",
+      "meaning": "phòng",
+      "context": "Từ vựng chủ đề daily dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "daily",
+      "korean": "생활",
+      "romanized": "생활",
+      "vietnamesePronunciation": "생활",
+      "meaning": "cửa sổ",
+      "context": "Từ vựng chủ đề daily dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "daily",
+      "korean": "방",
+      "romanized": "방",
+      "vietnamesePronunciation": "방",
+      "meaning": "giường",
+      "context": "Từ vựng chủ đề daily dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "daily",
+      "korean": "창문",
+      "romanized": "창문",
+      "vietnamesePronunciation": "창문",
+      "meaning": "bữa trưa",
+      "context": "Từ vựng chủ đề daily dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "daily",
+      "korean": "침대",
+      "romanized": "침대",
+      "vietnamesePronunciation": "침대",
+      "meaning": "buổi tối",
+      "context": "Từ vựng chủ đề daily dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "daily",
+      "korean": "점심",
+      "romanized": "점심",
+      "vietnamesePronunciation": "점심",
+      "meaning": "đường phố",
+      "context": "Từ vựng chủ đề daily dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "daily",
+      "korean": "저녁",
+      "romanized": "저녁",
+      "vietnamesePronunciation": "저녁",
+      "meaning": "khu phố",
+      "context": "Từ vựng chủ đề daily dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "daily",
+      "korean": "거리",
+      "romanized": "거리",
+      "vietnamesePronunciation": "거리",
+      "meaning": "nhà bếp",
+      "context": "Từ vựng chủ đề daily dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "daily",
+      "korean": "주방",
+      "romanized": "주방",
+      "vietnamesePronunciation": "주방",
+      "meaning": "phòng tắm",
+      "context": "Từ vựng chủ đề daily dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "daily",
+      "korean": "욕실",
+      "romanized": "욕실",
+      "vietnamesePronunciation": "욕실",
+      "meaning": "quần áo",
+      "context": "Từ vựng chủ đề daily dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "daily",
+      "korean": "옷",
+      "romanized": "옷",
+      "vietnamesePronunciation": "옷",
+      "meaning": "giày dép",
+      "context": "Từ vựng chủ đề daily dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "daily",
+      "korean": "신발",
+      "romanized": "신발",
+      "vietnamesePronunciation": "신발",
+      "meaning": "thức ăn",
+      "context": "Từ vựng chủ đề daily dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "daily",
+      "korean": "음식",
+      "romanized": "음식",
+      "vietnamesePronunciation": "음식",
+      "meaning": "đồ uống",
+      "context": "Từ vựng chủ đề daily dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "daily",
+      "korean": "음료",
+      "romanized": "음료",
+      "vietnamesePronunciation": "음료",
+      "meaning": "thói quen",
+      "context": "Từ vựng chủ đề daily dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "school",
+      "korean": "습관",
+      "romanized": "습관",
+      "vietnamesePronunciation": "습관",
+      "meaning": "bài kiểm tra",
+      "context": "Từ vựng chủ đề school dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "school",
+      "korean": "시험",
+      "romanized": "시험",
+      "vietnamesePronunciation": "시험",
+      "meaning": "ghi chú",
+      "context": "Từ vựng chủ đề school dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "school",
+      "korean": "노트",
+      "romanized": "노트",
+      "vietnamesePronunciation": "노트",
+      "meaning": "vở",
+      "context": "Từ vựng chủ đề school dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "school",
+      "korean": "공책",
+      "romanized": "공책",
+      "vietnamesePronunciation": "공책",
+      "meaning": "bút",
+      "context": "Từ vựng chủ đề school dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "school",
+      "korean": "펜",
+      "romanized": "펜",
+      "vietnamesePronunciation": "펜",
+      "meaning": "lớp trưởng",
+      "context": "Từ vựng chủ đề school dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "school",
+      "korean": "반장",
+      "romanized": "반장",
+      "vietnamesePronunciation": "반장",
+      "meaning": "môn toán",
+      "context": "Từ vựng chủ đề school dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "school",
+      "korean": "수학",
+      "romanized": "수학",
+      "vietnamesePronunciation": "수학",
+      "meaning": "môn văn",
+      "context": "Từ vựng chủ đề school dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "school",
+      "korean": "문학",
+      "romanized": "문학",
+      "vietnamesePronunciation": "문학",
+      "meaning": "môn tiếng Hàn",
+      "context": "Từ vựng chủ đề school dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "school",
+      "korean": "한국어",
+      "romanized": "한국어",
+      "vietnamesePronunciation": "한국어",
+      "meaning": "giờ ra chơi",
+      "context": "Từ vựng chủ đề school dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "school",
+      "korean": "쉬는 시간",
+      "romanized": "쉬는 시간",
+      "vietnamesePronunciation": "쉬는 시간",
+      "meaning": "học kỳ",
+      "context": "Từ vựng chủ đề school dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "school",
+      "korean": "학기",
+      "romanized": "학기",
+      "vietnamesePronunciation": "학기",
+      "meaning": "điểm số",
+      "context": "Từ vựng chủ đề school dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "school",
+      "korean": "점수",
+      "romanized": "점수",
+      "vietnamesePronunciation": "점수",
+      "meaning": "bài giảng",
+      "context": "Từ vựng chủ đề school dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "school",
+      "korean": "강의",
+      "romanized": "강의",
+      "vietnamesePronunciation": "강의",
+      "meaning": "học nhóm",
+      "context": "Từ vựng chủ đề school dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "school",
+      "korean": "스터디",
+      "romanized": "스터디",
+      "vietnamesePronunciation": "스터디",
+      "meaning": "giải lao",
+      "context": "Từ vựng chủ đề school dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "school",
+      "korean": "휴식",
+      "romanized": "휴식",
+      "vietnamesePronunciation": "휴식",
+      "meaning": "lịch học",
+      "context": "Từ vựng chủ đề school dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "work",
+      "korean": "시간표",
+      "romanized": "시간표",
+      "vietnamesePronunciation": "시간표",
+      "meaning": "đồng nghiệp",
+      "context": "Từ vựng chủ đề work dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "work",
+      "korean": "동료",
+      "romanized": "동료",
+      "vietnamesePronunciation": "동료",
+      "meaning": "giám đốc",
+      "context": "Từ vựng chủ đề work dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "work",
+      "korean": "사장님",
+      "romanized": "사장님",
+      "vietnamesePronunciation": "사장님",
+      "meaning": "nhân viên",
+      "context": "Từ vựng chủ đề work dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "work",
+      "korean": "직원",
+      "romanized": "직원",
+      "vietnamesePronunciation": "직원",
+      "meaning": "nhiệm vụ",
+      "context": "Từ vựng chủ đề work dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "work",
+      "korean": "업무",
+      "romanized": "업무",
+      "vietnamesePronunciation": "업무",
+      "meaning": "kế hoạch",
+      "context": "Từ vựng chủ đề work dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "work",
+      "korean": "계획",
+      "romanized": "계획",
+      "vietnamesePronunciation": "계획",
+      "meaning": "báo cáo tuần",
+      "context": "Từ vựng chủ đề work dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "work",
+      "korean": "주간 보고서",
+      "romanized": "주간 보고서",
+      "vietnamesePronunciation": "주간 보고서",
+      "meaning": "cuộc gọi",
+      "context": "Từ vựng chủ đề work dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "work",
+      "korean": "전화",
+      "romanized": "전화",
+      "vietnamesePronunciation": "전화",
+      "meaning": "khách hàng",
+      "context": "Từ vựng chủ đề work dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "work",
+      "korean": "회의실",
+      "romanized": "회의실",
+      "vietnamesePronunciation": "회의실",
+      "meaning": "email",
+      "context": "Từ vựng chủ đề work dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "work",
+      "korean": "이메일",
+      "romanized": "이메일",
+      "vietnamesePronunciation": "이메일",
+      "meaning": "tài liệu",
+      "context": "Từ vựng chủ đề work dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "work",
+      "korean": "자료",
+      "romanized": "자료",
+      "vietnamesePronunciation": "자료",
+      "meaning": "xác nhận",
+      "context": "Từ vựng chủ đề work dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "work",
+      "korean": "확인",
+      "romanized": "확인",
+      "vietnamesePronunciation": "확인",
+      "meaning": "tiến độ",
+      "context": "Từ vựng chủ đề work dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "work",
+      "korean": "진행",
+      "romanized": "진행",
+      "vietnamesePronunciation": "진행",
+      "meaning": "dự án",
+      "context": "Từ vựng chủ đề work dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "work",
+      "korean": "프로젝트",
+      "romanized": "프로젝트",
+      "vietnamesePronunciation": "프로젝트",
+      "meaning": "hạn nộp",
+      "context": "Từ vựng chủ đề work dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "restaurant",
+      "korean": "마감일",
+      "romanized": "마감일",
+      "vietnamesePronunciation": "마감일",
+      "meaning": "món chính",
+      "context": "Từ vựng chủ đề restaurant dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "restaurant",
+      "korean": "메인 요리",
+      "romanized": "메인 요리",
+      "vietnamesePronunciation": "메인 요리",
+      "meaning": "món phụ",
+      "context": "Từ vựng chủ đề restaurant dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "restaurant",
+      "korean": "반찬",
+      "romanized": "반찬",
+      "vietnamesePronunciation": "반찬",
+      "meaning": "canh",
+      "context": "Từ vựng chủ đề restaurant dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "restaurant",
+      "korean": "국",
+      "romanized": "국",
+      "vietnamesePronunciation": "국",
+      "meaning": "kimchi",
+      "context": "Từ vựng chủ đề restaurant dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "restaurant",
+      "korean": "김치",
+      "romanized": "김치",
+      "vietnamesePronunciation": "김치",
+      "meaning": "thịt nướng",
+      "context": "Từ vựng chủ đề restaurant dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "restaurant",
+      "korean": "불고기",
+      "romanized": "불고기",
+      "vietnamesePronunciation": "불고기",
+      "meaning": "đặt bàn",
+      "context": "Từ vựng chủ đề restaurant dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "restaurant",
+      "korean": "예약",
+      "romanized": "예약",
+      "vietnamesePronunciation": "예약",
+      "meaning": "muỗng",
+      "context": "Từ vựng chủ đề restaurant dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "restaurant",
+      "korean": "숟가락",
+      "romanized": "숟가락",
+      "vietnamesePronunciation": "숟가락",
+      "meaning": "đũa",
+      "context": "Từ vựng chủ đề restaurant dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "restaurant",
+      "korean": "젓가락",
+      "romanized": "젓가락",
+      "vietnamesePronunciation": "젓가락",
+      "meaning": "nhà bếp",
+      "context": "Từ vựng chủ đề restaurant dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "restaurant",
+      "korean": "결제",
+      "romanized": "결제",
+      "vietnamesePronunciation": "결제",
+      "meaning": "đồ cay",
+      "context": "Từ vựng chủ đề restaurant dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "restaurant",
+      "korean": "매운 음식",
+      "romanized": "매운 음식",
+      "vietnamesePronunciation": "매운 음식",
+      "meaning": "đồ ngọt",
+      "context": "Từ vựng chủ đề restaurant dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "restaurant",
+      "korean": "디저트",
+      "romanized": "디저트",
+      "vietnamesePronunciation": "디저트",
+      "meaning": "đồ uống lạnh",
+      "context": "Từ vựng chủ đề restaurant dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "restaurant",
+      "korean": "찬 음료",
+      "romanized": "찬 음료",
+      "vietnamesePronunciation": "찬 음료",
+      "meaning": "hóa đơn",
+      "context": "Từ vựng chủ đề restaurant dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "shopping",
+      "korean": "추가 주문",
+      "romanized": "추가 주문",
+      "vietnamesePronunciation": "추가 주문",
+      "meaning": "cửa hàng",
+      "context": "Từ vựng chủ đề shopping dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "shopping",
+      "korean": "매장",
+      "romanized": "매장",
+      "vietnamesePronunciation": "매장",
+      "meaning": "thử đồ",
+      "context": "Từ vựng chủ đề shopping dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "shopping",
+      "korean": "피팅룸",
+      "romanized": "피팅룸",
+      "vietnamesePronunciation": "피팅룸",
+      "meaning": "quầy thu ngân",
+      "context": "Từ vựng chủ đề shopping dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "shopping",
+      "korean": "계산대",
+      "romanized": "계산대",
+      "vietnamesePronunciation": "계산대",
+      "meaning": "tiền mặt",
+      "context": "Từ vựng chủ đề shopping dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "shopping",
+      "korean": "현금",
+      "romanized": "현금",
+      "vietnamesePronunciation": "현금",
+      "meaning": "thẻ",
+      "context": "Từ vựng chủ đề shopping dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "shopping",
+      "korean": "카드",
+      "romanized": "카드",
+      "vietnamesePronunciation": "카드",
+      "meaning": "khuyến mãi",
+      "context": "Từ vựng chủ đề shopping dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "shopping",
+      "korean": "디자인",
+      "romanized": "디자인",
+      "vietnamesePronunciation": "디자인",
+      "meaning": "thương hiệu",
+      "context": "Từ vựng chủ đề shopping dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "shopping",
+      "korean": "브랜드",
+      "romanized": "브랜드",
+      "vietnamesePronunciation": "브랜드",
+      "meaning": "chiếc áo",
+      "context": "Từ vựng chủ đề shopping dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "shopping",
+      "korean": "셔츠",
+      "romanized": "셔츠",
+      "vietnamesePronunciation": "셔츠",
+      "meaning": "quần dài",
+      "context": "Từ vựng chủ đề shopping dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "shopping",
+      "korean": "바지",
+      "romanized": "바지",
+      "vietnamesePronunciation": "바지",
+      "meaning": "giày thể thao",
+      "context": "Từ vựng chủ đề shopping dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "shopping",
+      "korean": "운동화",
+      "romanized": "운동화",
+      "vietnamesePronunciation": "운동화",
+      "meaning": "túi xách",
+      "context": "Từ vựng chủ đề shopping dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "shopping",
+      "korean": "가방",
+      "romanized": "가방",
+      "vietnamesePronunciation": "가방",
+      "meaning": "đổi trả",
+      "context": "Từ vựng chủ đề shopping dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "shopping",
+      "korean": "교환",
+      "romanized": "교환",
+      "vietnamesePronunciation": "교환",
+      "meaning": "sản phẩm",
+      "context": "Từ vựng chủ đề shopping dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "shopping",
+      "korean": "상품",
+      "romanized": "상품",
+      "vietnamesePronunciation": "상품",
+      "meaning": "chất lượng",
+      "context": "Từ vựng chủ đề shopping dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "travel",
+      "korean": "품질",
+      "romanized": "품질",
+      "vietnamesePronunciation": "품질",
+      "meaning": "điểm đến",
+      "context": "Từ vựng chủ đề travel dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "travel",
+      "korean": "목적지",
+      "romanized": "목적지",
+      "vietnamesePronunciation": "목적지",
+      "meaning": "lịch trình",
+      "context": "Từ vựng chủ đề travel dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "travel",
+      "korean": "일정표",
+      "romanized": "일정표",
+      "vietnamesePronunciation": "일정표",
+      "meaning": "hướng dẫn viên",
+      "context": "Từ vựng chủ đề travel dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "travel",
+      "korean": "가이드",
+      "romanized": "가이드",
+      "vietnamesePronunciation": "가이드",
+      "meaning": "vé tàu",
+      "context": "Từ vựng chủ đề travel dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "travel",
+      "korean": "기차표",
+      "romanized": "기차표",
+      "vietnamesePronunciation": "기차표",
+      "meaning": "bãi biển",
+      "context": "Từ vựng chủ đề travel dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "travel",
+      "korean": "바다",
+      "romanized": "바다",
+      "vietnamesePronunciation": "바다",
+      "meaning": "núi",
+      "context": "Từ vựng chủ đề travel dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "travel",
+      "korean": "산",
+      "romanized": "산",
+      "vietnamesePronunciation": "산",
+      "meaning": "bảo tàng",
+      "context": "Từ vựng chủ đề travel dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "travel",
+      "korean": "박물관",
+      "romanized": "박물관",
+      "vietnamesePronunciation": "박물관",
+      "meaning": "công viên",
+      "context": "Từ vựng chủ đề travel dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "travel",
+      "korean": "공원",
+      "romanized": "공원",
+      "vietnamesePronunciation": "공원",
+      "meaning": "tham quan đêm",
+      "context": "Từ vựng chủ đề travel dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "travel",
+      "korean": "야경",
+      "romanized": "야경",
+      "vietnamesePronunciation": "야경",
+      "meaning": "đặt chỗ",
+      "context": "Từ vựng chủ đề travel dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "travel",
+      "korean": "예약석",
+      "romanized": "예약석",
+      "vietnamesePronunciation": "예약석",
+      "meaning": "đồ lưu niệm",
+      "context": "Từ vựng chủ đề travel dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "travel",
+      "korean": "기념품",
+      "romanized": "기념품",
+      "vietnamesePronunciation": "기념품",
+      "meaning": "tour",
+      "context": "Từ vựng chủ đề travel dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "travel",
+      "korean": "투어",
+      "romanized": "투어",
+      "vietnamesePronunciation": "투어",
+      "meaning": "đi bộ",
+      "context": "Từ vựng chủ đề travel dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "travel",
+      "korean": "산책",
+      "romanized": "산책",
+      "vietnamesePronunciation": "산책",
+      "meaning": "xe buýt",
+      "context": "Từ vựng chủ đề travel dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "foundation",
+      "topic": "travel",
+      "korean": "버스",
+      "romanized": "버스",
+      "vietnamesePronunciation": "버스",
+      "meaning": "tàu cao tốc",
+      "context": "Từ vựng chủ đề travel dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "airport",
+      "korean": "고속열차",
+      "romanized": "고속열차",
+      "vietnamesePronunciation": "고속열차",
+      "meaning": "cổng ra máy bay",
+      "context": "Từ vựng chủ đề airport dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "airport",
+      "korean": "탑승구",
+      "romanized": "탑승구",
+      "vietnamesePronunciation": "탑승구",
+      "meaning": "quầy check-in",
+      "context": "Từ vựng chủ đề airport dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "airport",
+      "korean": "체크인 카운터",
+      "romanized": "체크인 카운터",
+      "vietnamesePronunciation": "체크인 카운터",
+      "meaning": "kiểm tra an ninh",
+      "context": "Từ vựng chủ đề airport dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "airport",
+      "korean": "보안 검색",
+      "romanized": "보안 검색",
+      "vietnamesePronunciation": "보안 검색",
+      "meaning": "chuyến bay",
+      "context": "Từ vựng chủ đề airport dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "airport",
+      "korean": "비행편",
+      "romanized": "비행편",
+      "vietnamesePronunciation": "비행편",
+      "meaning": "hạ cánh",
+      "context": "Từ vựng chủ đề airport dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "airport",
+      "korean": "착륙",
+      "romanized": "착륙",
+      "vietnamesePronunciation": "착륙",
+      "meaning": "trì hoãn",
+      "context": "Từ vựng chủ đề airport dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "airport",
+      "korean": "지연",
+      "romanized": "지연",
+      "vietnamesePronunciation": "지연",
+      "meaning": "hành khách",
+      "context": "Từ vựng chủ đề airport dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "airport",
+      "korean": "승객",
+      "romanized": "승객",
+      "vietnamesePronunciation": "승객",
+      "meaning": "hộ chiếu",
+      "context": "Từ vựng chủ đề airport dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "airport",
+      "korean": "왕복표",
+      "romanized": "왕복표",
+      "vietnamesePronunciation": "왕복표",
+      "meaning": "ga đi",
+      "context": "Từ vựng chủ đề airport dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "airport",
+      "korean": "출국장",
+      "romanized": "출국장",
+      "vietnamesePronunciation": "출국장",
+      "meaning": "ga đến",
+      "context": "Từ vựng chủ đề airport dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "airport",
+      "korean": "입국장",
+      "romanized": "입국장",
+      "vietnamesePronunciation": "입국장",
+      "meaning": "vali",
+      "context": "Từ vựng chủ đề airport dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "airport",
+      "korean": "여행가방",
+      "romanized": "여행가방",
+      "vietnamesePronunciation": "여행가방",
+      "meaning": "quá cảnh",
+      "context": "Từ vựng chủ đề airport dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "airport",
+      "korean": "환승",
+      "romanized": "환승",
+      "vietnamesePronunciation": "환승",
+      "meaning": "ghế ngồi",
+      "context": "Từ vựng chủ đề airport dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "airport",
+      "korean": "좌석",
+      "romanized": "좌석",
+      "vietnamesePronunciation": "좌석",
+      "meaning": "máy bay",
+      "context": "Từ vựng chủ đề airport dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "hospital",
+      "korean": "비행기",
+      "romanized": "비행기",
+      "vietnamesePronunciation": "비행기",
+      "meaning": "triệu chứng",
+      "context": "Từ vựng chủ đề hospital dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "hospital",
+      "korean": "증상",
+      "romanized": "증상",
+      "vietnamesePronunciation": "증상",
+      "meaning": "sốt",
+      "context": "Từ vựng chủ đề hospital dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "hospital",
+      "korean": "열",
+      "romanized": "열",
+      "vietnamesePronunciation": "열",
+      "meaning": "đau bụng",
+      "context": "Từ vựng chủ đề hospital dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "hospital",
+      "korean": "복통",
+      "romanized": "복통",
+      "vietnamesePronunciation": "복통",
+      "meaning": "khám tổng quát",
+      "context": "Từ vựng chủ đề hospital dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "hospital",
+      "korean": "건강검진",
+      "romanized": "건강검진",
+      "vietnamesePronunciation": "건강검진",
+      "meaning": "y tá",
+      "context": "Từ vựng chủ đề hospital dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "hospital",
+      "korean": "간호사",
+      "romanized": "간호사",
+      "vietnamesePronunciation": "간호사",
+      "meaning": "toa thuốc",
+      "context": "Từ vựng chủ đề hospital dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "hospital",
+      "korean": "처방전",
+      "romanized": "처방전",
+      "vietnamesePronunciation": "처방전",
+      "meaning": "bệnh nhân",
+      "context": "Từ vựng chủ đề hospital dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "hospital",
+      "korean": "환자",
+      "romanized": "환자",
+      "vietnamesePronunciation": "환자",
+      "meaning": "khẩn cấp",
+      "context": "Từ vựng chủ đề hospital dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "hospital",
+      "korean": "응급",
+      "romanized": "응급",
+      "vietnamesePronunciation": "응급",
+      "meaning": "đặt lịch khám",
+      "context": "Từ vựng chủ đề hospital dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "hospital",
+      "korean": "진료 예약",
+      "romanized": "진료 예약",
+      "vietnamesePronunciation": "진료 예약",
+      "meaning": "nhiệt độ",
+      "context": "Từ vựng chủ đề hospital dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "hospital",
+      "korean": "체온",
+      "romanized": "체온",
+      "vietnamesePronunciation": "체온",
+      "meaning": "ho",
+      "context": "Từ vựng chủ đề hospital dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "hospital",
+      "korean": "기침",
+      "romanized": "기침",
+      "vietnamesePronunciation": "기침",
+      "meaning": "đau họng",
+      "context": "Từ vựng chủ đề hospital dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "hospital",
+      "korean": "목 통증",
+      "romanized": "목 통증",
+      "vietnamesePronunciation": "목 통증",
+      "meaning": "mệt mỏi",
+      "context": "Từ vựng chủ đề hospital dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "hospital",
+      "korean": "피곤함",
+      "romanized": "피곤함",
+      "vietnamesePronunciation": "피곤함",
+      "meaning": "dị ứng",
+      "context": "Từ vựng chủ đề hospital dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "hospital",
+      "korean": "알레르기",
+      "romanized": "알레르기",
+      "vietnamesePronunciation": "알레르기",
+      "meaning": "phòng khám",
+      "context": "Từ vựng chủ đề hospital dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "feelings",
+      "korean": "클리닉",
+      "romanized": "클리닉",
+      "vietnamesePronunciation": "클리닉",
+      "meaning": "háo hức",
+      "context": "Từ vựng chủ đề feelings dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "feelings",
+      "korean": "신남",
+      "romanized": "신남",
+      "vietnamesePronunciation": "신남",
+      "meaning": "thất vọng",
+      "context": "Từ vựng chủ đề feelings dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "feelings",
+      "korean": "실망",
+      "romanized": "실망",
+      "vietnamesePronunciation": "실망",
+      "meaning": "xấu hổ",
+      "context": "Từ vựng chủ đề feelings dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "feelings",
+      "korean": "부끄러움",
+      "romanized": "부끄러움",
+      "vietnamesePronunciation": "부끄러움",
+      "meaning": "bình tĩnh",
+      "context": "Từ vựng chủ đề feelings dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "feelings",
+      "korean": "차분함",
+      "romanized": "차분함",
+      "vietnamesePronunciation": "차분함",
+      "meaning": "biết ơn",
+      "context": "Từ vựng chủ đề feelings dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "feelings",
+      "korean": "감사함",
+      "romanized": "감사함",
+      "vietnamesePronunciation": "감사함",
+      "meaning": "căng thẳng",
+      "context": "Từ vựng chủ đề feelings dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "feelings",
+      "korean": "스트레스",
+      "romanized": "스트레스",
+      "vietnamesePronunciation": "스트레스",
+      "meaning": "lo lắng",
+      "context": "Từ vựng chủ đề feelings dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "feelings",
+      "korean": "걱정",
+      "romanized": "걱정",
+      "vietnamesePronunciation": "걱정",
+      "meaning": "thoải mái",
+      "context": "Từ vựng chủ đề feelings dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "feelings",
+      "korean": "편안함",
+      "romanized": "편안함",
+      "vietnamesePronunciation": "편안함",
+      "meaning": "tự tin",
+      "context": "Từ vựng chủ đề feelings dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "feelings",
+      "korean": "자신감",
+      "romanized": "자신감",
+      "vietnamesePronunciation": "자신감",
+      "meaning": "hồi hộp",
+      "context": "Từ vựng chủ đề feelings dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "feelings",
+      "korean": "두근거림",
+      "romanized": "두근거림",
+      "vietnamesePronunciation": "두근거림",
+      "meaning": "chán nản",
+      "context": "Từ vựng chủ đề feelings dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "feelings",
+      "korean": "지루함",
+      "romanized": "지루함",
+      "vietnamesePronunciation": "지루함",
+      "meaning": "ngạc nhiên",
+      "context": "Từ vựng chủ đề feelings dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "feelings",
+      "korean": "놀람",
+      "romanized": "놀람",
+      "vietnamesePronunciation": "놀람",
+      "meaning": "vui vẻ",
+      "context": "Từ vựng chủ đề feelings dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "feelings",
+      "korean": "즐거움",
+      "romanized": "즐거움",
+      "vietnamesePronunciation": "즐거움",
+      "meaning": "ấm áp",
+      "context": "Từ vựng chủ đề feelings dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "intermediate",
+      "topic": "feelings",
+      "korean": "따뜻함",
+      "romanized": "따뜻함",
+      "vietnamesePronunciation": "따뜻함",
+      "meaning": "dễ chịu",
+      "context": "Từ vựng chủ đề feelings dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "family",
+      "korean": "쾌적함",
+      "romanized": "쾌적함",
+      "vietnamesePronunciation": "쾌적함",
+      "meaning": "ông",
+      "context": "Từ vựng chủ đề family dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "family",
+      "korean": "할아버지",
+      "romanized": "할아버지",
+      "vietnamesePronunciation": "할아버지",
+      "meaning": "bà",
+      "context": "Từ vựng chủ đề family dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "family",
+      "korean": "할머니",
+      "romanized": "할머니",
+      "vietnamesePronunciation": "할머니",
+      "meaning": "cháu",
+      "context": "Từ vựng chủ đề family dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "family",
+      "korean": "손자",
+      "romanized": "손자",
+      "vietnamesePronunciation": "손자",
+      "meaning": "con trai",
+      "context": "Từ vựng chủ đề family dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "family",
+      "korean": "아들",
+      "romanized": "아들",
+      "vietnamesePronunciation": "아들",
+      "meaning": "con gái",
+      "context": "Từ vựng chủ đề family dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "family",
+      "korean": "딸",
+      "romanized": "딸",
+      "vietnamesePronunciation": "딸",
+      "meaning": "vợ",
+      "context": "Từ vựng chủ đề family dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "family",
+      "korean": "아내",
+      "romanized": "아내",
+      "vietnamesePronunciation": "아내",
+      "meaning": "chồng",
+      "context": "Từ vựng chủ đề family dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "family",
+      "korean": "남편",
+      "romanized": "남편",
+      "vietnamesePronunciation": "남편",
+      "meaning": "cô",
+      "context": "Từ vựng chủ đề family dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "family",
+      "korean": "이모",
+      "romanized": "이모",
+      "vietnamesePronunciation": "이모",
+      "meaning": "dì",
+      "context": "Từ vựng chủ đề family dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "family",
+      "korean": "고모",
+      "romanized": "고모",
+      "vietnamesePronunciation": "고모",
+      "meaning": "chú",
+      "context": "Từ vựng chủ đề family dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "family",
+      "korean": "삼촌",
+      "romanized": "삼촌",
+      "vietnamesePronunciation": "삼촌",
+      "meaning": "bác",
+      "context": "Từ vựng chủ đề family dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "family",
+      "korean": "큰아버지",
+      "romanized": "큰아버지",
+      "vietnamesePronunciation": "큰아버지",
+      "meaning": "anh họ",
+      "context": "Từ vựng chủ đề family dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "family",
+      "korean": "사촌 형",
+      "romanized": "사촌 형",
+      "vietnamesePronunciation": "사촌 형",
+      "meaning": "chị họ",
+      "context": "Từ vựng chủ đề family dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "beginner",
+      "topic": "family",
+      "korean": "사촌 누나",
+      "romanized": "사촌 누나",
+      "vietnamesePronunciation": "사촌 누나",
+      "meaning": "người thân",
+      "context": "Từ vựng chủ đề family dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "advanced",
+      "topic": "tech",
+      "korean": "대가족",
+      "romanized": "대가족",
+      "vietnamesePronunciation": "대가족",
+      "meaning": "ứng dụng",
+      "context": "Từ vựng chủ đề tech dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "advanced",
+      "topic": "tech",
+      "korean": "앱",
+      "romanized": "앱",
+      "vietnamesePronunciation": "앱",
+      "meaning": "mật khẩu",
+      "context": "Từ vựng chủ đề tech dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "advanced",
+      "topic": "tech",
+      "korean": "비밀번호",
+      "romanized": "비밀번호",
+      "vietnamesePronunciation": "비밀번호",
+      "meaning": "đăng nhập",
+      "context": "Từ vựng chủ đề tech dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "advanced",
+      "topic": "tech",
+      "korean": "로그인",
+      "romanized": "로그인",
+      "vietnamesePronunciation": "로그인",
+      "meaning": "đăng xuất",
+      "context": "Từ vựng chủ đề tech dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "advanced",
+      "topic": "tech",
+      "korean": "로그아웃",
+      "romanized": "로그아웃",
+      "vietnamesePronunciation": "로그아웃",
+      "meaning": "tải xuống",
+      "context": "Từ vựng chủ đề tech dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "advanced",
+      "topic": "tech",
+      "korean": "다운로드",
+      "romanized": "다운로드",
+      "vietnamesePronunciation": "다운로드",
+      "meaning": "tệp đính kèm",
+      "context": "Từ vựng chủ đề tech dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "advanced",
+      "topic": "tech",
+      "korean": "첨부파일",
+      "romanized": "첨부파일",
+      "vietnamesePronunciation": "첨부파일",
+      "meaning": "màn hình",
+      "context": "Từ vựng chủ đề tech dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "advanced",
+      "topic": "tech",
+      "korean": "화면",
+      "romanized": "화면",
+      "vietnamesePronunciation": "화면",
+      "meaning": "bàn phím",
+      "context": "Từ vựng chủ đề tech dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "advanced",
+      "topic": "tech",
+      "korean": "키보드",
+      "romanized": "키보드",
+      "vietnamesePronunciation": "키보드",
+      "meaning": "chuột",
+      "context": "Từ vựng chủ đề tech dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "advanced",
+      "topic": "tech",
+      "korean": "마우스",
+      "romanized": "마우스",
+      "vietnamesePronunciation": "마우스",
+      "meaning": "trình duyệt",
+      "context": "Từ vựng chủ đề tech dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "advanced",
+      "topic": "tech",
+      "korean": "브라우저",
+      "romanized": "브라우저",
+      "vietnamesePronunciation": "브라우저",
+      "meaning": "trang web",
+      "context": "Từ vựng chủ đề tech dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "advanced",
+      "topic": "tech",
+      "korean": "웹사이트",
+      "romanized": "웹사이트",
+      "vietnamesePronunciation": "웹사이트",
+      "meaning": "cài đặt",
+      "context": "Từ vựng chủ đề tech dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "advanced",
+      "topic": "tech",
+      "korean": "설정",
+      "romanized": "설정",
+      "vietnamesePronunciation": "설정",
+      "meaning": "thiết bị",
+      "context": "Từ vựng chủ đề tech dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "advanced",
+      "topic": "tech",
+      "korean": "기기",
+      "romanized": "기기",
+      "vietnamesePronunciation": "기기",
+      "meaning": "pin",
+      "context": "Từ vựng chủ đề tech dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "advanced",
+      "topic": "tech",
+      "korean": "배터리",
+      "romanized": "배터리",
+      "vietnamesePronunciation": "배터리",
+      "meaning": "sạc",
+      "context": "Từ vựng chủ đề tech dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "advanced",
+      "topic": "business",
+      "korean": "충전기",
+      "romanized": "충전기",
+      "vietnamesePronunciation": "충전기",
+      "meaning": "lợi nhuận",
+      "context": "Từ vựng chủ đề business dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "advanced",
+      "topic": "business",
+      "korean": "이익",
+      "romanized": "이익",
+      "vietnamesePronunciation": "이익",
+      "meaning": "ngân sách",
+      "context": "Từ vựng chủ đề business dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "advanced",
+      "topic": "business",
+      "korean": "예산",
+      "romanized": "예산",
+      "vietnamesePronunciation": "예산",
+      "meaning": "đầu tư",
+      "context": "Từ vựng chủ đề business dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "advanced",
+      "topic": "business",
+      "korean": "투자",
+      "romanized": "투자",
+      "vietnamesePronunciation": "투자",
+      "meaning": "đề xuất",
+      "context": "Từ vựng chủ đề business dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "advanced",
+      "topic": "business",
+      "korean": "제안",
+      "romanized": "제안",
+      "vietnamesePronunciation": "제안",
+      "meaning": "báo giá",
+      "context": "Từ vựng chủ đề business dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "advanced",
+      "topic": "business",
+      "korean": "견적",
+      "romanized": "견적",
+      "vietnamesePronunciation": "견적",
+      "meaning": "hợp tác",
+      "context": "Từ vựng chủ đề business dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "advanced",
+      "topic": "business",
+      "korean": "협력",
+      "romanized": "협력",
+      "vietnamesePronunciation": "협력",
+      "meaning": "thị trường",
+      "context": "Từ vựng chủ đề business dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "advanced",
+      "topic": "business",
+      "korean": "시장",
+      "romanized": "시장",
+      "vietnamesePronunciation": "시장",
+      "meaning": "thương lượng",
+      "context": "Từ vựng chủ đề business dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "advanced",
+      "topic": "business",
+      "korean": "협상",
+      "romanized": "협상",
+      "vietnamesePronunciation": "협상",
+      "meaning": "phân tích",
+      "context": "Từ vựng chủ đề business dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "advanced",
+      "topic": "business",
+      "korean": "분석",
+      "romanized": "분석",
+      "vietnamesePronunciation": "분석",
+      "meaning": "kết quả",
+      "context": "Từ vựng chủ đề business dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "advanced",
+      "topic": "business",
+      "korean": "결과",
+      "romanized": "결과",
+      "vietnamesePronunciation": "결과",
+      "meaning": "chi phí",
+      "context": "Từ vựng chủ đề business dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "advanced",
+      "topic": "business",
+      "korean": "비용",
+      "romanized": "비용",
+      "vietnamesePronunciation": "비용",
+      "meaning": "doanh số",
+      "context": "Từ vựng chủ đề business dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "advanced",
+      "topic": "business",
+      "korean": "매출액",
+      "romanized": "매출액",
+      "vietnamesePronunciation": "매출액",
+      "meaning": "hội nghị",
+      "context": "Từ vựng chủ đề business dùng trong ngữ cảnh thực tế."
+    },
+    {
+      "level": "advanced",
+      "topic": "business",
+      "korean": "파트너",
+      "romanized": "파트너",
+      "vietnamesePronunciation": "파트너",
+      "meaning": "thỏa thuận",
+      "context": "Từ vựng chủ đề business dùng trong ngữ cảnh thực tế."
     }
   ],
   "grammar": {
@@ -1966,25 +3586,1541 @@
         "슬퍼요"
       ],
       "answer": "편해요"
+    },
+    {
+      "id": 224,
+      "level": "beginner",
+      "question": "Từ '안녕하세요' có nghĩa là gì?",
+      "options": [
+        "Hóa đơn",
+        "bàn",
+        "kimchi",
+        "Xin chào"
+      ],
+      "answer": "Xin chào"
+    },
+    {
+      "id": 225,
+      "level": "beginner",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Xin chào'",
+      "options": [
+        "방",
+        "사촌 형",
+        "안녕하세요",
+        "걱정"
+      ],
+      "answer": "안녕하세요"
+    },
+    {
+      "id": 226,
+      "level": "beginner",
+      "question": "Từ '감사합니다' có nghĩa là gì?",
+      "options": [
+        "cháu",
+        "lo lắng",
+        "quần áo",
+        "Cảm ơn"
+      ],
+      "answer": "Cảm ơn"
+    },
+    {
+      "id": 227,
+      "level": "beginner",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Cảm ơn'",
+      "options": [
+        "집",
+        "감사합니다",
+        "프로그램",
+        "배터리"
+      ],
+      "answer": "감사합니다"
+    },
+    {
+      "id": 228,
+      "level": "beginner",
+      "question": "Từ '가족' có nghĩa là gì?",
+      "options": [
+        "phân tích",
+        "Gia đình",
+        "khách hàng",
+        "bàn phím"
+      ],
+      "answer": "Gia đình"
+    },
+    {
+      "id": 229,
+      "level": "beginner",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Gia đình'",
+      "options": [
+        "매장",
+        "사장님",
+        "가족",
+        "안녕하세요"
+      ],
+      "answer": "가족"
+    },
+    {
+      "id": 230,
+      "level": "beginner",
+      "question": "Từ '학교' có nghĩa là gì?",
+      "options": [
+        "khám tổng quát",
+        "cửa hàng",
+        "hướng dẫn viên",
+        "Trường học"
+      ],
+      "answer": "Trường học"
+    },
+    {
+      "id": 231,
+      "level": "beginner",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Trường học'",
+      "options": [
+        "학교",
+        "선생님",
+        "다운로드",
+        "계약"
+      ],
+      "answer": "학교"
+    },
+    {
+      "id": 232,
+      "level": "foundation",
+      "question": "Từ '비빔밥' có nghĩa là gì?",
+      "options": [
+        "Chương trình",
+        "đồ uống",
+        "Tôi buồn",
+        "Cơm trộn"
+      ],
+      "answer": "Cơm trộn"
+    },
+    {
+      "id": 233,
+      "level": "foundation",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Cơm trộn'",
+      "options": [
+        "비빔밥",
+        "좌석",
+        "일정표",
+        "배터리"
+      ],
+      "answer": "비빔밥"
+    },
+    {
+      "id": 234,
+      "level": "foundation",
+      "question": "Từ '얼마예요?' có nghĩa là gì?",
+      "options": [
+        "Khám bệnh",
+        "Học sinh",
+        "Bao nhiêu tiền?",
+        "kế hoạch"
+      ],
+      "answer": "Bao nhiêu tiền?"
+    },
+    {
+      "id": 235,
+      "level": "foundation",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Bao nhiêu tiền?'",
+      "options": [
+        "얼마예요?",
+        "입국장",
+        "탑승권",
+        "왕복표"
+      ],
+      "answer": "얼마예요?"
+    },
+    {
+      "id": 236,
+      "level": "foundation",
+      "question": "Từ '숙제' có nghĩa là gì?",
+      "options": [
+        "bút",
+        "Bài tập về nhà",
+        "biết ơn",
+        "Tôi hạnh phúc"
+      ],
+      "answer": "Bài tập về nhà"
+    },
+    {
+      "id": 237,
+      "level": "foundation",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Bài tập về nhà'",
+      "options": [
+        "브라우저",
+        "숙제",
+        "음식",
+        "걱정돼요"
+      ],
+      "answer": "숙제"
+    },
+    {
+      "id": 238,
+      "level": "intermediate",
+      "question": "Từ '길을 잃었어요' có nghĩa là gì?",
+      "options": [
+        "thị trường",
+        "giường",
+        "Tôi bị lạc đường",
+        "Thuốc"
+      ],
+      "answer": "Tôi bị lạc đường"
+    },
+    {
+      "id": 239,
+      "level": "intermediate",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Tôi bị lạc đường'",
+      "options": [
+        "이모",
+        "길을 잃었어요",
+        "음료",
+        "수학"
+      ],
+      "answer": "길을 잃었어요"
+    },
+    {
+      "id": 240,
+      "level": "intermediate",
+      "question": "Từ '회의' có nghĩa là gì?",
+      "options": [
+        "hóa đơn",
+        "vali",
+        "Cuộc họp",
+        "quần áo"
+      ],
+      "answer": "Cuộc họp"
+    },
+    {
+      "id": 241,
+      "level": "intermediate",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Cuộc họp'",
+      "options": [
+        "이익",
+        "걱정",
+        "회의",
+        "화면"
+      ],
+      "answer": "회의"
+    },
+    {
+      "id": 242,
+      "level": "intermediate",
+      "question": "Từ '긴장돼요' có nghĩa là gì?",
+      "options": [
+        "bút",
+        "chất lượng",
+        "Trưởng nhóm",
+        "Tôi đang căng thẳng"
+      ],
+      "answer": "Tôi đang căng thẳng"
+    },
+    {
+      "id": 243,
+      "level": "intermediate",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Tôi đang căng thẳng'",
+      "options": [
+        "마감일",
+        "긴장돼요",
+        "피곤함",
+        "시험"
+      ],
+      "answer": "긴장돼요"
+    },
+    {
+      "id": 244,
+      "level": "advanced",
+      "question": "Từ '검토해 주세요' có nghĩa là gì?",
+      "options": [
+        "mệt mỏi",
+        "giày dép",
+        "Xin hãy xem xét giúp",
+        "mật khẩu"
+      ],
+      "answer": "Xin hãy xem xét giúp"
+    },
+    {
+      "id": 245,
+      "level": "advanced",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Xin hãy xem xét giúp'",
+      "options": [
+        "가방",
+        "디저트",
+        "검토해 주세요",
+        "비행기"
+      ],
+      "answer": "검토해 주세요"
+    },
+    {
+      "id": 246,
+      "level": "advanced",
+      "question": "Từ '괜찮으시면' có nghĩa là gì?",
+      "options": [
+        "lợi nhuận",
+        "Nếu tiện / nếu được",
+        "môn tiếng Hàn",
+        "khách hàng"
+      ],
+      "answer": "Nếu tiện / nếu được"
+    },
+    {
+      "id": 247,
+      "level": "advanced",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Nếu tiện / nếu được'",
+      "options": [
+        "지루함",
+        "음료",
+        "괜찮으시면",
+        "수학"
+      ],
+      "answer": "괜찮으시면"
+    },
+    {
+      "id": 248,
+      "level": "beginner",
+      "question": "Từ '집' có nghĩa là gì?",
+      "options": [
+        "ghế ngồi",
+        "Khám bệnh",
+        "hồi hộp",
+        "Nhà"
+      ],
+      "answer": "Nhà"
+    },
+    {
+      "id": 249,
+      "level": "beginner",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Nhà'",
+      "options": [
+        "비빔밥",
+        "로그인",
+        "집",
+        "고객"
+      ],
+      "answer": "집"
+    },
+    {
+      "id": 250,
+      "level": "beginner",
+      "question": "Từ '문' có nghĩa là gì?",
+      "options": [
+        "Gia đình",
+        "kiểm tra an ninh",
+        "xe buýt",
+        "Cửa"
+      ],
+      "answer": "Cửa"
+    },
+    {
+      "id": 251,
+      "level": "beginner",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Cửa'",
+      "options": [
+        "환승",
+        "시간표",
+        "처방전",
+        "문"
+      ],
+      "answer": "문"
+    },
+    {
+      "id": 252,
+      "level": "beginner",
+      "question": "Từ '의자' có nghĩa là gì?",
+      "options": [
+        "khách hàng",
+        "chú",
+        "mệt mỏi",
+        "Cái ghế"
+      ],
+      "answer": "Cái ghế"
+    },
+    {
+      "id": 253,
+      "level": "beginner",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Cái ghế'",
+      "options": [
+        "두근거림",
+        "계산대",
+        "아내",
+        "의자"
+      ],
+      "answer": "의자"
+    },
+    {
+      "id": 254,
+      "level": "beginner",
+      "question": "Từ '아침' có nghĩa là gì?",
+      "options": [
+        "Buổi sáng",
+        "Bao nhiêu tiền?",
+        "sốt",
+        "cửa sổ"
+      ],
+      "answer": "Buổi sáng"
+    },
+    {
+      "id": 255,
+      "level": "beginner",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Buổi sáng'",
+      "options": [
+        "아침",
+        "슬퍼요",
+        "차분함",
+        "앱"
+      ],
+      "answer": "아침"
+    },
+    {
+      "id": 256,
+      "level": "beginner",
+      "question": "Từ '도서관' có nghĩa là gì?",
+      "options": [
+        "con trai",
+        "Cơm trộn",
+        "Thư viện",
+        "lịch trình"
+      ],
+      "answer": "Thư viện"
+    },
+    {
+      "id": 257,
+      "level": "beginner",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Thư viện'",
+      "options": [
+        "비용",
+        "도서관",
+        "편해요",
+        "긴장돼요"
+      ],
+      "answer": "도서관"
+    },
+    {
+      "id": 258,
+      "level": "beginner",
+      "question": "Từ '교실' có nghĩa là gì?",
+      "options": [
+        "Lớp học",
+        "báo cáo tuần",
+        "Thực đơn",
+        "vợ"
+      ],
+      "answer": "Lớp học"
+    },
+    {
+      "id": 259,
+      "level": "beginner",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Lớp học'",
+      "options": [
+        "메인 요리",
+        "디자인",
+        "교실",
+        "산책"
+      ],
+      "answer": "교실"
+    },
+    {
+      "id": 260,
+      "level": "beginner",
+      "question": "Từ '선생님' có nghĩa là gì?",
+      "options": [
+        "hộ chiếu",
+        "Giáo viên",
+        "chiếc áo",
+        "chất lượng"
+      ],
+      "answer": "Giáo viên"
+    },
+    {
+      "id": 261,
+      "level": "beginner",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Giáo viên'",
+      "options": [
+        "로그인",
+        "사이즈",
+        "전략",
+        "선생님"
+      ],
+      "answer": "선생님"
+    },
+    {
+      "id": 262,
+      "level": "beginner",
+      "question": "Từ '학생' có nghĩa là gì?",
+      "options": [
+        "Học sinh",
+        "hồi hộp",
+        "món chính",
+        "Khách hàng"
+      ],
+      "answer": "Học sinh"
+    },
+    {
+      "id": 263,
+      "level": "beginner",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Học sinh'",
+      "options": [
+        "국",
+        "교실",
+        "학생",
+        "목 통증"
+      ],
+      "answer": "학생"
+    },
+    {
+      "id": 264,
+      "level": "beginner",
+      "question": "Từ '회사' có nghĩa là gì?",
+      "options": [
+        "Bài tập về nhà",
+        "vé tàu",
+        "vở",
+        "Công ty"
+      ],
+      "answer": "Công ty"
+    },
+    {
+      "id": 265,
+      "level": "beginner",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Công ty'",
+      "options": [
+        "의사",
+        "복통",
+        "파일",
+        "회사"
+      ],
+      "answer": "회사"
+    },
+    {
+      "id": 266,
+      "level": "beginner",
+      "question": "Từ '보고서' có nghĩa là gì?",
+      "options": [
+        "giày dép",
+        "Báo cáo",
+        "thói quen",
+        "háo hức"
+      ],
+      "answer": "Báo cáo"
+    },
+    {
+      "id": 267,
+      "level": "beginner",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Báo cáo'",
+      "options": [
+        "관광",
+        "할머니",
+        "보고서",
+        "선생님"
+      ],
+      "answer": "보고서"
+    },
+    {
+      "id": 268,
+      "level": "beginner",
+      "question": "Từ '일정' có nghĩa là gì?",
+      "options": [
+        "máy bay",
+        "công viên",
+        "đăng xuất",
+        "Lịch trình"
+      ],
+      "answer": "Lịch trình"
+    },
+    {
+      "id": 269,
+      "level": "beginner",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Lịch trình'",
+      "options": [
+        "일정",
+        "회의실",
+        "카드",
+        "얼마예요?"
+      ],
+      "answer": "일정"
+    },
+    {
+      "id": 270,
+      "level": "beginner",
+      "question": "Từ '팀장' có nghĩa là gì?",
+      "options": [
+        "đổi trả",
+        "Trưởng nhóm",
+        "đề xuất",
+        "giường"
+      ],
+      "answer": "Trưởng nhóm"
+    },
+    {
+      "id": 271,
+      "level": "beginner",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Trưởng nhóm'",
+      "options": [
+        "체크인 카운터",
+        "행복해요",
+        "색깔",
+        "팀장"
+      ],
+      "answer": "팀장"
+    },
+    {
+      "id": 272,
+      "level": "foundation",
+      "question": "Từ '주문' có nghĩa là gì?",
+      "options": [
+        "Gọi món",
+        "tự tin",
+        "Đến nơi",
+        "Thực đơn"
+      ],
+      "answer": "Gọi món"
+    },
+    {
+      "id": 273,
+      "level": "foundation",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Gọi món'",
+      "options": [
+        "주문",
+        "불고기",
+        "고객",
+        "국수"
+      ],
+      "answer": "주문"
+    },
+    {
+      "id": 274,
+      "level": "foundation",
+      "question": "Từ '계산' có nghĩa là gì?",
+      "options": [
+        "Thư viện",
+        "Lớp học",
+        "căng thẳng",
+        "Thanh toán"
+      ],
+      "answer": "Thanh toán"
+    },
+    {
+      "id": 275,
+      "level": "foundation",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Thanh toán'",
+      "options": [
+        "간호사",
+        "로그아웃",
+        "계산",
+        "예산"
+      ],
+      "answer": "계산"
+    },
+    {
+      "id": 276,
+      "level": "foundation",
+      "question": "Từ '메뉴' có nghĩa là gì?",
+      "options": [
+        "chất lượng",
+        "Thực đơn",
+        "Tôi đang căng thẳng",
+        "Tệp tin"
+      ],
+      "answer": "Thực đơn"
+    },
+    {
+      "id": 277,
+      "level": "foundation",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Thực đơn'",
+      "options": [
+        "진행",
+        "남편",
+        "아버지",
+        "메뉴"
+      ],
+      "answer": "메뉴"
+    },
+    {
+      "id": 278,
+      "level": "foundation",
+      "question": "Từ '국수' có nghĩa là gì?",
+      "options": [
+        "bảo tàng",
+        "Mì",
+        "xác nhận",
+        "học nhóm"
+      ],
+      "answer": "Mì"
+    },
+    {
+      "id": 279,
+      "level": "foundation",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Mì'",
+      "options": [
+        "진료",
+        "문학",
+        "국수",
+        "웹사이트"
+      ],
+      "answer": "국수"
+    },
+    {
+      "id": 280,
+      "level": "foundation",
+      "question": "Từ '할인' có nghĩa là gì?",
+      "options": [
+        "Giảm giá",
+        "đồ cay",
+        "vui vẻ",
+        "mật khẩu"
+      ],
+      "answer": "Giảm giá"
+    },
+    {
+      "id": 281,
+      "level": "foundation",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Giảm giá'",
+      "options": [
+        "충전기",
+        "아내",
+        "비빔밥",
+        "할인"
+      ],
+      "answer": "할인"
+    },
+    {
+      "id": 282,
+      "level": "foundation",
+      "question": "Từ '영수증' có nghĩa là gì?",
+      "options": [
+        "quần dài",
+        "Hóa đơn",
+        "dị ứng",
+        "thương lượng"
+      ],
+      "answer": "Hóa đơn"
+    },
+    {
+      "id": 283,
+      "level": "foundation",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Hóa đơn'",
+      "options": [
+        "음료",
+        "영수증",
+        "회의",
+        "회의실"
+      ],
+      "answer": "영수증"
+    },
+    {
+      "id": 284,
+      "level": "foundation",
+      "question": "Từ '사이즈' có nghĩa là gì?",
+      "options": [
+        "đồ ngọt",
+        "Kích cỡ",
+        "mật khẩu",
+        "Chương trình"
+      ],
+      "answer": "Kích cỡ"
+    },
+    {
+      "id": 285,
+      "level": "foundation",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Kích cỡ'",
+      "options": [
+        "안녕하세요",
+        "음료",
+        "운동화",
+        "사이즈"
+      ],
+      "answer": "사이즈"
+    },
+    {
+      "id": 286,
+      "level": "foundation",
+      "question": "Từ '색깔' có nghĩa là gì?",
+      "options": [
+        "Màu sắc",
+        "bàn phím",
+        "vali",
+        "háo hức"
+      ],
+      "answer": "Màu sắc"
+    },
+    {
+      "id": 287,
+      "level": "foundation",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Màu sắc'",
+      "options": [
+        "긴장돼요",
+        "버스",
+        "색깔",
+        "가방"
+      ],
+      "answer": "색깔"
+    },
+    {
+      "id": 288,
+      "level": "foundation",
+      "question": "Từ '여권' có nghĩa là gì?",
+      "options": [
+        "tải xuống",
+        "Buổi sáng",
+        "Nhà",
+        "Hộ chiếu"
+      ],
+      "answer": "Hộ chiếu"
+    },
+    {
+      "id": 289,
+      "level": "foundation",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Hộ chiếu'",
+      "options": [
+        "여권",
+        "피곤함",
+        "설정",
+        "실망"
+      ],
+      "answer": "여권"
+    },
+    {
+      "id": 290,
+      "level": "foundation",
+      "question": "Từ '호텔' có nghĩa là gì?",
+      "options": [
+        "đồ ngọt",
+        "Khách sạn",
+        "tàu cao tốc",
+        "khuyến mãi"
+      ],
+      "answer": "Khách sạn"
+    },
+    {
+      "id": 291,
+      "level": "foundation",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Khách sạn'",
+      "options": [
+        "전략",
+        "신남",
+        "호텔",
+        "체크인 카운터"
+      ],
+      "answer": "호텔"
+    },
+    {
+      "id": 292,
+      "level": "foundation",
+      "question": "Từ '지도' có nghĩa là gì?",
+      "options": [
+        "Chiến lược",
+        "canh",
+        "ga đi",
+        "Bản đồ"
+      ],
+      "answer": "Bản đồ"
+    },
+    {
+      "id": 293,
+      "level": "foundation",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Bản đồ'",
+      "options": [
+        "기기",
+        "지도",
+        "자신감",
+        "좌석"
+      ],
+      "answer": "지도"
+    },
+    {
+      "id": 294,
+      "level": "foundation",
+      "question": "Từ '관광' có nghĩa là gì?",
+      "options": [
+        "phòng tắm",
+        "Tham quan",
+        "đồ uống",
+        "Tôi hạnh phúc"
+      ],
+      "answer": "Tham quan"
+    },
+    {
+      "id": 295,
+      "level": "foundation",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Tham quan'",
+      "options": [
+        "관광",
+        "지연",
+        "비빔밥",
+        "걱정돼요"
+      ],
+      "answer": "관광"
+    },
+    {
+      "id": 296,
+      "level": "intermediate",
+      "question": "Từ '출발' có nghĩa là gì?",
+      "options": [
+        "Cái ghế",
+        "Khởi hành",
+        "tệp đính kèm",
+        "Bao nhiêu tiền?"
+      ],
+      "answer": "Khởi hành"
+    },
+    {
+      "id": 297,
+      "level": "intermediate",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Khởi hành'",
+      "options": [
+        "출발",
+        "딸",
+        "배터리",
+        "기념품"
+      ],
+      "answer": "출발"
+    },
+    {
+      "id": 298,
+      "level": "intermediate",
+      "question": "Từ '도착' có nghĩa là gì?",
+      "options": [
+        "Tôi lo lắng",
+        "học nhóm",
+        "Đến nơi",
+        "bàn phím"
+      ],
+      "answer": "Đến nơi"
+    },
+    {
+      "id": 299,
+      "level": "intermediate",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Đến nơi'",
+      "options": [
+        "결과",
+        "팀장",
+        "진료 예약",
+        "도착"
+      ],
+      "answer": "도착"
+    },
+    {
+      "id": 300,
+      "level": "intermediate",
+      "question": "Từ '수하물' có nghĩa là gì?",
+      "options": [
+        "chuyến bay",
+        "Hành lý",
+        "giải lao",
+        "Internet"
+      ],
+      "answer": "Hành lý"
+    },
+    {
+      "id": 301,
+      "level": "intermediate",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Hành lý'",
+      "options": [
+        "주방",
+        "수하물",
+        "보고서",
+        "스터디"
+      ],
+      "answer": "수하물"
+    },
+    {
+      "id": 302,
+      "level": "intermediate",
+      "question": "Từ '탑승권' có nghĩa là gì?",
+      "options": [
+        "Thẻ lên máy bay",
+        "Tôi lo lắng",
+        "anh họ",
+        "chất lượng"
+      ],
+      "answer": "Thẻ lên máy bay"
+    },
+    {
+      "id": 303,
+      "level": "intermediate",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Thẻ lên máy bay'",
+      "options": [
+        "탑승권",
+        "비밀번호",
+        "거리",
+        "사이즈"
+      ],
+      "answer": "탑승권"
+    },
+    {
+      "id": 304,
+      "level": "intermediate",
+      "question": "Từ '의사' có nghĩa là gì?",
+      "options": [
+        "hướng dẫn viên",
+        "Thẻ lên máy bay",
+        "Bác sĩ",
+        "trì hoãn"
+      ],
+      "answer": "Bác sĩ"
+    },
+    {
+      "id": 305,
+      "level": "intermediate",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Bác sĩ'",
+      "options": [
+        "체크인 카운터",
+        "고객",
+        "열",
+        "의사"
+      ],
+      "answer": "의사"
+    },
+    {
+      "id": 306,
+      "level": "intermediate",
+      "question": "Từ '약' có nghĩa là gì?",
+      "options": [
+        "màn hình",
+        "kimchi",
+        "Thuốc",
+        "khu phố"
+      ],
+      "answer": "Thuốc"
+    },
+    {
+      "id": 307,
+      "level": "intermediate",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Thuốc'",
+      "options": [
+        "약",
+        "진료",
+        "매운 음식",
+        "관광"
+      ],
+      "answer": "약"
+    },
+    {
+      "id": 308,
+      "level": "intermediate",
+      "question": "Từ '아파요' có nghĩa là gì?",
+      "options": [
+        "lịch trình",
+        "Tôi lo lắng",
+        "đặt lịch khám",
+        "Tôi đau"
+      ],
+      "answer": "Tôi đau"
+    },
+    {
+      "id": 309,
+      "level": "intermediate",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Tôi đau'",
+      "options": [
+        "아파요",
+        "차분함",
+        "계산대",
+        "옷"
+      ],
+      "answer": "아파요"
+    },
+    {
+      "id": 310,
+      "level": "intermediate",
+      "question": "Từ '진료' có nghĩa là gì?",
+      "options": [
+        "Khám bệnh",
+        "ho",
+        "hạn nộp",
+        "nhiệm vụ"
+      ],
+      "answer": "Khám bệnh"
+    },
+    {
+      "id": 311,
+      "level": "intermediate",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Khám bệnh'",
+      "options": [
+        "학생",
+        "견적",
+        "진료",
+        "가이드"
+      ],
+      "answer": "진료"
+    },
+    {
+      "id": 312,
+      "level": "intermediate",
+      "question": "Từ '행복해요' có nghĩa là gì?",
+      "options": [
+        "kế hoạch",
+        "vợ",
+        "Tôi hạnh phúc",
+        "nhân viên"
+      ],
+      "answer": "Tôi hạnh phúc"
+    },
+    {
+      "id": 313,
+      "level": "intermediate",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Tôi hạnh phúc'",
+      "options": [
+        "행복해요",
+        "안녕하세요",
+        "주문",
+        "전화"
+      ],
+      "answer": "행복해요"
+    },
+    {
+      "id": 314,
+      "level": "intermediate",
+      "question": "Từ '슬퍼요' có nghĩa là gì?",
+      "options": [
+        "thiết bị",
+        "cháu",
+        "Tôi buồn",
+        "người thân"
+      ],
+      "answer": "Tôi buồn"
+    },
+    {
+      "id": 315,
+      "level": "intermediate",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Tôi buồn'",
+      "options": [
+        "처방전",
+        "충전기",
+        "슬퍼요",
+        "놀람"
+      ],
+      "answer": "슬퍼요"
+    },
+    {
+      "id": 316,
+      "level": "intermediate",
+      "question": "Từ '걱정돼요' có nghĩa là gì?",
+      "options": [
+        "ngạc nhiên",
+        "Tôi lo lắng",
+        "Mì",
+        "hạ cánh"
+      ],
+      "answer": "Tôi lo lắng"
+    },
+    {
+      "id": 317,
+      "level": "intermediate",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Tôi lo lắng'",
+      "options": [
+        "피팅룸",
+        "걱정돼요",
+        "옷",
+        "입국장"
+      ],
+      "answer": "걱정돼요"
+    },
+    {
+      "id": 318,
+      "level": "intermediate",
+      "question": "Từ '편해요' có nghĩa là gì?",
+      "options": [
+        "thương hiệu",
+        "Gia đình",
+        "Đến nơi",
+        "Thoải mái"
+      ],
+      "answer": "Thoải mái"
+    },
+    {
+      "id": 319,
+      "level": "intermediate",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Thoải mái'",
+      "options": [
+        "저녁",
+        "편해요",
+        "국수",
+        "팀장"
+      ],
+      "answer": "편해요"
+    },
+    {
+      "id": 320,
+      "level": "advanced",
+      "question": "Từ '어머니' có nghĩa là gì?",
+      "options": [
+        "Mẹ",
+        "đau họng",
+        "Gia đình",
+        "Kích cỡ"
+      ],
+      "answer": "Mẹ"
+    },
+    {
+      "id": 321,
+      "level": "advanced",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Mẹ'",
+      "options": [
+        "다운로드",
+        "어머니",
+        "목적지",
+        "신발"
+      ],
+      "answer": "어머니"
+    },
+    {
+      "id": 322,
+      "level": "advanced",
+      "question": "Từ '아버지' có nghĩa là gì?",
+      "options": [
+        "Công ty",
+        "tour",
+        "Bố",
+        "triệu chứng"
+      ],
+      "answer": "Bố"
+    },
+    {
+      "id": 323,
+      "level": "advanced",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Bố'",
+      "options": [
+        "왕복표",
+        "남편",
+        "선생님",
+        "아버지"
+      ],
+      "answer": "아버지"
+    },
+    {
+      "id": 324,
+      "level": "advanced",
+      "question": "Từ '동생' có nghĩa là gì?",
+      "options": [
+        "Chương trình",
+        "Em",
+        "chiếc áo",
+        "thương lượng"
+      ],
+      "answer": "Em"
+    },
+    {
+      "id": 325,
+      "level": "advanced",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Em'",
+      "options": [
+        "사촌 누나",
+        "동생",
+        "선생님",
+        "영수증"
+      ],
+      "answer": "동생"
+    },
+    {
+      "id": 326,
+      "level": "advanced",
+      "question": "Từ '친척' có nghĩa là gì?",
+      "options": [
+        "Bao nhiêu tiền?",
+        "Họ hàng",
+        "Mì",
+        "đồ cay"
+      ],
+      "answer": "Họ hàng"
+    },
+    {
+      "id": 327,
+      "level": "advanced",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Họ hàng'",
+      "options": [
+        "마감일",
+        "친척",
+        "체온",
+        "숙제"
+      ],
+      "answer": "친척"
+    },
+    {
+      "id": 328,
+      "level": "advanced",
+      "question": "Từ '컴퓨터' có nghĩa là gì?",
+      "options": [
+        "Máy tính",
+        "Đến nơi",
+        "quá cảnh",
+        "bãi biển"
+      ],
+      "answer": "Máy tính"
+    },
+    {
+      "id": 329,
+      "level": "advanced",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Máy tính'",
+      "options": [
+        "컴퓨터",
+        "음식",
+        "여행가방",
+        "매출"
+      ],
+      "answer": "컴퓨터"
+    },
+    {
+      "id": 330,
+      "level": "advanced",
+      "question": "Từ '파일' có nghĩa là gì?",
+      "options": [
+        "chi phí",
+        "Tệp tin",
+        "đi bộ",
+        "đặt chỗ"
+      ],
+      "answer": "Tệp tin"
+    },
+    {
+      "id": 331,
+      "level": "advanced",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Tệp tin'",
+      "options": [
+        "남편",
+        "로그인",
+        "파일",
+        "따뜻함"
+      ],
+      "answer": "파일"
+    },
+    {
+      "id": 332,
+      "level": "advanced",
+      "question": "Từ '인터넷' có nghĩa là gì?",
+      "options": [
+        "món phụ",
+        "bàn",
+        "báo cáo tuần",
+        "Internet"
+      ],
+      "answer": "Internet"
+    },
+    {
+      "id": 333,
+      "level": "advanced",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Internet'",
+      "options": [
+        "찬 음료",
+        "동료",
+        "인터넷",
+        "강의"
+      ],
+      "answer": "인터넷"
+    },
+    {
+      "id": 334,
+      "level": "advanced",
+      "question": "Từ '프로그램' có nghĩa là gì?",
+      "options": [
+        "xe buýt",
+        "Chương trình",
+        "sản phẩm",
+        "thương lượng"
+      ],
+      "answer": "Chương trình"
+    },
+    {
+      "id": 335,
+      "level": "advanced",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Chương trình'",
+      "options": [
+        "산",
+        "전화",
+        "프로그램",
+        "이익"
+      ],
+      "answer": "프로그램"
+    },
+    {
+      "id": 336,
+      "level": "advanced",
+      "question": "Từ '계약' có nghĩa là gì?",
+      "options": [
+        "Hợp đồng",
+        "bác",
+        "vở",
+        "hồi hộp"
+      ],
+      "answer": "Hợp đồng"
+    },
+    {
+      "id": 337,
+      "level": "advanced",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Hợp đồng'",
+      "options": [
+        "회의실",
+        "계약",
+        "웹사이트",
+        "탑승권"
+      ],
+      "answer": "계약"
+    },
+    {
+      "id": 338,
+      "level": "advanced",
+      "question": "Từ '고객' có nghĩa là gì?",
+      "options": [
+        "Khách hàng",
+        "Trường học",
+        "Màu sắc",
+        "khẩn cấp"
+      ],
+      "answer": "Khách hàng"
+    },
+    {
+      "id": 339,
+      "level": "advanced",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Khách hàng'",
+      "options": [
+        "고객",
+        "추가 주문",
+        "여권",
+        "예산"
+      ],
+      "answer": "고객"
+    },
+    {
+      "id": 340,
+      "level": "advanced",
+      "question": "Từ '전략' có nghĩa là gì?",
+      "options": [
+        "Chiến lược",
+        "sạc",
+        "nhiệm vụ",
+        "Họ hàng"
+      ],
+      "answer": "Chiến lược"
+    },
+    {
+      "id": 341,
+      "level": "advanced",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Chiến lược'",
+      "options": [
+        "키보드",
+        "목 통증",
+        "전략",
+        "동료"
+      ],
+      "answer": "전략"
+    },
+    {
+      "id": 342,
+      "level": "advanced",
+      "question": "Từ '매출' có nghĩa là gì?",
+      "options": [
+        "Doanh thu",
+        "căng thẳng",
+        "xấu hổ",
+        "hành khách"
+      ],
+      "answer": "Doanh thu"
+    },
+    {
+      "id": 343,
+      "level": "advanced",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'Doanh thu'",
+      "options": [
+        "강의",
+        "문",
+        "매출",
+        "프로젝트"
+      ],
+      "answer": "매출"
+    },
+    {
+      "id": 344,
+      "level": "beginner",
+      "question": "Từ '장소' có nghĩa là gì?",
+      "options": [
+        "Tôi đang căng thẳng",
+        "giày dép",
+        "Giảm giá",
+        "bàn"
+      ],
+      "answer": "bàn"
+    },
+    {
+      "id": 345,
+      "level": "beginner",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'bàn'",
+      "options": [
+        "다운로드",
+        "동료",
+        "고모",
+        "장소"
+      ],
+      "answer": "장소"
+    },
+    {
+      "id": 346,
+      "level": "beginner",
+      "question": "Từ '일상' có nghĩa là gì?",
+      "options": [
+        "pin",
+        "anh họ",
+        "phòng",
+        "đầu tư"
+      ],
+      "answer": "phòng"
+    },
+    {
+      "id": 347,
+      "level": "beginner",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'phòng'",
+      "options": [
+        "전화",
+        "자료",
+        "일상",
+        "얼마예요?"
+      ],
+      "answer": "일상"
+    },
+    {
+      "id": 348,
+      "level": "beginner",
+      "question": "Từ '생활' có nghĩa là gì?",
+      "options": [
+        "cửa sổ",
+        "khu phố",
+        "con gái",
+        "ngạc nhiên"
+      ],
+      "answer": "cửa sổ"
+    },
+    {
+      "id": 349,
+      "level": "beginner",
+      "question": "Chọn từ tiếng Hàn phù hợp với nghĩa 'cửa sổ'",
+      "options": [
+        "저녁",
+        "출발",
+        "증상",
+        "생활"
+      ],
+      "answer": "생활"
+    },
+    {
+      "id": 350,
+      "level": "beginner",
+      "question": "Từ '방' có nghĩa là gì?",
+      "options": [
+        "giường",
+        "tệp đính kèm",
+        "khu phố",
+        "phân tích"
+      ],
+      "answer": "giường"
     }
   ],
   "meta": {
-    "vocabCount": 60,
-    "quizCount": 53,
-    "topics": {
-      "daily": 6,
-      "family": 5,
-      "school": 6,
-      "restaurant": 5,
-      "shopping": 5,
-      "travel": 5,
-      "work": 5,
-      "feelings": 5,
-      "business": 5,
-      "social": 1,
-      "airport": 4,
-      "hospital": 4,
-      "tech": 4
-    }
-  }
+    "vocabCount": 233,
+    "quizCount": 180
+  },
+  "dailyMissions": [
+    "Hoàn thành 1 bài học chính",
+    "Lưu 3 từ mới quan trọng",
+    "Làm 1 quiz hằng ngày",
+    "Đọc 1 hội thoại ngắn",
+    "Ôn 1 mẫu ngữ pháp"
+  ]
 }

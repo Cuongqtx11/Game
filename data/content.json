@@ -128,7 +128,52 @@
             "Unit 0 - Hangul cơ bản - Bài 3",
             "Unit 0 - Hangul cơ bản - Bài 4"
           ],
-          "quizCount": 4
+          "quizCount": 4,
+          "id": "u1-1",
+          "estimatedMinutes": 20,
+          "difficulty": "Easy",
+          "lessonsDetailed": [
+            {
+              "title": "Unit 0 - Hangul cơ bản - Bài 1",
+              "summary": "Nội dung trọng tâm cho unit 0 - hangul cơ bản - bài 1.",
+              "vocabFocus": [
+                "안녕하세요",
+                "감사합니다",
+                "가족"
+              ],
+              "grammarFocus": "-이에요 / -예요"
+            },
+            {
+              "title": "Unit 0 - Hangul cơ bản - Bài 2",
+              "summary": "Nội dung trọng tâm cho unit 0 - hangul cơ bản - bài 2.",
+              "vocabFocus": [
+                "안녕하세요",
+                "감사합니다",
+                "가족"
+              ],
+              "grammarFocus": "-이에요 / -예요"
+            },
+            {
+              "title": "Unit 0 - Hangul cơ bản - Bài 3",
+              "summary": "Nội dung trọng tâm cho unit 0 - hangul cơ bản - bài 3.",
+              "vocabFocus": [
+                "안녕하세요",
+                "감사합니다",
+                "가족"
+              ],
+              "grammarFocus": "-이에요 / -예요"
+            },
+            {
+              "title": "Unit 0 - Hangul cơ bản - Bài 4",
+              "summary": "Nội dung trọng tâm cho unit 0 - hangul cơ bản - bài 4.",
+              "vocabFocus": [
+                "안녕하세요",
+                "감사합니다",
+                "가족"
+              ],
+              "grammarFocus": "-이에요 / -예요"
+            }
+          ]
         },
         {
           "title": "Unit 1 - Chào hỏi & giới thiệu bản thân",
@@ -144,7 +189,52 @@
             "Unit 1 - Chào hỏi & giới thiệu bản thân - Bài 3",
             "Unit 1 - Chào hỏi & giới thiệu bản thân - Bài 4"
           ],
-          "quizCount": 4
+          "quizCount": 4,
+          "id": "u1-2",
+          "estimatedMinutes": 25,
+          "difficulty": "Medium",
+          "lessonsDetailed": [
+            {
+              "title": "Unit 1 - Chào hỏi & giới thiệu bản thân - Bài 1",
+              "summary": "Nội dung trọng tâm cho unit 1 - chào hỏi & giới thiệu bản thân - bài 1.",
+              "vocabFocus": [
+                "학교",
+                "비빔밥",
+                "얼마예요?"
+              ],
+              "grammarFocus": "-이에요 / -예요"
+            },
+            {
+              "title": "Unit 1 - Chào hỏi & giới thiệu bản thân - Bài 2",
+              "summary": "Nội dung trọng tâm cho unit 1 - chào hỏi & giới thiệu bản thân - bài 2.",
+              "vocabFocus": [
+                "학교",
+                "비빔밥",
+                "얼마예요?"
+              ],
+              "grammarFocus": "-이에요 / -예요"
+            },
+            {
+              "title": "Unit 1 - Chào hỏi & giới thiệu bản thân - Bài 3",
+              "summary": "Nội dung trọng tâm cho unit 1 - chào hỏi & giới thiệu bản thân - bài 3.",
+              "vocabFocus": [
+                "학교",
+                "비빔밥",
+                "얼마예요?"
+              ],
+              "grammarFocus": "-이에요 / -예요"
+            },
+            {
+              "title": "Unit 1 - Chào hỏi & giới thiệu bản thân - Bài 4",
+              "summary": "Nội dung trọng tâm cho unit 1 - chào hỏi & giới thiệu bản thân - bài 4.",
+              "vocabFocus": [
+                "학교",
+                "비빔밥",
+                "얼마예요?"
+              ],
+              "grammarFocus": "-이에요 / -예요"
+            }
+          ]
         },
         {
           "title": "Unit 2 - Số đếm, ngày tháng, giờ giấc",
@@ -160,7 +250,52 @@
             "Unit 2 - Số đếm, ngày tháng, giờ giấc - Bài 3",
             "Unit 2 - Số đếm, ngày tháng, giờ giấc - Bài 4"
           ],
-          "quizCount": 4
+          "quizCount": 4,
+          "id": "u1-3",
+          "estimatedMinutes": 30,
+          "difficulty": "Hard",
+          "lessonsDetailed": [
+            {
+              "title": "Unit 2 - Số đếm, ngày tháng, giờ giấc - Bài 1",
+              "summary": "Nội dung trọng tâm cho unit 2 - số đếm, ngày tháng, giờ giấc - bài 1.",
+              "vocabFocus": [
+                "숙제",
+                "길을 잃었어요",
+                "회의"
+              ],
+              "grammarFocus": "-이에요 / -예요"
+            },
+            {
+              "title": "Unit 2 - Số đếm, ngày tháng, giờ giấc - Bài 2",
+              "summary": "Nội dung trọng tâm cho unit 2 - số đếm, ngày tháng, giờ giấc - bài 2.",
+              "vocabFocus": [
+                "숙제",
+                "길을 잃었어요",
+                "회의"
+              ],
+              "grammarFocus": "-이에요 / -예요"
+            },
+            {
+              "title": "Unit 2 - Số đếm, ngày tháng, giờ giấc - Bài 3",
+              "summary": "Nội dung trọng tâm cho unit 2 - số đếm, ngày tháng, giờ giấc - bài 3.",
+              "vocabFocus": [
+                "숙제",
+                "길을 잃었어요",
+                "회의"
+              ],
+              "grammarFocus": "-이에요 / -예요"
+            },
+            {
+              "title": "Unit 2 - Số đếm, ngày tháng, giờ giấc - Bài 4",
+              "summary": "Nội dung trọng tâm cho unit 2 - số đếm, ngày tháng, giờ giấc - bài 4.",
+              "vocabFocus": [
+                "숙제",
+                "길을 잃었어요",
+                "회의"
+              ],
+              "grammarFocus": "-이에요 / -예요"
+            }
+          ]
         }
       ]
     },
@@ -181,7 +316,52 @@
             "Unit 3 - Ngữ pháp cơ bản - Bài 3",
             "Unit 3 - Ngữ pháp cơ bản - Bài 4"
           ],
-          "quizCount": 4
+          "quizCount": 4,
+          "id": "u2-1",
+          "estimatedMinutes": 20,
+          "difficulty": "Easy",
+          "lessonsDetailed": [
+            {
+              "title": "Unit 3 - Ngữ pháp cơ bản - Bài 1",
+              "summary": "Nội dung trọng tâm cho unit 3 - ngữ pháp cơ bản - bài 1.",
+              "vocabFocus": [
+                "안녕하세요",
+                "감사합니다",
+                "가족"
+              ],
+              "grammarFocus": "-아/어서"
+            },
+            {
+              "title": "Unit 3 - Ngữ pháp cơ bản - Bài 2",
+              "summary": "Nội dung trọng tâm cho unit 3 - ngữ pháp cơ bản - bài 2.",
+              "vocabFocus": [
+                "안녕하세요",
+                "감사합니다",
+                "가족"
+              ],
+              "grammarFocus": "-아/어서"
+            },
+            {
+              "title": "Unit 3 - Ngữ pháp cơ bản - Bài 3",
+              "summary": "Nội dung trọng tâm cho unit 3 - ngữ pháp cơ bản - bài 3.",
+              "vocabFocus": [
+                "안녕하세요",
+                "감사합니다",
+                "가족"
+              ],
+              "grammarFocus": "-아/어서"
+            },
+            {
+              "title": "Unit 3 - Ngữ pháp cơ bản - Bài 4",
+              "summary": "Nội dung trọng tâm cho unit 3 - ngữ pháp cơ bản - bài 4.",
+              "vocabFocus": [
+                "안녕하세요",
+                "감사합니다",
+                "가족"
+              ],
+              "grammarFocus": "-아/어서"
+            }
+          ]
         },
         {
           "title": "Unit 4 - Ngữ pháp trung cấp",
@@ -197,7 +377,52 @@
             "Unit 4 - Ngữ pháp trung cấp - Bài 3",
             "Unit 4 - Ngữ pháp trung cấp - Bài 4"
           ],
-          "quizCount": 4
+          "quizCount": 4,
+          "id": "u2-2",
+          "estimatedMinutes": 25,
+          "difficulty": "Medium",
+          "lessonsDetailed": [
+            {
+              "title": "Unit 4 - Ngữ pháp trung cấp - Bài 1",
+              "summary": "Nội dung trọng tâm cho unit 4 - ngữ pháp trung cấp - bài 1.",
+              "vocabFocus": [
+                "학교",
+                "비빔밥",
+                "얼마예요?"
+              ],
+              "grammarFocus": "-아/어서"
+            },
+            {
+              "title": "Unit 4 - Ngữ pháp trung cấp - Bài 2",
+              "summary": "Nội dung trọng tâm cho unit 4 - ngữ pháp trung cấp - bài 2.",
+              "vocabFocus": [
+                "학교",
+                "비빔밥",
+                "얼마예요?"
+              ],
+              "grammarFocus": "-아/어서"
+            },
+            {
+              "title": "Unit 4 - Ngữ pháp trung cấp - Bài 3",
+              "summary": "Nội dung trọng tâm cho unit 4 - ngữ pháp trung cấp - bài 3.",
+              "vocabFocus": [
+                "학교",
+                "비빔밥",
+                "얼마예요?"
+              ],
+              "grammarFocus": "-아/어서"
+            },
+            {
+              "title": "Unit 4 - Ngữ pháp trung cấp - Bài 4",
+              "summary": "Nội dung trọng tâm cho unit 4 - ngữ pháp trung cấp - bài 4.",
+              "vocabFocus": [
+                "학교",
+                "비빔밥",
+                "얼마예요?"
+              ],
+              "grammarFocus": "-아/어서"
+            }
+          ]
         },
         {
           "title": "Unit 5 - Ngữ pháp nâng cao",
@@ -213,7 +438,52 @@
             "Unit 5 - Ngữ pháp nâng cao - Bài 3",
             "Unit 5 - Ngữ pháp nâng cao - Bài 4"
           ],
-          "quizCount": 4
+          "quizCount": 4,
+          "id": "u2-3",
+          "estimatedMinutes": 30,
+          "difficulty": "Hard",
+          "lessonsDetailed": [
+            {
+              "title": "Unit 5 - Ngữ pháp nâng cao - Bài 1",
+              "summary": "Nội dung trọng tâm cho unit 5 - ngữ pháp nâng cao - bài 1.",
+              "vocabFocus": [
+                "숙제",
+                "길을 잃었어요",
+                "회의"
+              ],
+              "grammarFocus": "-아/어서"
+            },
+            {
+              "title": "Unit 5 - Ngữ pháp nâng cao - Bài 2",
+              "summary": "Nội dung trọng tâm cho unit 5 - ngữ pháp nâng cao - bài 2.",
+              "vocabFocus": [
+                "숙제",
+                "길을 잃었어요",
+                "회의"
+              ],
+              "grammarFocus": "-아/어서"
+            },
+            {
+              "title": "Unit 5 - Ngữ pháp nâng cao - Bài 3",
+              "summary": "Nội dung trọng tâm cho unit 5 - ngữ pháp nâng cao - bài 3.",
+              "vocabFocus": [
+                "숙제",
+                "길을 잃었어요",
+                "회의"
+              ],
+              "grammarFocus": "-아/어서"
+            },
+            {
+              "title": "Unit 5 - Ngữ pháp nâng cao - Bài 4",
+              "summary": "Nội dung trọng tâm cho unit 5 - ngữ pháp nâng cao - bài 4.",
+              "vocabFocus": [
+                "숙제",
+                "길을 잃었어요",
+                "회의"
+              ],
+              "grammarFocus": "-아/어서"
+            }
+          ]
         }
       ]
     },
@@ -234,7 +504,52 @@
             "Unit 6 - Ăn uống, mua sắm, trường học - Bài 3",
             "Unit 6 - Ăn uống, mua sắm, trường học - Bài 4"
           ],
-          "quizCount": 4
+          "quizCount": 4,
+          "id": "u3-1",
+          "estimatedMinutes": 20,
+          "difficulty": "Easy",
+          "lessonsDetailed": [
+            {
+              "title": "Unit 6 - Ăn uống, mua sắm, trường học - Bài 1",
+              "summary": "Nội dung trọng tâm cho unit 6 - ăn uống, mua sắm, trường học - bài 1.",
+              "vocabFocus": [
+                "안녕하세요",
+                "감사합니다",
+                "가족"
+              ],
+              "grammarFocus": "-는 것 같습니다"
+            },
+            {
+              "title": "Unit 6 - Ăn uống, mua sắm, trường học - Bài 2",
+              "summary": "Nội dung trọng tâm cho unit 6 - ăn uống, mua sắm, trường học - bài 2.",
+              "vocabFocus": [
+                "안녕하세요",
+                "감사합니다",
+                "가족"
+              ],
+              "grammarFocus": "-는 것 같습니다"
+            },
+            {
+              "title": "Unit 6 - Ăn uống, mua sắm, trường học - Bài 3",
+              "summary": "Nội dung trọng tâm cho unit 6 - ăn uống, mua sắm, trường học - bài 3.",
+              "vocabFocus": [
+                "안녕하세요",
+                "감사합니다",
+                "가족"
+              ],
+              "grammarFocus": "-는 것 같습니다"
+            },
+            {
+              "title": "Unit 6 - Ăn uống, mua sắm, trường học - Bài 4",
+              "summary": "Nội dung trọng tâm cho unit 6 - ăn uống, mua sắm, trường học - bài 4.",
+              "vocabFocus": [
+                "안녕하세요",
+                "감사합니다",
+                "가족"
+              ],
+              "grammarFocus": "-는 것 같습니다"
+            }
+          ]
         },
         {
           "title": "Unit 7 - Du lịch & hỏi đường",
@@ -250,7 +565,52 @@
             "Unit 7 - Du lịch & hỏi đường - Bài 3",
             "Unit 7 - Du lịch & hỏi đường - Bài 4"
           ],
-          "quizCount": 4
+          "quizCount": 4,
+          "id": "u3-2",
+          "estimatedMinutes": 25,
+          "difficulty": "Medium",
+          "lessonsDetailed": [
+            {
+              "title": "Unit 7 - Du lịch & hỏi đường - Bài 1",
+              "summary": "Nội dung trọng tâm cho unit 7 - du lịch & hỏi đường - bài 1.",
+              "vocabFocus": [
+                "학교",
+                "비빔밥",
+                "얼마예요?"
+              ],
+              "grammarFocus": "-는 것 같습니다"
+            },
+            {
+              "title": "Unit 7 - Du lịch & hỏi đường - Bài 2",
+              "summary": "Nội dung trọng tâm cho unit 7 - du lịch & hỏi đường - bài 2.",
+              "vocabFocus": [
+                "학교",
+                "비빔밥",
+                "얼마예요?"
+              ],
+              "grammarFocus": "-는 것 같습니다"
+            },
+            {
+              "title": "Unit 7 - Du lịch & hỏi đường - Bài 3",
+              "summary": "Nội dung trọng tâm cho unit 7 - du lịch & hỏi đường - bài 3.",
+              "vocabFocus": [
+                "학교",
+                "비빔밥",
+                "얼마예요?"
+              ],
+              "grammarFocus": "-는 것 같습니다"
+            },
+            {
+              "title": "Unit 7 - Du lịch & hỏi đường - Bài 4",
+              "summary": "Nội dung trọng tâm cho unit 7 - du lịch & hỏi đường - bài 4.",
+              "vocabFocus": [
+                "학교",
+                "비빔밥",
+                "얼마예요?"
+              ],
+              "grammarFocus": "-는 것 같습니다"
+            }
+          ]
         },
         {
           "title": "Unit 8 - Công việc & giao tiếp xã hội",
@@ -266,7 +626,52 @@
             "Unit 8 - Công việc & giao tiếp xã hội - Bài 3",
             "Unit 8 - Công việc & giao tiếp xã hội - Bài 4"
           ],
-          "quizCount": 4
+          "quizCount": 4,
+          "id": "u3-3",
+          "estimatedMinutes": 30,
+          "difficulty": "Hard",
+          "lessonsDetailed": [
+            {
+              "title": "Unit 8 - Công việc & giao tiếp xã hội - Bài 1",
+              "summary": "Nội dung trọng tâm cho unit 8 - công việc & giao tiếp xã hội - bài 1.",
+              "vocabFocus": [
+                "숙제",
+                "길을 잃었어요",
+                "회의"
+              ],
+              "grammarFocus": "-는 것 같습니다"
+            },
+            {
+              "title": "Unit 8 - Công việc & giao tiếp xã hội - Bài 2",
+              "summary": "Nội dung trọng tâm cho unit 8 - công việc & giao tiếp xã hội - bài 2.",
+              "vocabFocus": [
+                "숙제",
+                "길을 잃었어요",
+                "회의"
+              ],
+              "grammarFocus": "-는 것 같습니다"
+            },
+            {
+              "title": "Unit 8 - Công việc & giao tiếp xã hội - Bài 3",
+              "summary": "Nội dung trọng tâm cho unit 8 - công việc & giao tiếp xã hội - bài 3.",
+              "vocabFocus": [
+                "숙제",
+                "길을 잃었어요",
+                "회의"
+              ],
+              "grammarFocus": "-는 것 같습니다"
+            },
+            {
+              "title": "Unit 8 - Công việc & giao tiếp xã hội - Bài 4",
+              "summary": "Nội dung trọng tâm cho unit 8 - công việc & giao tiếp xã hội - bài 4.",
+              "vocabFocus": [
+                "숙제",
+                "길을 잃었어요",
+                "회의"
+              ],
+              "grammarFocus": "-는 것 같습니다"
+            }
+          ]
         }
       ]
     }
@@ -5122,5 +5527,25 @@
     "Làm 1 quiz hằng ngày",
     "Đọc 1 hội thoại ngắn",
     "Ôn 1 mẫu ngữ pháp"
-  ]
+  ],
+  "examCenter": {
+    "dailyReview": [
+      "12 câu xoay theo ngày",
+      "Ôn vocab + nghĩa",
+      "Lưu lịch sử làm bài"
+    ],
+    "topikMock": [
+      "TOPIK I Mini Mock",
+      "TOPIK II Reading Mock",
+      "Grammar Drill",
+      "Listening-style prompts"
+    ],
+    "practiceModes": [
+      "Flash Quiz",
+      "Meaning Match",
+      "Korean Match",
+      "Topic Drill",
+      "Saved Words Review"
+    ]
+  }
 }

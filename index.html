@@ -77,7 +77,7 @@
           <div class="hero-copy">
             <span class="pill">HOME • DAILY LEARNING</span>
             <h1 id="app-title">HanViet Quest Premium</h1>
-            <p id="app-subtitle">Ứng dụng học tiếng Hàn chia theo màn thật: Home, Learn, Words, Practice, Profile.</p>
+            <p id="app-subtitle"></p>
             <div class="hero-stats">
               <div class="stat-box"><strong id="stat-levels">4</strong><span>Cấp độ</span></div>
               <div class="stat-box"><strong id="stat-chapters">0</strong><span>Unit</span></div>
@@ -91,7 +91,7 @@
           </div>
           <div class="hero-panel card-lite">
             <div class="mini-label">Bài học hôm nay</div>
-            <h3 id="today-title">Bài học hôm nay</h3>
+            <h3 id="today-title"></h3>
             <p id="today-focus"></p>
             <ul id="today-tasks" class="simple-list"></ul>
           </div>
@@ -156,10 +156,15 @@
       <section id="screen-profile" class="app-view hidden">
         <div class="view-header"><div><span class="mini-label">Profile Screen</span><h2>Hồ sơ học tập</h2></div><span class="badge-green">My Progress</span></div>
         <div class="feature-grid two-col">
-          <article class="feature-card card"><h3>Mục tiêu học</h3><p id="profile-goal">Giao tiếp hằng ngày</p></article>
-          <article class="feature-card card"><h3>Tổng XP</h3><p id="profile-xp">0 XP</p></article>
-          <article class="feature-card card"><h3>Chuỗi học</h3><p id="profile-streak">0 ngày</p></article>
-          <article class="feature-card card"><h3>Badge đã mở</h3><p id="profile-badges">0 badge</p></article>
+          <article class="feature-card card"><h3>Mục tiêu học</h3><p id="profile-goal"></p></article>
+          <article class="feature-card card"><h3>Tổng XP</h3><p id="profile-xp"></p></article>
+          <article class="feature-card card"><h3>Chuỗi học</h3><p id="profile-streak"></p></article>
+          <article class="feature-card card"><h3>Badge đã mở</h3><p id="profile-badges"></p></article>
+        </div>
+        <div class="section-divider"></div>
+        <div class="feature-grid two-col">
+          <article class="feature-card card"><h3>Tiến độ theo Unit</h3><div id="unit-progress-box"></div></article>
+          <article class="feature-card card"><h3>Lịch sử quiz</h3><div id="quiz-history-box"></div></article>
         </div>
         <div class="section-divider"></div>
         <div class="feature-grid three-col" id="topic-field-grid"></div>
@@ -178,7 +183,7 @@
   <div id="screen-overlay" class="screen-overlay hidden"></div>
   <section id="learning-screen" class="app-screen hidden">
     <div class="screen-header">
-      <div><div class="mini-label">Learning Screen</div><h3 id="screen-title">Màn học</h3></div>
+      <div><div class="mini-label">Lesson Detail</div><h3 id="screen-title">Màn học</h3></div>
       <button class="icon-btn close-screen" data-close="learning-screen">✕</button>
     </div>
     <div id="screen-content" class="screen-content"></div>

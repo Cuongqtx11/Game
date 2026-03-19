@@ -144,21 +144,29 @@ function startExercise(payload) {
 }
 
 function buildFillBlankQuestion(source) {
-  var displayQuestion = source.korean
-    ? `Điền nghĩa đúng cho từ: ${source.korean}`
+  var inferredKorean = source.korean || null;
+
+  if (!inferredKorean && typeof source.question === 'string') {
+    var match = source.question.match(/Từ '([^']+)'/);
+    if (match && match[1]) inferredKorean = match[1];
+  }
+
+  var displayQuestion = inferredKorean
+    ? `Điền nghĩa đúng cho từ: ${inferredKorean}`
     : (source.question || 'Chọn đáp án đúng');
 
-  var explanation = source.korean
-    ? `Đây là đáp án đúng vì từ "${source.korean}" đi với nghĩa phù hợp là "${source.answer}".`
+  var explanation = inferredKorean
+    ? `Đây là đáp án đúng vì từ "${inferredKorean}" đi với nghĩa phù hợp là "${source.answer}".`
     : `Đây là đáp án đúng vì nó khớp trực tiếp với yêu cầu của câu hỏi.`;
 
   return {
     id: `fill-${source.id}`,
     question: displayQuestion,
-    prompt: 'Chọn đáp án đúng trong 30 giây',
+    prompt: inferredKorean ? 'Chọn nghĩa đúng cho từ này trong 30 giây' : 'Chọn đáp án đúng trong 30 giây',
     options: Array.isArray(source.options) ? shuffle(source.options.slice()) : [],
     answer: source.answer,
-    explanation: explanation
+    explanation: explanation,
+    korean: inferredKorean
   };
 }
 
@@ -174,6 +182,7 @@ function renderExerciseQuestion() {
   qs('#exercise-body').innerHTML = `
     <div class="screen-lesson">
       <h3>${q.question}</h3>
+      ${q.korean ? `<p><strong>Từ đang hỏi:</strong> ${q.korean}</p>` : ''}
       <p>${q.prompt}</p>
       <div class="quiz-options">${q.options.map(opt => `<label class="quiz-option"><input type="radio" name="exercise-option" value="${opt}"><span>${opt}</span></label>`).join('')}</div>
     </div>

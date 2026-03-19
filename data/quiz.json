@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "Từ tiếng Hàn tương ứng với 'Xin chào' là gì?",
+    "options": ["감사합니다", "안녕하세요", "학교", "물"],
+    "answer": "안녕하세요"
+  },
+  {
+    "id": 2,
+    "question": "Từ tiếng Hàn tương ứng với 'Cảm ơn' là gì?",
+    "options": ["친구", "사랑", "감사합니다", "약속"],
+    "answer": "감사합니다"
+  },
+  {
+    "id": 3,
+    "question": "Từ tiếng Hàn nào có nghĩa là 'Trường học'?",
+    "options": ["학교", "물", "준비하다", "괜찮아요"],
+    "answer": "학교"
+  },
+  {
+    "id": 4,
+    "question": "Từ tiếng Hàn tương ứng với 'Không sao / Ổn thôi' là gì?",
+    "options": ["사랑", "괜찮아요", "친구", "안녕하세요"],
+    "answer": "괜찮아요"
+  },
+  {
+    "id": 5,
+    "question": "Từ tiếng Hàn nào có nghĩa là 'Chuẩn bị'?",
+    "options": ["준비하다", "어떻게 지내세요?", "약속", "물"],
+    "answer": "준비하다"
+  }
+]

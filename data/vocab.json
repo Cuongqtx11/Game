@@ -1,0 +1,12 @@
+[
+  {"id":1,"level":"beginner","korean":"안녕하세요","romanized":"an-nyeong-ha-se-yo","vietnamesePronunciation":"an-nhông-ha-sê-yô","meaning":"Xin chào"},
+  {"id":2,"level":"beginner","korean":"감사합니다","romanized":"gam-sa-ham-ni-da","vietnamesePronunciation":"kam-sa-ham-ni-ta","meaning":"Cảm ơn"},
+  {"id":3,"level":"beginner","korean":"사랑","romanized":"sa-rang","vietnamesePronunciation":"sa-rang","meaning":"Tình yêu"},
+  {"id":4,"level":"beginner","korean":"학교","romanized":"hak-gyo","vietnamesePronunciation":"hác-kyo","meaning":"Trường học"},
+  {"id":5,"level":"beginner","korean":"친구","romanized":"chin-gu","vietnamesePronunciation":"chin-gu","meaning":"Bạn bè"},
+  {"id":6,"level":"beginner","korean":"물","romanized":"mul","vietnamesePronunciation":"mul","meaning":"Nước"},
+  {"id":7,"level":"advanced","korean":"괜찮아요","romanized":"gwaen-chan-a-yo","vietnamesePronunciation":"quen-chan-a-yô","meaning":"Không sao / Ổn thôi"},
+  {"id":8,"level":"advanced","korean":"어떻게 지내세요?","romanized":"eo-tteo-ke ji-nae-se-yo","vietnamesePronunciation":"o-tto-kê chi-ne-sê-yô","meaning":"Bạn dạo này thế nào?"},
+  {"id":9,"level":"advanced","korean":"약속","romanized":"yak-sok","vietnamesePronunciation":"yak-sốc","meaning":"Cuộc hẹn / Lời hứa"},
+  {"id":10,"level":"advanced","korean":"준비하다","romanized":"jun-bi-ha-da","vietnamesePronunciation":"chun-bi-ha-ta","meaning":"Chuẩn bị"}
+]

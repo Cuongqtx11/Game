@@ -13,159 +13,1978 @@
     ]
   },
   "levels": [
-    {"id":"beginner","title":"Người mới","description":"Hangul, phát âm, từ cơ bản, mẫu câu nhập môn, số đếm, thời gian.","progress":22,"xp":120},
-    {"id":"foundation","title":"Căn bản","description":"Ngữ pháp nền, đời sống hằng ngày, trường học, ăn uống, mua sắm.","progress":40,"xp":260},
-    {"id":"intermediate","title":"Trung cấp","description":"Mở rộng hội thoại, diễn đạt lý do, kế hoạch, cảm xúc, công việc, du lịch.","progress":61,"xp":420},
-    {"id":"advanced","title":"Nâng cao","description":"Giao tiếp xã hội, công việc, phản hồi lịch sự, thảo luận, viết và TOPIK II.","progress":80,"xp":640}
+    {
+      "id": "beginner",
+      "title": "Người mới",
+      "description": "Hangul, phát âm, từ cơ bản, mẫu câu nhập môn, số đếm, thời gian.",
+      "progress": 22,
+      "xp": 120
+    },
+    {
+      "id": "foundation",
+      "title": "Căn bản",
+      "description": "Ngữ pháp nền, đời sống hằng ngày, trường học, ăn uống, mua sắm.",
+      "progress": 40,
+      "xp": 260
+    },
+    {
+      "id": "intermediate",
+      "title": "Trung cấp",
+      "description": "Mở rộng hội thoại, diễn đạt lý do, kế hoạch, cảm xúc, công việc, du lịch.",
+      "progress": 61,
+      "xp": 420
+    },
+    {
+      "id": "advanced",
+      "title": "Nâng cao",
+      "description": "Giao tiếp xã hội, công việc, phản hồi lịch sự, thảo luận, viết và TOPIK II.",
+      "progress": 80,
+      "xp": 640
+    }
   ],
   "learnMenu": [
-    {"id":"today","title":"Bài học hôm nay","icon":"☀️","summary":"Bài học ngắn, từ mới, kiểm tra nhanh mỗi ngày."},
-    {"id":"roadmap","title":"Lộ trình học","icon":"🗺️","summary":"Đi từ Hangul tới giao tiếp nâng cao theo chapter rõ ràng."},
-    {"id":"vocabulary","title":"Từ vựng","icon":"💎","summary":"Từ mới theo cấp độ, chủ đề và lĩnh vực thực tế."},
-    {"id":"grammar","title":"Ngữ pháp","icon":"🧩","summary":"Tách riêng cơ bản, trung cấp, nâng cao với ví dụ ngắn dễ nhớ."},
-    {"id":"communication","title":"Giao tiếp","icon":"🗣️","summary":"Mẫu câu và hội thoại thực chiến trong đời sống."},
-    {"id":"topik","title":"Luyện thi TOPIK","icon":"📘","summary":"TOPIK I, TOPIK II, chiến thuật và bài mock test."},
-    {"id":"tests","title":"Kiểm tra","icon":"🎯","summary":"Quiz theo ngày, theo chủ đề, theo cấp độ và full test."},
-    {"id":"quick7","title":"Học nhanh 7 ngày","icon":"⚡","summary":"Một lộ trình ngắn dành cho người muốn nhập môn rất nhanh."},
-    {"id":"speak30","title":"Giao tiếp 30 ngày","icon":"🗓️","summary":"30 chặng luyện nói, phản xạ và từ khóa giao tiếp."},
-    {"id":"topics","title":"Chủ đề / lĩnh vực","icon":"🏷️","summary":"Gia đình, công việc, du lịch, bệnh viện, công nghệ, kinh doanh..."},
-    {"id":"profile","title":"Hồ sơ học tập","icon":"👤","summary":"Mục tiêu học, streak, badge, điểm số và chế độ giao diện."}
+    {
+      "id": "today",
+      "title": "Bài học hôm nay",
+      "icon": "☀️",
+      "summary": "Bài học ngắn, từ mới, kiểm tra nhanh mỗi ngày."
+    },
+    {
+      "id": "roadmap",
+      "title": "Lộ trình học",
+      "icon": "🗺️",
+      "summary": "Đi từ Hangul tới giao tiếp nâng cao theo chapter rõ ràng."
+    },
+    {
+      "id": "vocabulary",
+      "title": "Từ vựng",
+      "icon": "💎",
+      "summary": "Từ mới theo cấp độ, chủ đề và lĩnh vực thực tế."
+    },
+    {
+      "id": "grammar",
+      "title": "Ngữ pháp",
+      "icon": "🧩",
+      "summary": "Tách riêng cơ bản, trung cấp, nâng cao với ví dụ ngắn dễ nhớ."
+    },
+    {
+      "id": "communication",
+      "title": "Giao tiếp",
+      "icon": "🗣️",
+      "summary": "Mẫu câu và hội thoại thực chiến trong đời sống."
+    },
+    {
+      "id": "topik",
+      "title": "Luyện thi TOPIK",
+      "icon": "📘",
+      "summary": "TOPIK I, TOPIK II, chiến thuật và bài mock test."
+    },
+    {
+      "id": "tests",
+      "title": "Kiểm tra",
+      "icon": "🎯",
+      "summary": "Quiz theo ngày, theo chủ đề, theo cấp độ và full test."
+    },
+    {
+      "id": "quick7",
+      "title": "Học nhanh 7 ngày",
+      "icon": "⚡",
+      "summary": "Một lộ trình ngắn dành cho người muốn nhập môn rất nhanh."
+    },
+    {
+      "id": "speak30",
+      "title": "Giao tiếp 30 ngày",
+      "icon": "🗓️",
+      "summary": "30 chặng luyện nói, phản xạ và từ khóa giao tiếp."
+    },
+    {
+      "id": "topics",
+      "title": "Chủ đề / lĩnh vực",
+      "icon": "🏷️",
+      "summary": "Gia đình, công việc, du lịch, bệnh viện, công nghệ, kinh doanh..."
+    },
+    {
+      "id": "profile",
+      "title": "Hồ sơ học tập",
+      "icon": "👤",
+      "summary": "Mục tiêu học, streak, badge, điểm số và chế độ giao diện."
+    }
   ],
   "chapters": [
     {
-      "group":"Học cho người mới",
-      "items":[
-        {"title":"Unit 0 - Hangul cơ bản","summary":"Nguyên âm, phụ âm, batchim, cách ghép chữ.","tags":["Hangul","phát âm","đọc đúng"]},
-        {"title":"Unit 1 - Chào hỏi & giới thiệu bản thân","summary":"Xin chào, cảm ơn, xin lỗi, tên tuổi, quốc tịch.","tags":["chào hỏi","giới thiệu","lịch sự"]},
-        {"title":"Unit 2 - Số đếm, ngày tháng, giờ giấc","summary":"Số thuần Hàn, số Hán Hàn, giờ học, lịch hẹn.","tags":["số đếm","ngày","thời gian"]}
+      "group": "Học cho người mới",
+      "items": [
+        {
+          "title": "Unit 0 - Hangul cơ bản",
+          "summary": "Nguyên âm, phụ âm, batchim, cách ghép chữ.",
+          "tags": [
+            "Hangul",
+            "phát âm",
+            "đọc đúng"
+          ]
+        },
+        {
+          "title": "Unit 1 - Chào hỏi & giới thiệu bản thân",
+          "summary": "Xin chào, cảm ơn, xin lỗi, tên tuổi, quốc tịch.",
+          "tags": [
+            "chào hỏi",
+            "giới thiệu",
+            "lịch sự"
+          ]
+        },
+        {
+          "title": "Unit 2 - Số đếm, ngày tháng, giờ giấc",
+          "summary": "Số thuần Hàn, số Hán Hàn, giờ học, lịch hẹn.",
+          "tags": [
+            "số đếm",
+            "ngày",
+            "thời gian"
+          ]
+        }
       ]
     },
     {
-      "group":"Ngữ pháp cơ bản đến nâng cao",
-      "items":[
-        {"title":"Unit 3 - Ngữ pháp cơ bản","summary":"-이에요/-예요, -아요/-어요, -에/-에서, -고 싶어요.","tags":["cơ bản","mẫu câu","ví dụ"]},
-        {"title":"Unit 4 - Ngữ pháp trung cấp","summary":"-아/어서, -으려고, -지만, -기 때문에.","tags":["trung cấp","lý do","kế hoạch"]},
-        {"title":"Unit 5 - Ngữ pháp nâng cao","summary":"-는 것 같습니다, -도록 하겠습니다, văn phong lịch sự công việc.","tags":["nâng cao","suy đoán","cam kết"]}
+      "group": "Ngữ pháp cơ bản đến nâng cao",
+      "items": [
+        {
+          "title": "Unit 3 - Ngữ pháp cơ bản",
+          "summary": "-이에요/-예요, -아요/-어요, -에/-에서, -고 싶어요.",
+          "tags": [
+            "cơ bản",
+            "mẫu câu",
+            "ví dụ"
+          ]
+        },
+        {
+          "title": "Unit 4 - Ngữ pháp trung cấp",
+          "summary": "-아/어서, -으려고, -지만, -기 때문에.",
+          "tags": [
+            "trung cấp",
+            "lý do",
+            "kế hoạch"
+          ]
+        },
+        {
+          "title": "Unit 5 - Ngữ pháp nâng cao",
+          "summary": "-는 것 같습니다, -도록 하겠습니다, văn phong lịch sự công việc.",
+          "tags": [
+            "nâng cao",
+            "suy đoán",
+            "cam kết"
+          ]
+        }
       ]
     },
     {
-      "group":"Giao tiếp & ứng dụng thực tế",
-      "items":[
-        {"title":"Unit 6 - Ăn uống, mua sắm, trường học","summary":"Gọi món, hỏi giá, lớp học, bài tập, thời khóa biểu.","tags":["đời sống","mua sắm","trường học"]},
-        {"title":"Unit 7 - Du lịch & hỏi đường","summary":"Ga tàu, sân bay, khách sạn, hỏi đường, đặt phòng.","tags":["du lịch","sân bay","khách sạn"]},
-        {"title":"Unit 8 - Công việc & giao tiếp xã hội","summary":"Họp, email, xác nhận tiến độ, mời, từ chối, giữ lịch sự.","tags":["công việc","meeting","xã giao"]}
+      "group": "Giao tiếp & ứng dụng thực tế",
+      "items": [
+        {
+          "title": "Unit 6 - Ăn uống, mua sắm, trường học",
+          "summary": "Gọi món, hỏi giá, lớp học, bài tập, thời khóa biểu.",
+          "tags": [
+            "đời sống",
+            "mua sắm",
+            "trường học"
+          ]
+        },
+        {
+          "title": "Unit 7 - Du lịch & hỏi đường",
+          "summary": "Ga tàu, sân bay, khách sạn, hỏi đường, đặt phòng.",
+          "tags": [
+            "du lịch",
+            "sân bay",
+            "khách sạn"
+          ]
+        },
+        {
+          "title": "Unit 8 - Công việc & giao tiếp xã hội",
+          "summary": "Họp, email, xác nhận tiến độ, mời, từ chối, giữ lịch sự.",
+          "tags": [
+            "công việc",
+            "meeting",
+            "xã giao"
+          ]
+        }
       ]
     }
   ],
   "quick7Days": [
-    {"day":"Day 1","title":"Hangul + chào hỏi","focus":"Nhận diện bảng chữ cái và câu chào cơ bản."},
-    {"day":"Day 2","title":"Số đếm + thời gian","focus":"Đếm số, nói giờ, ngày tháng và lịch hẹn."},
-    {"day":"Day 3","title":"Ăn uống + mua sắm","focus":"Gọi món, hỏi giá, màu sắc, kích cỡ."},
-    {"day":"Day 4","title":"Hỏi đường + di chuyển","focus":"Ga tàu, xe buýt, bản đồ, đường đi."},
-    {"day":"Day 5","title":"Gia đình + công việc","focus":"Từ vựng bản thân, nghề nghiệp, lịch làm việc."},
-    {"day":"Day 6","title":"Cảm xúc + hội thoại","focus":"Biểu đạt thích, không thích, lo lắng, vui mừng."},
-    {"day":"Day 7","title":"Ôn tập + mini test","focus":"Tổng ôn từ mới, ngữ pháp, quiz chốt 7 ngày."}
+    {
+      "day": "Day 1",
+      "title": "Hangul + chào hỏi",
+      "focus": "Nhận diện bảng chữ cái và câu chào cơ bản."
+    },
+    {
+      "day": "Day 2",
+      "title": "Số đếm + thời gian",
+      "focus": "Đếm số, nói giờ, ngày tháng và lịch hẹn."
+    },
+    {
+      "day": "Day 3",
+      "title": "Ăn uống + mua sắm",
+      "focus": "Gọi món, hỏi giá, màu sắc, kích cỡ."
+    },
+    {
+      "day": "Day 4",
+      "title": "Hỏi đường + di chuyển",
+      "focus": "Ga tàu, xe buýt, bản đồ, đường đi."
+    },
+    {
+      "day": "Day 5",
+      "title": "Gia đình + công việc",
+      "focus": "Từ vựng bản thân, nghề nghiệp, lịch làm việc."
+    },
+    {
+      "day": "Day 6",
+      "title": "Cảm xúc + hội thoại",
+      "focus": "Biểu đạt thích, không thích, lo lắng, vui mừng."
+    },
+    {
+      "day": "Day 7",
+      "title": "Ôn tập + mini test",
+      "focus": "Tổng ôn từ mới, ngữ pháp, quiz chốt 7 ngày."
+    }
   ],
   "speak30Days": [
-    {"day":1,"title":"Chào hỏi lịch sự","keywords":["안녕하세요","감사합니다"],"phrase":"만나서 반가워요."},
-    {"day":2,"title":"Giới thiệu bản thân","keywords":["이름","베트남"],"phrase":"저는 베트남 사람이에요."},
-    {"day":3,"title":"Hỏi thăm sức khỏe","keywords":["어떻게 지내세요","괜찮아요"],"phrase":"잘 지내세요?"},
-    {"day":4,"title":"Mua đồ uống","keywords":["물","커피"],"phrase":"물 한 병 주세요."},
-    {"day":5,"title":"Gọi món ăn","keywords":["비빔밥","맛있어요"],"phrase":"이거 맛있어요?"},
-    {"day":6,"title":"Hỏi giá","keywords":["얼마예요","비싸요"],"phrase":"좀 비싸요."},
-    {"day":7,"title":"Hỏi đường","keywords":["어디예요","역"],"phrase":"서울역이 어디예요?"},
-    {"day":8,"title":"Đi tàu điện","keywords":["지하철","표"],"phrase":"표는 어디에서 사요?"},
-    {"day":9,"title":"Khách sạn","keywords":["예약","방"],"phrase":"예약했어요."},
-    {"day":10,"title":"Sân bay","keywords":["탑승권","출발"],"phrase":"출발 시간이 몇 시예요?"},
-    {"day":11,"title":"Gia đình","keywords":["가족","부모님"],"phrase":"가족은 몇 명이에요?"},
-    {"day":12,"title":"Bạn bè","keywords":["친구","약속"],"phrase":"친구를 만날 거예요."},
-    {"day":13,"title":"Lịch hẹn","keywords":["시간","약속"],"phrase":"몇 시에 만날까요?"},
-    {"day":14,"title":"Thời tiết","keywords":["날씨","덥다"],"phrase":"오늘은 조금 더워요."},
-    {"day":15,"title":"Trường học","keywords":["학교","수업"],"phrase":"오늘 수업이 있어요."},
-    {"day":16,"title":"Bài tập","keywords":["숙제","시험"],"phrase":"숙제가 많아요."},
-    {"day":17,"title":"Công việc","keywords":["회사","회의"],"phrase":"오후에 회의가 있어요."},
-    {"day":18,"title":"Email & xác nhận","keywords":["확인","보내다"],"phrase":"메일을 보내 주세요."},
-    {"day":19,"title":"Cảm xúc","keywords":["기뻐요","긴장돼요"],"phrase":"조금 긴장돼요."},
-    {"day":20,"title":"Sở thích","keywords":["좋아해요","취미"],"phrase":"저는 음악을 좋아해요."},
-    {"day":21,"title":"Kế hoạch cuối tuần","keywords":["주말","계획"],"phrase":"주말에 여행하려고 해요."},
-    {"day":22,"title":"Bệnh viện","keywords":["병원","아파요"],"phrase":"머리가 아파요."},
-    {"day":23,"title":"Mua thuốc","keywords":["약","처방전"],"phrase":"약을 먹어야 해요."},
-    {"day":24,"title":"Nhờ giúp đỡ","keywords":["도와주세요","실례합니다"],"phrase":"도와주세요."},
-    {"day":25,"title":"Xã giao","keywords":["괜찮으시면","다음에"],"phrase":"괜찮으시면 같이 가요."},
-    {"day":26,"title":"Nêu ý kiến","keywords":["제 생각에는","필요해요"],"phrase":"제 생각에는 이게 좋아요."},
-    {"day":27,"title":"Thuyết phục nhẹ","keywords":["아마","것 같아요"],"phrase":"좋을 것 같아요."},
-    {"day":28,"title":"Môi trường công sở","keywords":["진행 상황","검토"],"phrase":"검토해 주세요."},
-    {"day":29,"title":"Tóm tắt vấn đề","keywords":["문제","해결"],"phrase":"해결 방법을 찾고 있어요."},
-    {"day":30,"title":"Ôn tổng hợp giao tiếp","keywords":["복습","자신감"],"phrase":"이제 자신 있게 말할 수 있어요."}
+    {
+      "day": 1,
+      "title": "Chào hỏi lịch sự",
+      "keywords": [
+        "안녕하세요",
+        "감사합니다"
+      ],
+      "phrase": "만나서 반가워요."
+    },
+    {
+      "day": 2,
+      "title": "Giới thiệu bản thân",
+      "keywords": [
+        "이름",
+        "베트남"
+      ],
+      "phrase": "저는 베트남 사람이에요."
+    },
+    {
+      "day": 3,
+      "title": "Hỏi thăm sức khỏe",
+      "keywords": [
+        "어떻게 지내세요",
+        "괜찮아요"
+      ],
+      "phrase": "잘 지내세요?"
+    },
+    {
+      "day": 4,
+      "title": "Mua đồ uống",
+      "keywords": [
+        "물",
+        "커피"
+      ],
+      "phrase": "물 한 병 주세요."
+    },
+    {
+      "day": 5,
+      "title": "Gọi món ăn",
+      "keywords": [
+        "비빔밥",
+        "맛있어요"
+      ],
+      "phrase": "이거 맛있어요?"
+    },
+    {
+      "day": 6,
+      "title": "Hỏi giá",
+      "keywords": [
+        "얼마예요",
+        "비싸요"
+      ],
+      "phrase": "좀 비싸요."
+    },
+    {
+      "day": 7,
+      "title": "Hỏi đường",
+      "keywords": [
+        "어디예요",
+        "역"
+      ],
+      "phrase": "서울역이 어디예요?"
+    },
+    {
+      "day": 8,
+      "title": "Đi tàu điện",
+      "keywords": [
+        "지하철",
+        "표"
+      ],
+      "phrase": "표는 어디에서 사요?"
+    },
+    {
+      "day": 9,
+      "title": "Khách sạn",
+      "keywords": [
+        "예약",
+        "방"
+      ],
+      "phrase": "예약했어요."
+    },
+    {
+      "day": 10,
+      "title": "Sân bay",
+      "keywords": [
+        "탑승권",
+        "출발"
+      ],
+      "phrase": "출발 시간이 몇 시예요?"
+    },
+    {
+      "day": 11,
+      "title": "Gia đình",
+      "keywords": [
+        "가족",
+        "부모님"
+      ],
+      "phrase": "가족은 몇 명이에요?"
+    },
+    {
+      "day": 12,
+      "title": "Bạn bè",
+      "keywords": [
+        "친구",
+        "약속"
+      ],
+      "phrase": "친구를 만날 거예요."
+    },
+    {
+      "day": 13,
+      "title": "Lịch hẹn",
+      "keywords": [
+        "시간",
+        "약속"
+      ],
+      "phrase": "몇 시에 만날까요?"
+    },
+    {
+      "day": 14,
+      "title": "Thời tiết",
+      "keywords": [
+        "날씨",
+        "덥다"
+      ],
+      "phrase": "오늘은 조금 더워요."
+    },
+    {
+      "day": 15,
+      "title": "Trường học",
+      "keywords": [
+        "학교",
+        "수업"
+      ],
+      "phrase": "오늘 수업이 있어요."
+    },
+    {
+      "day": 16,
+      "title": "Bài tập",
+      "keywords": [
+        "숙제",
+        "시험"
+      ],
+      "phrase": "숙제가 많아요."
+    },
+    {
+      "day": 17,
+      "title": "Công việc",
+      "keywords": [
+        "회사",
+        "회의"
+      ],
+      "phrase": "오후에 회의가 있어요."
+    },
+    {
+      "day": 18,
+      "title": "Email & xác nhận",
+      "keywords": [
+        "확인",
+        "보내다"
+      ],
+      "phrase": "메일을 보내 주세요."
+    },
+    {
+      "day": 19,
+      "title": "Cảm xúc",
+      "keywords": [
+        "기뻐요",
+        "긴장돼요"
+      ],
+      "phrase": "조금 긴장돼요."
+    },
+    {
+      "day": 20,
+      "title": "Sở thích",
+      "keywords": [
+        "좋아해요",
+        "취미"
+      ],
+      "phrase": "저는 음악을 좋아해요."
+    },
+    {
+      "day": 21,
+      "title": "Kế hoạch cuối tuần",
+      "keywords": [
+        "주말",
+        "계획"
+      ],
+      "phrase": "주말에 여행하려고 해요."
+    },
+    {
+      "day": 22,
+      "title": "Bệnh viện",
+      "keywords": [
+        "병원",
+        "아파요"
+      ],
+      "phrase": "머리가 아파요."
+    },
+    {
+      "day": 23,
+      "title": "Mua thuốc",
+      "keywords": [
+        "약",
+        "처방전"
+      ],
+      "phrase": "약을 먹어야 해요."
+    },
+    {
+      "day": 24,
+      "title": "Nhờ giúp đỡ",
+      "keywords": [
+        "도와주세요",
+        "실례합니다"
+      ],
+      "phrase": "도와주세요."
+    },
+    {
+      "day": 25,
+      "title": "Xã giao",
+      "keywords": [
+        "괜찮으시면",
+        "다음에"
+      ],
+      "phrase": "괜찮으시면 같이 가요."
+    },
+    {
+      "day": 26,
+      "title": "Nêu ý kiến",
+      "keywords": [
+        "제 생각에는",
+        "필요해요"
+      ],
+      "phrase": "제 생각에는 이게 좋아요."
+    },
+    {
+      "day": 27,
+      "title": "Thuyết phục nhẹ",
+      "keywords": [
+        "아마",
+        "것 같아요"
+      ],
+      "phrase": "좋을 것 같아요."
+    },
+    {
+      "day": 28,
+      "title": "Môi trường công sở",
+      "keywords": [
+        "진행 상황",
+        "검토"
+      ],
+      "phrase": "검토해 주세요."
+    },
+    {
+      "day": 29,
+      "title": "Tóm tắt vấn đề",
+      "keywords": [
+        "문제",
+        "해결"
+      ],
+      "phrase": "해결 방법을 찾고 있어요."
+    },
+    {
+      "day": 30,
+      "title": "Ôn tổng hợp giao tiếp",
+      "keywords": [
+        "복습",
+        "자신감"
+      ],
+      "phrase": "이제 자신 있게 말할 수 있어요."
+    }
   ],
   "topics": [
-    {"title":"Đời sống hằng ngày","words":["안녕하세요","물","집","가족"]},
-    {"title":"Trường học","words":["학교","수업","숙제","시험"]},
-    {"title":"Công việc","words":["회사","회의","마감","보고서"]},
-    {"title":"Nhà hàng","words":["비빔밥","주문","맛있어요","계산"]},
-    {"title":"Mua sắm","words":["얼마예요","작아요","커요","색깔"]},
-    {"title":"Du lịch","words":["여행","호텔","예약","지도"]},
-    {"title":"Sân bay","words":["탑승권","출발","도착","수하물"]},
-    {"title":"Bệnh viện","words":["병원","약","아파요","의사"]},
-    {"title":"Cảm xúc","words":["기뻐요","슬퍼요","긴장돼요","행복해요"]},
-    {"title":"Gia đình","words":["부모님","형제","자매","친척"]},
-    {"title":"Công nghệ","words":["컴퓨터","휴대폰","인터넷","파일"]},
-    {"title":"Kinh doanh / văn phòng","words":["계약","고객","미팅","전략"]}
+    {
+      "title": "Đời sống hằng ngày",
+      "words": [
+        "안녕하세요",
+        "물",
+        "집",
+        "가족"
+      ]
+    },
+    {
+      "title": "Trường học",
+      "words": [
+        "학교",
+        "수업",
+        "숙제",
+        "시험"
+      ]
+    },
+    {
+      "title": "Công việc",
+      "words": [
+        "회사",
+        "회의",
+        "마감",
+        "보고서"
+      ]
+    },
+    {
+      "title": "Nhà hàng",
+      "words": [
+        "비빔밥",
+        "주문",
+        "맛있어요",
+        "계산"
+      ]
+    },
+    {
+      "title": "Mua sắm",
+      "words": [
+        "얼마예요",
+        "작아요",
+        "커요",
+        "색깔"
+      ]
+    },
+    {
+      "title": "Du lịch",
+      "words": [
+        "여행",
+        "호텔",
+        "예약",
+        "지도"
+      ]
+    },
+    {
+      "title": "Sân bay",
+      "words": [
+        "탑승권",
+        "출발",
+        "도착",
+        "수하물"
+      ]
+    },
+    {
+      "title": "Bệnh viện",
+      "words": [
+        "병원",
+        "약",
+        "아파요",
+        "의사"
+      ]
+    },
+    {
+      "title": "Cảm xúc",
+      "words": [
+        "기뻐요",
+        "슬퍼요",
+        "긴장돼요",
+        "행복해요"
+      ]
+    },
+    {
+      "title": "Gia đình",
+      "words": [
+        "부모님",
+        "형제",
+        "자매",
+        "친척"
+      ]
+    },
+    {
+      "title": "Công nghệ",
+      "words": [
+        "컴퓨터",
+        "휴대폰",
+        "인터넷",
+        "파일"
+      ]
+    },
+    {
+      "title": "Kinh doanh / văn phòng",
+      "words": [
+        "계약",
+        "고객",
+        "미팅",
+        "전략"
+      ]
+    }
   ],
   "vocabulary": [
-    {"level":"beginner","topic":"daily","korean":"안녕하세요","romanized":"an-nyeong-ha-se-yo","vietnamesePronunciation":"an-nhông-ha-sê-yô","meaning":"Xin chào","context":"Chào lịch sự khi gặp người khác."},
-    {"level":"beginner","topic":"daily","korean":"감사합니다","romanized":"gam-sa-ham-ni-da","vietnamesePronunciation":"kam-sa-ham-ni-ta","meaning":"Cảm ơn","context":"Cảm ơn trong ngữ cảnh lịch sự."},
-    {"level":"beginner","topic":"family","korean":"가족","romanized":"ga-jok","vietnamesePronunciation":"ka-chốc","meaning":"Gia đình","context":"Nói về bản thân và người thân."},
-    {"level":"beginner","topic":"school","korean":"학교","romanized":"hak-gyo","vietnamesePronunciation":"hác-kyo","meaning":"Trường học","context":"Chủ đề người mới học."},
-    {"level":"foundation","topic":"restaurant","korean":"비빔밥","romanized":"bi-bim-bap","vietnamesePronunciation":"bi-bim-báp","meaning":"Cơm trộn","context":"Món phổ biến ở nhà hàng Hàn."},
-    {"level":"foundation","topic":"shopping","korean":"얼마예요?","romanized":"eol-ma-ye-yo","vietnamesePronunciation":"ol-ma-yê-yô","meaning":"Bao nhiêu tiền?","context":"Hỏi giá khi mua hàng."},
-    {"level":"foundation","topic":"school","korean":"숙제","romanized":"suk-je","vietnamesePronunciation":"súc-chê","meaning":"Bài tập về nhà","context":"Nói về việc học."},
-    {"level":"intermediate","topic":"travel","korean":"길을 잃었어요","romanized":"gir-eul ilh-eo-sseo-yo","vietnamesePronunciation":"ki-rưl ilh-o-sơ-yô","meaning":"Tôi bị lạc đường","context":"Khi cần hỏi giúp đỡ ngoài đường."},
-    {"level":"intermediate","topic":"work","korean":"회의","romanized":"hoe-ui","vietnamesePronunciation":"hwe-ui","meaning":"Cuộc họp","context":"Tình huống công việc."},
-    {"level":"intermediate","topic":"feelings","korean":"긴장돼요","romanized":"gin-jang-dwae-yo","vietnamesePronunciation":"kin-chang-dwe-yô","meaning":"Tôi đang căng thẳng","context":"Biểu đạt cảm xúc."},
-    {"level":"advanced","topic":"business","korean":"검토해 주세요","romanized":"geom-to-hae ju-se-yo","vietnamesePronunciation":"kơm-thô-he chu-sê-yô","meaning":"Xin hãy xem xét giúp","context":"Nhờ người khác xem tài liệu hoặc công việc."},
-    {"level":"advanced","topic":"social","korean":"괜찮으시면","romanized":"gwaen-chan-eu-si-myeon","vietnamesePronunciation":"quen-chan-ư-si-myơn","meaning":"Nếu tiện / nếu được","context":"Mở lời đề nghị lịch sự."}
+    {
+      "level": "beginner",
+      "topic": "daily",
+      "korean": "안녕하세요",
+      "romanized": "an-nyeong-ha-se-yo",
+      "vietnamesePronunciation": "an-nhông-ha-sê-yô",
+      "meaning": "Xin chào",
+      "context": "Chào lịch sự khi gặp người khác."
+    },
+    {
+      "level": "beginner",
+      "topic": "daily",
+      "korean": "감사합니다",
+      "romanized": "gam-sa-ham-ni-da",
+      "vietnamesePronunciation": "kam-sa-ham-ni-ta",
+      "meaning": "Cảm ơn",
+      "context": "Cảm ơn trong ngữ cảnh lịch sự."
+    },
+    {
+      "level": "beginner",
+      "topic": "family",
+      "korean": "가족",
+      "romanized": "ga-jok",
+      "vietnamesePronunciation": "ka-chốc",
+      "meaning": "Gia đình",
+      "context": "Nói về bản thân và người thân."
+    },
+    {
+      "level": "beginner",
+      "topic": "school",
+      "korean": "학교",
+      "romanized": "hak-gyo",
+      "vietnamesePronunciation": "hác-kyo",
+      "meaning": "Trường học",
+      "context": "Chủ đề người mới học."
+    },
+    {
+      "level": "foundation",
+      "topic": "restaurant",
+      "korean": "비빔밥",
+      "romanized": "bi-bim-bap",
+      "vietnamesePronunciation": "bi-bim-báp",
+      "meaning": "Cơm trộn",
+      "context": "Món phổ biến ở nhà hàng Hàn."
+    },
+    {
+      "level": "foundation",
+      "topic": "shopping",
+      "korean": "얼마예요?",
+      "romanized": "eol-ma-ye-yo",
+      "vietnamesePronunciation": "ol-ma-yê-yô",
+      "meaning": "Bao nhiêu tiền?",
+      "context": "Hỏi giá khi mua hàng."
+    },
+    {
+      "level": "foundation",
+      "topic": "school",
+      "korean": "숙제",
+      "romanized": "suk-je",
+      "vietnamesePronunciation": "súc-chê",
+      "meaning": "Bài tập về nhà",
+      "context": "Nói về việc học."
+    },
+    {
+      "level": "intermediate",
+      "topic": "travel",
+      "korean": "길을 잃었어요",
+      "romanized": "gir-eul ilh-eo-sseo-yo",
+      "vietnamesePronunciation": "ki-rưl ilh-o-sơ-yô",
+      "meaning": "Tôi bị lạc đường",
+      "context": "Khi cần hỏi giúp đỡ ngoài đường."
+    },
+    {
+      "level": "intermediate",
+      "topic": "work",
+      "korean": "회의",
+      "romanized": "hoe-ui",
+      "vietnamesePronunciation": "hwe-ui",
+      "meaning": "Cuộc họp",
+      "context": "Tình huống công việc."
+    },
+    {
+      "level": "intermediate",
+      "topic": "feelings",
+      "korean": "긴장돼요",
+      "romanized": "gin-jang-dwae-yo",
+      "vietnamesePronunciation": "kin-chang-dwe-yô",
+      "meaning": "Tôi đang căng thẳng",
+      "context": "Biểu đạt cảm xúc."
+    },
+    {
+      "level": "advanced",
+      "topic": "business",
+      "korean": "검토해 주세요",
+      "romanized": "geom-to-hae ju-se-yo",
+      "vietnamesePronunciation": "kơm-thô-he chu-sê-yô",
+      "meaning": "Xin hãy xem xét giúp",
+      "context": "Nhờ người khác xem tài liệu hoặc công việc."
+    },
+    {
+      "level": "advanced",
+      "topic": "social",
+      "korean": "괜찮으시면",
+      "romanized": "gwaen-chan-eu-si-myeon",
+      "vietnamesePronunciation": "quen-chan-ư-si-myơn",
+      "meaning": "Nếu tiện / nếu được",
+      "context": "Mở lời đề nghị lịch sự."
+    },
+    {
+      "level": "beginner",
+      "topic": "daily",
+      "korean": "집",
+      "romanized": "jip",
+      "vietnamesePronunciation": "chíp",
+      "meaning": "Nhà",
+      "context": "Nói về nơi ở"
+    },
+    {
+      "level": "beginner",
+      "topic": "daily",
+      "korean": "문",
+      "romanized": "mun",
+      "vietnamesePronunciation": "mun",
+      "meaning": "Cửa",
+      "context": "Đồ vật trong nhà"
+    },
+    {
+      "level": "beginner",
+      "topic": "daily",
+      "korean": "의자",
+      "romanized": "ui-ja",
+      "vietnamesePronunciation": "ưi-cha",
+      "meaning": "Cái ghế",
+      "context": "Đồ nội thất"
+    },
+    {
+      "level": "beginner",
+      "topic": "daily",
+      "korean": "아침",
+      "romanized": "a-chim",
+      "vietnamesePronunciation": "a-chim",
+      "meaning": "Buổi sáng",
+      "context": "Thời gian trong ngày"
+    },
+    {
+      "level": "beginner",
+      "topic": "school",
+      "korean": "도서관",
+      "romanized": "do-seo-gwan",
+      "vietnamesePronunciation": "tô-sơ-gwan",
+      "meaning": "Thư viện",
+      "context": "Không gian học tập"
+    },
+    {
+      "level": "beginner",
+      "topic": "school",
+      "korean": "교실",
+      "romanized": "gyo-sil",
+      "vietnamesePronunciation": "kyo-sil",
+      "meaning": "Lớp học",
+      "context": "Ngữ cảnh trường học"
+    },
+    {
+      "level": "beginner",
+      "topic": "school",
+      "korean": "선생님",
+      "romanized": "seon-saeng-nim",
+      "vietnamesePronunciation": "sơn-seng-nim",
+      "meaning": "Giáo viên",
+      "context": "Cách gọi lịch sự"
+    },
+    {
+      "level": "beginner",
+      "topic": "school",
+      "korean": "학생",
+      "romanized": "hak-saeng",
+      "vietnamesePronunciation": "hác-seng",
+      "meaning": "Học sinh",
+      "context": "Người học"
+    },
+    {
+      "level": "beginner",
+      "topic": "work",
+      "korean": "회사",
+      "romanized": "hoe-sa",
+      "vietnamesePronunciation": "hwe-sa",
+      "meaning": "Công ty",
+      "context": "Nơi làm việc"
+    },
+    {
+      "level": "beginner",
+      "topic": "work",
+      "korean": "보고서",
+      "romanized": "bo-go-seo",
+      "vietnamesePronunciation": "bô-gô-sơ",
+      "meaning": "Báo cáo",
+      "context": "Tài liệu công việc"
+    },
+    {
+      "level": "beginner",
+      "topic": "work",
+      "korean": "일정",
+      "romanized": "il-jeong",
+      "vietnamesePronunciation": "il-chông",
+      "meaning": "Lịch trình",
+      "context": "Sắp xếp công việc"
+    },
+    {
+      "level": "beginner",
+      "topic": "work",
+      "korean": "팀장",
+      "romanized": "tim-jang",
+      "vietnamesePronunciation": "thim-chang",
+      "meaning": "Trưởng nhóm",
+      "context": "Chức danh"
+    },
+    {
+      "level": "foundation",
+      "topic": "restaurant",
+      "korean": "주문",
+      "romanized": "ju-mun",
+      "vietnamesePronunciation": "chu-mun",
+      "meaning": "Gọi món",
+      "context": "Dùng ở quán ăn"
+    },
+    {
+      "level": "foundation",
+      "topic": "restaurant",
+      "korean": "계산",
+      "romanized": "gye-san",
+      "vietnamesePronunciation": "kye-san",
+      "meaning": "Thanh toán",
+      "context": "Sau khi ăn xong"
+    },
+    {
+      "level": "foundation",
+      "topic": "restaurant",
+      "korean": "메뉴",
+      "romanized": "me-nyu",
+      "vietnamesePronunciation": "mê-nyu",
+      "meaning": "Thực đơn",
+      "context": "Chọn món"
+    },
+    {
+      "level": "foundation",
+      "topic": "restaurant",
+      "korean": "국수",
+      "romanized": "guk-su",
+      "vietnamesePronunciation": "gúc-su",
+      "meaning": "Mì",
+      "context": "Món ăn phổ biến"
+    },
+    {
+      "level": "foundation",
+      "topic": "shopping",
+      "korean": "할인",
+      "romanized": "hal-in",
+      "vietnamesePronunciation": "hal-in",
+      "meaning": "Giảm giá",
+      "context": "Khuyến mãi"
+    },
+    {
+      "level": "foundation",
+      "topic": "shopping",
+      "korean": "영수증",
+      "romanized": "yeong-su-jeung",
+      "vietnamesePronunciation": "yông-su-chưng",
+      "meaning": "Hóa đơn",
+      "context": "Sau khi thanh toán"
+    },
+    {
+      "level": "foundation",
+      "topic": "shopping",
+      "korean": "사이즈",
+      "romanized": "sa-i-jeu",
+      "vietnamesePronunciation": "sa-i-chư",
+      "meaning": "Kích cỡ",
+      "context": "Quần áo/giày dép"
+    },
+    {
+      "level": "foundation",
+      "topic": "shopping",
+      "korean": "색깔",
+      "romanized": "saek-kkal",
+      "vietnamesePronunciation": "sek-kal",
+      "meaning": "Màu sắc",
+      "context": "Mô tả sản phẩm"
+    },
+    {
+      "level": "foundation",
+      "topic": "travel",
+      "korean": "여권",
+      "romanized": "yeo-gwon",
+      "vietnamesePronunciation": "yơ-kwơn",
+      "meaning": "Hộ chiếu",
+      "context": "Đi nước ngoài"
+    },
+    {
+      "level": "foundation",
+      "topic": "travel",
+      "korean": "호텔",
+      "romanized": "ho-tel",
+      "vietnamesePronunciation": "hô-ten",
+      "meaning": "Khách sạn",
+      "context": "Lưu trú"
+    },
+    {
+      "level": "foundation",
+      "topic": "travel",
+      "korean": "지도",
+      "romanized": "ji-do",
+      "vietnamesePronunciation": "chi-đô",
+      "meaning": "Bản đồ",
+      "context": "Tìm đường"
+    },
+    {
+      "level": "foundation",
+      "topic": "travel",
+      "korean": "관광",
+      "romanized": "gwan-gwang",
+      "vietnamesePronunciation": "kwan-kwang",
+      "meaning": "Tham quan",
+      "context": "Hoạt động du lịch"
+    },
+    {
+      "level": "intermediate",
+      "topic": "airport",
+      "korean": "출발",
+      "romanized": "chul-bal",
+      "vietnamesePronunciation": "chul-bal",
+      "meaning": "Khởi hành",
+      "context": "Chuyến bay đi"
+    },
+    {
+      "level": "intermediate",
+      "topic": "airport",
+      "korean": "도착",
+      "romanized": "do-chak",
+      "vietnamesePronunciation": "đô-chak",
+      "meaning": "Đến nơi",
+      "context": "Chuyến bay đến"
+    },
+    {
+      "level": "intermediate",
+      "topic": "airport",
+      "korean": "수하물",
+      "romanized": "su-ha-mul",
+      "vietnamesePronunciation": "su-ha-mul",
+      "meaning": "Hành lý",
+      "context": "Ở sân bay"
+    },
+    {
+      "level": "intermediate",
+      "topic": "airport",
+      "korean": "탑승권",
+      "romanized": "tap-seung-gwon",
+      "vietnamesePronunciation": "tháp-sưng-kwơn",
+      "meaning": "Thẻ lên máy bay",
+      "context": "Check-in sân bay"
+    },
+    {
+      "level": "intermediate",
+      "topic": "hospital",
+      "korean": "의사",
+      "romanized": "ui-sa",
+      "vietnamesePronunciation": "ưi-sa",
+      "meaning": "Bác sĩ",
+      "context": "Người khám bệnh"
+    },
+    {
+      "level": "intermediate",
+      "topic": "hospital",
+      "korean": "약",
+      "romanized": "yak",
+      "vietnamesePronunciation": "yak",
+      "meaning": "Thuốc",
+      "context": "Dùng khi bị bệnh"
+    },
+    {
+      "level": "intermediate",
+      "topic": "hospital",
+      "korean": "아파요",
+      "romanized": "a-pa-yo",
+      "vietnamesePronunciation": "a-pa-yô",
+      "meaning": "Tôi đau",
+      "context": "Mô tả triệu chứng"
+    },
+    {
+      "level": "intermediate",
+      "topic": "hospital",
+      "korean": "진료",
+      "romanized": "jin-ryo",
+      "vietnamesePronunciation": "chin-ryo",
+      "meaning": "Khám bệnh",
+      "context": "Ngữ cảnh y tế"
+    },
+    {
+      "level": "intermediate",
+      "topic": "feelings",
+      "korean": "행복해요",
+      "romanized": "haeng-bok-hae-yo",
+      "vietnamesePronunciation": "heng-bốc-he-yô",
+      "meaning": "Tôi hạnh phúc",
+      "context": "Cảm xúc tích cực"
+    },
+    {
+      "level": "intermediate",
+      "topic": "feelings",
+      "korean": "슬퍼요",
+      "romanized": "seul-peo-yo",
+      "vietnamesePronunciation": "sưl-pơ-yô",
+      "meaning": "Tôi buồn",
+      "context": "Cảm xúc tiêu cực"
+    },
+    {
+      "level": "intermediate",
+      "topic": "feelings",
+      "korean": "걱정돼요",
+      "romanized": "geok-jeong-dwae-yo",
+      "vietnamesePronunciation": "kơk-chông-dwe-yô",
+      "meaning": "Tôi lo lắng",
+      "context": "Diễn tả nỗi lo"
+    },
+    {
+      "level": "intermediate",
+      "topic": "feelings",
+      "korean": "편해요",
+      "romanized": "pyeon-hae-yo",
+      "vietnamesePronunciation": "phyơn-he-yô",
+      "meaning": "Thoải mái",
+      "context": "Trạng thái dễ chịu"
+    },
+    {
+      "level": "advanced",
+      "topic": "family",
+      "korean": "어머니",
+      "romanized": "eo-meo-ni",
+      "vietnamesePronunciation": "ơ-mơ-ni",
+      "meaning": "Mẹ",
+      "context": "Gia đình"
+    },
+    {
+      "level": "advanced",
+      "topic": "family",
+      "korean": "아버지",
+      "romanized": "a-beo-ji",
+      "vietnamesePronunciation": "a-bơ-chi",
+      "meaning": "Bố",
+      "context": "Gia đình"
+    },
+    {
+      "level": "advanced",
+      "topic": "family",
+      "korean": "동생",
+      "romanized": "dong-saeng",
+      "vietnamesePronunciation": "đông-seng",
+      "meaning": "Em",
+      "context": "Gia đình"
+    },
+    {
+      "level": "advanced",
+      "topic": "family",
+      "korean": "친척",
+      "romanized": "chin-cheok",
+      "vietnamesePronunciation": "chin-chọc",
+      "meaning": "Họ hàng",
+      "context": "Gia đình mở rộng"
+    },
+    {
+      "level": "advanced",
+      "topic": "tech",
+      "korean": "컴퓨터",
+      "romanized": "keom-pyu-teo",
+      "vietnamesePronunciation": "khơm-pyu-thơ",
+      "meaning": "Máy tính",
+      "context": "Thiết bị công nghệ"
+    },
+    {
+      "level": "advanced",
+      "topic": "tech",
+      "korean": "파일",
+      "romanized": "pa-il",
+      "vietnamesePronunciation": "pha-il",
+      "meaning": "Tệp tin",
+      "context": "Làm việc số"
+    },
+    {
+      "level": "advanced",
+      "topic": "tech",
+      "korean": "인터넷",
+      "romanized": "in-teo-net",
+      "vietnamesePronunciation": "in-thơ-net",
+      "meaning": "Internet",
+      "context": "Mạng"
+    },
+    {
+      "level": "advanced",
+      "topic": "tech",
+      "korean": "프로그램",
+      "romanized": "peu-ro-geu-raem",
+      "vietnamesePronunciation": "phư-rô-kư-rem",
+      "meaning": "Chương trình",
+      "context": "Phần mềm"
+    },
+    {
+      "level": "advanced",
+      "topic": "business",
+      "korean": "계약",
+      "romanized": "gye-yak",
+      "vietnamesePronunciation": "kye-yak",
+      "meaning": "Hợp đồng",
+      "context": "Kinh doanh"
+    },
+    {
+      "level": "advanced",
+      "topic": "business",
+      "korean": "고객",
+      "romanized": "go-gaek",
+      "vietnamesePronunciation": "gô-kek",
+      "meaning": "Khách hàng",
+      "context": "Chăm sóc khách hàng"
+    },
+    {
+      "level": "advanced",
+      "topic": "business",
+      "korean": "전략",
+      "romanized": "jeon-ryak",
+      "vietnamesePronunciation": "chon-ryak",
+      "meaning": "Chiến lược",
+      "context": "Công việc quản lý"
+    },
+    {
+      "level": "advanced",
+      "topic": "business",
+      "korean": "매출",
+      "romanized": "mae-chul",
+      "vietnamesePronunciation": "me-chul",
+      "meaning": "Doanh thu",
+      "context": "Kinh doanh"
+    }
   ],
   "grammar": {
     "basic": [
-      {"pattern":"-이에요 / -예요","title":"Câu giới thiệu danh từ","example":"저는 학생이에요. = Tôi là học sinh."},
-      {"pattern":"-아요 / -어요","title":"Đuôi câu lịch sự thân mật","example":"가요, 먹어요, 좋아요."},
-      {"pattern":"-고 싶어요","title":"Muốn làm gì đó","example":"한국어를 배우고 싶어요."}
+      {
+        "pattern": "-이에요 / -예요",
+        "title": "Câu giới thiệu danh từ",
+        "example": "저는 학생이에요. = Tôi là học sinh."
+      },
+      {
+        "pattern": "-아요 / -어요",
+        "title": "Đuôi câu lịch sự thân mật",
+        "example": "가요, 먹어요, 좋아요."
+      },
+      {
+        "pattern": "-고 싶어요",
+        "title": "Muốn làm gì đó",
+        "example": "한국어를 배우고 싶어요."
+      }
     ],
     "intermediate": [
-      {"pattern":"-아/어서","title":"Nối nguyên nhân hoặc trình tự","example":"바빠서 못 갔어요."},
-      {"pattern":"-려고 해요","title":"Dự định làm gì","example":"주말에 여행하려고 해요."},
-      {"pattern":"-지만","title":"Nhưng / tuy nhiên","example":"비싸지만 좋아요."}
+      {
+        "pattern": "-아/어서",
+        "title": "Nối nguyên nhân hoặc trình tự",
+        "example": "바빠서 못 갔어요."
+      },
+      {
+        "pattern": "-려고 해요",
+        "title": "Dự định làm gì",
+        "example": "주말에 여행하려고 해요."
+      },
+      {
+        "pattern": "-지만",
+        "title": "Nhưng / tuy nhiên",
+        "example": "비싸지만 좋아요."
+      }
     ],
     "advanced": [
-      {"pattern":"-는 것 같습니다","title":"Suy đoán mềm mại","example":"어려운 것 같습니다."},
-      {"pattern":"-도록 하겠습니다","title":"Cam kết lịch sự","example":"확인하도록 하겠습니다."},
-      {"pattern":"-기 때문에","title":"Diễn đạt nguyên nhân rõ ràng","example":"중요하기 때문에 먼저 하겠습니다."}
+      {
+        "pattern": "-는 것 같습니다",
+        "title": "Suy đoán mềm mại",
+        "example": "어려운 것 같습니다."
+      },
+      {
+        "pattern": "-도록 하겠습니다",
+        "title": "Cam kết lịch sự",
+        "example": "확인하도록 하겠습니다."
+      },
+      {
+        "pattern": "-기 때문에",
+        "title": "Diễn đạt nguyên nhân rõ ràng",
+        "example": "중요하기 때문에 먼저 하겠습니다."
+      }
     ]
   },
   "dialogues": [
-    {"title":"Chào hỏi lần đầu gặp","category":"beginner","lines":[{"speaker":"A","korean":"안녕하세요? 저는 민호예요.","vietnamese":"Xin chào. Mình là Minho."},{"speaker":"B","korean":"저는 Lan이에요. 만나서 반가워요.","vietnamese":"Mình là Lan. Rất vui được gặp bạn."}]},
-    {"title":"Gọi món ở quán ăn","category":"foundation","lines":[{"speaker":"Khách","korean":"비빔밥 하나 주세요.","vietnamese":"Cho tôi một phần cơm trộn."},{"speaker":"Nhân viên","korean":"음료도 드릴까요?","vietnamese":"Bạn dùng thêm đồ uống chứ?"}]},
-    {"title":"Hỏi đường","category":"intermediate","lines":[{"speaker":"Du khách","korean":"서울역에 어떻게 가요?","vietnamese":"Đi ga Seoul thế nào ạ?"},{"speaker":"Người dân","korean":"이쪽으로 가서 2호선을 타세요.","vietnamese":"Đi phía này rồi lên tuyến số 2."}]},
-    {"title":"Trao đổi tiến độ công việc","category":"advanced","lines":[{"speaker":"Manager","korean":"진행 상황을 공유해 주세요.","vietnamese":"Hãy chia sẻ tiến độ hiện tại."},{"speaker":"Staff","korean":"보고서 초안을 작성 중입니다.","vietnamese":"Tôi đang viết bản nháp báo cáo."}]}
+    {
+      "title": "Chào hỏi lần đầu gặp",
+      "category": "beginner",
+      "lines": [
+        {
+          "speaker": "A",
+          "korean": "안녕하세요? 저는 민호예요.",
+          "vietnamese": "Xin chào. Mình là Minho."
+        },
+        {
+          "speaker": "B",
+          "korean": "저는 Lan이에요. 만나서 반가워요.",
+          "vietnamese": "Mình là Lan. Rất vui được gặp bạn."
+        }
+      ]
+    },
+    {
+      "title": "Gọi món ở quán ăn",
+      "category": "foundation",
+      "lines": [
+        {
+          "speaker": "Khách",
+          "korean": "비빔밥 하나 주세요.",
+          "vietnamese": "Cho tôi một phần cơm trộn."
+        },
+        {
+          "speaker": "Nhân viên",
+          "korean": "음료도 드릴까요?",
+          "vietnamese": "Bạn dùng thêm đồ uống chứ?"
+        }
+      ]
+    },
+    {
+      "title": "Hỏi đường",
+      "category": "intermediate",
+      "lines": [
+        {
+          "speaker": "Du khách",
+          "korean": "서울역에 어떻게 가요?",
+          "vietnamese": "Đi ga Seoul thế nào ạ?"
+        },
+        {
+          "speaker": "Người dân",
+          "korean": "이쪽으로 가서 2호선을 타세요.",
+          "vietnamese": "Đi phía này rồi lên tuyến số 2."
+        }
+      ]
+    },
+    {
+      "title": "Trao đổi tiến độ công việc",
+      "category": "advanced",
+      "lines": [
+        {
+          "speaker": "Manager",
+          "korean": "진행 상황을 공유해 주세요.",
+          "vietnamese": "Hãy chia sẻ tiến độ hiện tại."
+        },
+        {
+          "speaker": "Staff",
+          "korean": "보고서 초안을 작성 중입니다.",
+          "vietnamese": "Tôi đang viết bản nháp báo cáo."
+        }
+      ]
+    }
   ],
   "topik": {
-    "topik1": ["Từ vựng nền 1.000 từ","Đọc hiểu ngắn","Nghe cơ bản","Mẫu đề mini"],
-    "topik2": ["Ngữ pháp khó","Đọc dài","Nghe dài","Viết và diễn đạt ý"],
-    "strategies": ["Quản lý thời gian làm bài","Nhận diện từ khóa","Ôn mẫu ngữ pháp tần suất cao","Làm mock test theo tuần"]
+    "topik1": [
+      "Từ vựng nền 1.000 từ",
+      "Đọc hiểu ngắn",
+      "Nghe cơ bản",
+      "Mẫu đề mini"
+    ],
+    "topik2": [
+      "Ngữ pháp khó",
+      "Đọc dài",
+      "Nghe dài",
+      "Viết và diễn đạt ý"
+    ],
+    "strategies": [
+      "Quản lý thời gian làm bài",
+      "Nhận diện từ khóa",
+      "Ôn mẫu ngữ pháp tần suất cao",
+      "Làm mock test theo tuần"
+    ]
   },
   "tests": [
-    {"title":"Quiz theo cấp độ","summary":"Chọn cấp độ rồi làm bài 5-10 câu."},
-    {"title":"Quiz theo chủ đề","summary":"Ăn uống, du lịch, công việc, gia đình..."},
-    {"title":"Mini test hằng ngày","summary":"1 bài ngắn để duy trì streak."},
-    {"title":"Mock test TOPIK","summary":"Bài test mô phỏng TOPIK I và II."},
-    {"title":"Lịch sử điểm","summary":"Theo dõi tiến bộ theo thời gian."}
+    {
+      "title": "Quiz theo cấp độ",
+      "summary": "Chọn cấp độ rồi làm bài 5-10 câu."
+    },
+    {
+      "title": "Quiz theo chủ đề",
+      "summary": "Ăn uống, du lịch, công việc, gia đình..."
+    },
+    {
+      "title": "Mini test hằng ngày",
+      "summary": "1 bài ngắn để duy trì streak."
+    },
+    {
+      "title": "Mock test TOPIK",
+      "summary": "Bài test mô phỏng TOPIK I và II."
+    },
+    {
+      "title": "Lịch sử điểm",
+      "summary": "Theo dõi tiến bộ theo thời gian."
+    }
   ],
   "quiz": [
-    {"id":1,"level":"beginner","question":"Từ tiếng Hàn tương ứng với 'Xin chào' là gì?","options":["감사합니다","안녕하세요","학교","가족"],"answer":"안녕하세요"},
-    {"id":2,"level":"beginner","question":"'감사합니다' có nghĩa là gì?","options":["Xin lỗi","Bao nhiêu tiền","Cảm ơn","Cuộc họp"],"answer":"Cảm ơn"},
-    {"id":3,"level":"foundation","question":"Câu nào dùng để hỏi giá tiền?","options":["얼마예요?","맛있어요","학교예요","도와주세요"],"answer":"얼마예요?"},
-    {"id":4,"level":"intermediate","question":"'회의' có nghĩa là gì?","options":["Cuộc họp","Khách sạn","Gia đình","Bệnh viện"],"answer":"Cuộc họp"},
-    {"id":5,"level":"advanced","question":"Câu nào phù hợp khi nhờ người khác xem tài liệu?","options":["검토해 주세요","안녕하세요","비빔밥 주세요","물 주세요"],"answer":"검토해 주세요"}
-  ]
+    {
+      "id": 1,
+      "level": "beginner",
+      "question": "Từ tiếng Hàn tương ứng với 'Xin chào' là gì?",
+      "options": [
+        "감사합니다",
+        "안녕하세요",
+        "학교",
+        "가족"
+      ],
+      "answer": "안녕하세요"
+    },
+    {
+      "id": 2,
+      "level": "beginner",
+      "question": "'감사합니다' có nghĩa là gì?",
+      "options": [
+        "Xin lỗi",
+        "Bao nhiêu tiền",
+        "Cảm ơn",
+        "Cuộc họp"
+      ],
+      "answer": "Cảm ơn"
+    },
+    {
+      "id": 3,
+      "level": "foundation",
+      "question": "Câu nào dùng để hỏi giá tiền?",
+      "options": [
+        "얼마예요?",
+        "맛있어요",
+        "학교예요",
+        "도와주세요"
+      ],
+      "answer": "얼마예요?"
+    },
+    {
+      "id": 4,
+      "level": "intermediate",
+      "question": "'회의' có nghĩa là gì?",
+      "options": [
+        "Cuộc họp",
+        "Khách sạn",
+        "Gia đình",
+        "Bệnh viện"
+      ],
+      "answer": "Cuộc họp"
+    },
+    {
+      "id": 5,
+      "level": "advanced",
+      "question": "Câu nào phù hợp khi nhờ người khác xem tài liệu?",
+      "options": [
+        "검토해 주세요",
+        "안녕하세요",
+        "비빔밥 주세요",
+        "물 주세요"
+      ],
+      "answer": "검토해 주세요"
+    },
+    {
+      "id": 100,
+      "level": "beginner",
+      "question": "Từ '안녕하세요' có nghĩa là gì?",
+      "options": [
+        "Xin hãy xem xét giúp",
+        "Trưởng nhóm",
+        "Lớp học",
+        "Xin chào"
+      ],
+      "answer": "Xin chào"
+    },
+    {
+      "id": 101,
+      "level": "beginner",
+      "question": "Từ '감사합니다' có nghĩa là gì?",
+      "options": [
+        "Thoải mái",
+        "Hộ chiếu",
+        "Cảm ơn",
+        "Lịch trình"
+      ],
+      "answer": "Cảm ơn"
+    },
+    {
+      "id": 102,
+      "level": "beginner",
+      "question": "Từ '가족' có nghĩa là gì?",
+      "options": [
+        "Khởi hành",
+        "Khách hàng",
+        "Em",
+        "Gia đình"
+      ],
+      "answer": "Gia đình"
+    },
+    {
+      "id": 103,
+      "level": "beginner",
+      "question": "Từ '학교' có nghĩa là gì?",
+      "options": [
+        "Tôi lo lắng",
+        "Bao nhiêu tiền?",
+        "Trường học",
+        "Em"
+      ],
+      "answer": "Trường học"
+    },
+    {
+      "id": 104,
+      "level": "foundation",
+      "question": "Từ '비빔밥' có nghĩa là gì?",
+      "options": [
+        "Cơm trộn",
+        "Thanh toán",
+        "Thuốc",
+        "Hành lý"
+      ],
+      "answer": "Cơm trộn"
+    },
+    {
+      "id": 105,
+      "level": "foundation",
+      "question": "Từ '얼마예요?' có nghĩa là gì?",
+      "options": [
+        "Mì",
+        "Xin chào",
+        "Khách sạn",
+        "Bao nhiêu tiền?"
+      ],
+      "answer": "Bao nhiêu tiền?"
+    },
+    {
+      "id": 106,
+      "level": "foundation",
+      "question": "Từ '숙제' có nghĩa là gì?",
+      "options": [
+        "Khởi hành",
+        "Bài tập về nhà",
+        "Cuộc họp",
+        "Giáo viên"
+      ],
+      "answer": "Bài tập về nhà"
+    },
+    {
+      "id": 107,
+      "level": "intermediate",
+      "question": "Từ '길을 잃었어요' có nghĩa là gì?",
+      "options": [
+        "Tôi bị lạc đường",
+        "Gọi món",
+        "Bao nhiêu tiền?",
+        "Tôi lo lắng"
+      ],
+      "answer": "Tôi bị lạc đường"
+    },
+    {
+      "id": 108,
+      "level": "intermediate",
+      "question": "Từ '회의' có nghĩa là gì?",
+      "options": [
+        "Buổi sáng",
+        "Thẻ lên máy bay",
+        "Cuộc họp",
+        "Tôi hạnh phúc"
+      ],
+      "answer": "Cuộc họp"
+    },
+    {
+      "id": 109,
+      "level": "intermediate",
+      "question": "Từ '긴장돼요' có nghĩa là gì?",
+      "options": [
+        "Tôi đang căng thẳng",
+        "Nhà",
+        "Công ty",
+        "Cái ghế"
+      ],
+      "answer": "Tôi đang căng thẳng"
+    },
+    {
+      "id": 110,
+      "level": "advanced",
+      "question": "Từ '검토해 주세요' có nghĩa là gì?",
+      "options": [
+        "Thư viện",
+        "Xin hãy xem xét giúp",
+        "Tôi hạnh phúc",
+        "Giáo viên"
+      ],
+      "answer": "Xin hãy xem xét giúp"
+    },
+    {
+      "id": 111,
+      "level": "advanced",
+      "question": "Từ '괜찮으시면' có nghĩa là gì?",
+      "options": [
+        "Nếu tiện / nếu được",
+        "Xin chào",
+        "Hộ chiếu",
+        "Giảm giá"
+      ],
+      "answer": "Nếu tiện / nếu được"
+    },
+    {
+      "id": 112,
+      "level": "beginner",
+      "question": "Từ '집' có nghĩa là gì?",
+      "options": [
+        "Nhà",
+        "Giáo viên",
+        "Khách sạn",
+        "Lớp học"
+      ],
+      "answer": "Nhà"
+    },
+    {
+      "id": 113,
+      "level": "beginner",
+      "question": "Từ '문' có nghĩa là gì?",
+      "options": [
+        "Cửa",
+        "Khởi hành",
+        "Khách hàng",
+        "Máy tính"
+      ],
+      "answer": "Cửa"
+    },
+    {
+      "id": 114,
+      "level": "beginner",
+      "question": "Từ '의자' có nghĩa là gì?",
+      "options": [
+        "Cái ghế",
+        "Tôi bị lạc đường",
+        "Họ hàng",
+        "Hợp đồng"
+      ],
+      "answer": "Cái ghế"
+    },
+    {
+      "id": 115,
+      "level": "beginner",
+      "question": "Từ '아침' có nghĩa là gì?",
+      "options": [
+        "Nhà",
+        "Trưởng nhóm",
+        "Buổi sáng",
+        "Tôi đang căng thẳng"
+      ],
+      "answer": "Buổi sáng"
+    },
+    {
+      "id": 116,
+      "level": "beginner",
+      "question": "Từ '도서관' có nghĩa là gì?",
+      "options": [
+        "Giảm giá",
+        "Thư viện",
+        "Bác sĩ",
+        "Hợp đồng"
+      ],
+      "answer": "Thư viện"
+    },
+    {
+      "id": 117,
+      "level": "beginner",
+      "question": "Từ '교실' có nghĩa là gì?",
+      "options": [
+        "Bản đồ",
+        "Lịch trình",
+        "Gọi món",
+        "Lớp học"
+      ],
+      "answer": "Lớp học"
+    },
+    {
+      "id": 118,
+      "level": "beginner",
+      "question": "Từ '선생님' có nghĩa là gì?",
+      "options": [
+        "Cái ghế",
+        "Thuốc",
+        "Xin chào",
+        "Giáo viên"
+      ],
+      "answer": "Giáo viên"
+    },
+    {
+      "id": 119,
+      "level": "beginner",
+      "question": "Từ '학생' có nghĩa là gì?",
+      "options": [
+        "Học sinh",
+        "Xin chào",
+        "Buổi sáng",
+        "Cảm ơn"
+      ],
+      "answer": "Học sinh"
+    },
+    {
+      "id": 120,
+      "level": "beginner",
+      "question": "Từ '회사' có nghĩa là gì?",
+      "options": [
+        "Doanh thu",
+        "Cửa",
+        "Công ty",
+        "Thuốc"
+      ],
+      "answer": "Công ty"
+    },
+    {
+      "id": 121,
+      "level": "beginner",
+      "question": "Từ '보고서' có nghĩa là gì?",
+      "options": [
+        "Bài tập về nhà",
+        "Cái ghế",
+        "Báo cáo",
+        "Bao nhiêu tiền?"
+      ],
+      "answer": "Báo cáo"
+    },
+    {
+      "id": 122,
+      "level": "beginner",
+      "question": "Từ '일정' có nghĩa là gì?",
+      "options": [
+        "Khám bệnh",
+        "Lịch trình",
+        "Thoải mái",
+        "Trưởng nhóm"
+      ],
+      "answer": "Lịch trình"
+    },
+    {
+      "id": 123,
+      "level": "beginner",
+      "question": "Từ '팀장' có nghĩa là gì?",
+      "options": [
+        "Trưởng nhóm",
+        "Hóa đơn",
+        "Nhà",
+        "Thoải mái"
+      ],
+      "answer": "Trưởng nhóm"
+    },
+    {
+      "id": 200,
+      "level": "foundation",
+      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Gọi món'",
+      "options": [
+        "검토해 주세요",
+        "주문",
+        "슬퍼요",
+        "여권"
+      ],
+      "answer": "주문"
+    },
+    {
+      "id": 201,
+      "level": "foundation",
+      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Thanh toán'",
+      "options": [
+        "계산",
+        "안녕하세요",
+        "영수증",
+        "진료"
+      ],
+      "answer": "계산"
+    },
+    {
+      "id": 202,
+      "level": "foundation",
+      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Thực đơn'",
+      "options": [
+        "메뉴",
+        "일정",
+        "아버지",
+        "도착"
+      ],
+      "answer": "메뉴"
+    },
+    {
+      "id": 203,
+      "level": "foundation",
+      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Mì'",
+      "options": [
+        "컴퓨터",
+        "동생",
+        "국수",
+        "팀장"
+      ],
+      "answer": "국수"
+    },
+    {
+      "id": 204,
+      "level": "foundation",
+      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Giảm giá'",
+      "options": [
+        "주문",
+        "지도",
+        "출발",
+        "할인"
+      ],
+      "answer": "할인"
+    },
+    {
+      "id": 205,
+      "level": "foundation",
+      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Hóa đơn'",
+      "options": [
+        "사이즈",
+        "영수증",
+        "아버지",
+        "아파요"
+      ],
+      "answer": "영수증"
+    },
+    {
+      "id": 206,
+      "level": "foundation",
+      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Kích cỡ'",
+      "options": [
+        "사이즈",
+        "색깔",
+        "팀장",
+        "도착"
+      ],
+      "answer": "사이즈"
+    },
+    {
+      "id": 207,
+      "level": "foundation",
+      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Màu sắc'",
+      "options": [
+        "색깔",
+        "탑승권",
+        "가족",
+        "진료"
+      ],
+      "answer": "색깔"
+    },
+    {
+      "id": 208,
+      "level": "foundation",
+      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Hộ chiếu'",
+      "options": [
+        "여권",
+        "편해요",
+        "회사",
+        "숙제"
+      ],
+      "answer": "여권"
+    },
+    {
+      "id": 209,
+      "level": "foundation",
+      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Khách sạn'",
+      "options": [
+        "국수",
+        "호텔",
+        "아버지",
+        "탑승권"
+      ],
+      "answer": "호텔"
+    },
+    {
+      "id": 210,
+      "level": "foundation",
+      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Bản đồ'",
+      "options": [
+        "계약",
+        "학교",
+        "어머니",
+        "지도"
+      ],
+      "answer": "지도"
+    },
+    {
+      "id": 211,
+      "level": "foundation",
+      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Tham quan'",
+      "options": [
+        "아침",
+        "관광",
+        "편해요",
+        "탑승권"
+      ],
+      "answer": "관광"
+    },
+    {
+      "id": 212,
+      "level": "intermediate",
+      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Khởi hành'",
+      "options": [
+        "의사",
+        "출발",
+        "아버지",
+        "긴장돼요"
+      ],
+      "answer": "출발"
+    },
+    {
+      "id": 213,
+      "level": "intermediate",
+      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Đến nơi'",
+      "options": [
+        "여권",
+        "탑승권",
+        "도착",
+        "아버지"
+      ],
+      "answer": "도착"
+    },
+    {
+      "id": 214,
+      "level": "intermediate",
+      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Hành lý'",
+      "options": [
+        "수하물",
+        "여권",
+        "사이즈",
+        "계약"
+      ],
+      "answer": "수하물"
+    },
+    {
+      "id": 215,
+      "level": "intermediate",
+      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Thẻ lên máy bay'",
+      "options": [
+        "팀장",
+        "탑승권",
+        "의사",
+        "고객"
+      ],
+      "answer": "탑승권"
+    },
+    {
+      "id": 216,
+      "level": "intermediate",
+      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Bác sĩ'",
+      "options": [
+        "지도",
+        "국수",
+        "의사",
+        "영수증"
+      ],
+      "answer": "의사"
+    },
+    {
+      "id": 217,
+      "level": "intermediate",
+      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Thuốc'",
+      "options": [
+        "약",
+        "팀장",
+        "얼마예요?",
+        "도착"
+      ],
+      "answer": "약"
+    },
+    {
+      "id": 218,
+      "level": "intermediate",
+      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Tôi đau'",
+      "options": [
+        "걱정돼요",
+        "프로그램",
+        "아파요",
+        "감사합니다"
+      ],
+      "answer": "아파요"
+    },
+    {
+      "id": 219,
+      "level": "intermediate",
+      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Khám bệnh'",
+      "options": [
+        "진료",
+        "길을 잃었어요",
+        "비빔밥",
+        "아파요"
+      ],
+      "answer": "진료"
+    },
+    {
+      "id": 220,
+      "level": "intermediate",
+      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Tôi hạnh phúc'",
+      "options": [
+        "프로그램",
+        "계산",
+        "색깔",
+        "행복해요"
+      ],
+      "answer": "행복해요"
+    },
+    {
+      "id": 221,
+      "level": "intermediate",
+      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Tôi buồn'",
+      "options": [
+        "집",
+        "행복해요",
+        "슬퍼요",
+        "친척"
+      ],
+      "answer": "슬퍼요"
+    },
+    {
+      "id": 222,
+      "level": "intermediate",
+      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Tôi lo lắng'",
+      "options": [
+        "도서관",
+        "아침",
+        "얼마예요?",
+        "걱정돼요"
+      ],
+      "answer": "걱정돼요"
+    },
+    {
+      "id": 223,
+      "level": "intermediate",
+      "question": "Chọn từ tiếng Hàn đúng cho nghĩa 'Thoải mái'",
+      "options": [
+        "아침",
+        "편해요",
+        "의사",
+        "슬퍼요"
+      ],
+      "answer": "편해요"
+    }
+  ],
+  "meta": {
+    "vocabCount": 60,
+    "quizCount": 53,
+    "topics": {
+      "daily": 6,
+      "family": 5,
+      "school": 6,
+      "restaurant": 5,
+      "shopping": 5,
+      "travel": 5,
+      "work": 5,
+      "feelings": 5,
+      "business": 5,
+      "social": 1,
+      "airport": 4,
+      "hospital": 4,
+      "tech": 4
+    }
+  }
 }

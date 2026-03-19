@@ -9,10 +9,13 @@ const state = {
   darkMode: false,
   onboardingDone: false,
   goal: 'Giao tiếp hằng ngày',
-  screen: 'home'
+  screen: 'home',
+  savedWords: [],
+  quizHistory: []
 };
 
 let content = null;
+let currentWordFilter = 'all';
 
 function loadState() {
   try {
@@ -20,25 +23,23 @@ function loadState() {
     if (raw) Object.assign(state, JSON.parse(raw));
   } catch {}
 }
+function saveState() { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); }
+function applyTheme() { document.body.classList.toggle('dark', state.darkMode); }
 
-function saveState() {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-}
-
-function applyTheme() {
-  document.body.classList.toggle('dark', state.darkMode);
+function dayIndex(mod) {
+  const now = new Date();
+  const start = new Date(now.getFullYear(), 0, 1);
+  const diff = Math.floor((now - start) / 86400000);
+  return diff % mod;
 }
 
 function switchScreen(screen) {
   state.screen = screen;
   saveState();
-
   qsa('.app-view').forEach(view => view.classList.add('hidden'));
   qs(`#screen-${screen}`)?.classList.remove('hidden');
-
   qsa('.app-tab').forEach(tab => tab.classList.remove('active'));
   qsa(`.app-tab[data-screen="${screen}"]`).forEach(tab => tab.classList.add('active'));
-
   renderSubmenu(screen);
   qs('#sidebar').classList.remove('open');
   window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -48,11 +49,10 @@ function renderSubmenu(screen) {
   const map = {
     home: ['Bài học hôm nay', 'Daily Lesson', 'Quick Review', '7-Day Sprint', '30-Day Speaking'],
     learn: ['Lộ trình học', 'Unit / Lesson / Quiz', 'Học nhanh 7 ngày', 'Giao tiếp 30 ngày'],
-    words: ['Từ mới theo lĩnh vực', 'Flashcards', 'Từ saved', 'Ôn từ'],
-    practice: ['Quiz theo cấp độ', 'Ngữ pháp', 'Hội thoại', 'TOPIK', 'Mock test'],
+    words: ['Từ mới theo lĩnh vực', 'Flashcards', 'Từ đã lưu', 'Ôn từ theo ngày'],
+    practice: ['Quiz theo cấp độ', 'Ngữ pháp', 'Hội thoại', 'TOPIK', 'Mock test', 'Lịch sử quiz'],
     profile: ['Mục tiêu học', 'XP', 'Streak', 'Badge', 'Giao diện']
   };
-
   qs('#sidebar-submenu').innerHTML = (map[screen] || []).map(item => `<div class="submenu-item">${item}</div>`).join('');
 }
 
@@ -67,29 +67,35 @@ function updateProfileUI() {
 }
 
 function renderAppInfo() {
-  qs('#app-title').textContent = content.app.title;
-  qs('#app-subtitle').textContent = content.app.subtitle;
-  qs('#today-title').textContent = content.dailyLesson.title;
-  qs('#today-focus').textContent = content.dailyLesson.focus;
-  qs('#today-tasks').innerHTML = content.dailyLesson.tasks.map(t => `<li>${t}</li>`).join('');
-
   const unitCount = content.chapters.reduce((n, group) => n + group.items.length, 0);
+  const daily7 = content.quick7Days[dayIndex(content.quick7Days.length)];
+  qs('#app-title').textContent = content.app.title;
+  qs('#app-subtitle').textContent = `${content.app.subtitle} • ${content.meta.vocabCount} từ • ${content.meta.quizCount} bài luyện`;
+  qs('#today-title').textContent = `${content.dailyLesson.title} • ${daily7.day}`;
+  qs('#today-focus').textContent = `${content.dailyLesson.focus} | Gợi ý hôm nay: ${daily7.title}`;
+  const dailyWords = getDailyWords(5);
+  qs('#today-tasks').innerHTML = [
+    ...content.dailyLesson.tasks,
+    `Từ mới hôm nay: ${dailyWords.map(w => w.korean).join(', ')}`
+  ].map(t => `<li>${t}</li>`).join('');
   qs('#stat-levels').textContent = content.levels.length;
   qs('#stat-chapters').textContent = unitCount;
   qs('#stat-vocab').textContent = content.vocabulary.length;
-  qs('#stat-tests').textContent = content.tests.length;
+  qs('#stat-tests').textContent = content.quiz.length;
   qs('#xp-text').textContent = `${content.levels[0].xp + state.totalXp} XP`;
   qs('#xp-bar').style.width = `${Math.min(18 + state.totalXp / 10, 100)}%`;
 }
 
+function getDailyWords(count=5) {
+  const start = dayIndex(content.vocabulary.length);
+  const arr = [];
+  for (let i = 0; i < count; i++) arr.push(content.vocabulary[(start + i) % content.vocabulary.length]);
+  return arr;
+}
+
 function renderLearnModules() {
   const modules = content.learnMenu.filter(item => ['today','roadmap','quick7','speak30','topik','tests'].includes(item.id));
-  qs('#learn-modules').innerHTML = modules.map(item => `
-    <article class="feature-card card">
-      <h3>${item.icon} ${item.title}</h3>
-      <p>${item.summary}</p>
-    </article>
-  `).join('');
+  qs('#learn-modules').innerHTML = modules.map(item => `<article class="feature-card card"><h3>${item.icon} ${item.title}</h3><p>${item.summary}</p></article>`).join('');
 }
 
 function renderChapters() {
@@ -97,64 +103,72 @@ function renderChapters() {
     <div class="chapter-group">
       <div class="view-header compact"><div><h3>${group.group}</h3></div></div>
       <div class="chapter-items">
-        ${group.items.map(item => `
-          <article class="chapter-card card">
-            <h3>${item.title}</h3>
-            <p>${item.summary}</p>
-            <div class="lesson-tags">${item.tags.map(tag => `<span class="lesson-tag">${tag}</span>`).join('')}</div>
-          </article>
-        `).join('')}
+        ${group.items.map(item => `<article class="chapter-card card"><h3>${item.title}</h3><p>${item.summary}</p><div class="lesson-tags">${item.tags.map(tag => `<span class="lesson-tag">${tag}</span>`).join('')}</div></article>`).join('')}
       </div>
     </div>
   `).join('');
 }
 
 function renderQuick7() {
-  qs('#quick7-grid').innerHTML = content.quick7Days.map(item => `
+  const todayIdx = dayIndex(content.quick7Days.length);
+  qs('#quick7-grid').innerHTML = content.quick7Days.map((item, idx) => `
     <article class="feature-card card">
       <h3>${item.day} - ${item.title}</h3>
       <p>${item.focus}</p>
+      ${idx === todayIdx ? '<p><strong>⭐ Gợi ý hôm nay</strong></p>' : ''}
     </article>
   `).join('');
 }
 
 function renderSpeak30() {
-  qs('#speak30-grid').innerHTML = content.speak30Days.map(item => `
+  const day = dayIndex(content.speak30Days.length);
+  qs('#speak30-grid').innerHTML = content.speak30Days.map((item, idx) => `
     <article class="feature-card card">
       <h3>Day ${item.day}: ${item.title}</h3>
       <p><strong>Từ khóa:</strong> ${item.keywords.join(', ')}</p>
       <p><strong>Mẫu câu:</strong> ${item.phrase}</p>
+      ${idx === day ? '<p><strong>🔥 Day gợi ý hiện tại</strong></p>' : ''}
     </article>
   `).join('');
 }
 
 function renderTopics() {
-  qs('#topic-groups').innerHTML = content.topics.map(topic => `
-    <article class="topic-card card">
-      <h3>${topic.title}</h3>
-      <p>${topic.words.join(' • ')}</p>
+  qs('#topic-groups').innerHTML = `
+    <article class="topic-card card filter-card">
+      <h3>Bộ lọc từ mới</h3>
+      <div class="lesson-tags" id="word-filters"></div>
     </article>
-  `).join('');
+    ${content.topics.map(topic => `<article class="topic-card card"><h3>${topic.title}</h3><p>${topic.words.join(' • ')}</p></article>`).join('')}
+  `;
+  qs('#topic-field-grid').innerHTML = content.topics.map(topic => `<article class="feature-card card"><h3>${topic.title}</h3><p>${topic.words.join(', ')}</p></article>`).join('');
+  const uniqueTopics = ['all', ...new Set(content.vocabulary.map(v => v.topic))];
+  qs('#word-filters').innerHTML = uniqueTopics.map(topic => `<button class="secondary-btn word-filter ${currentWordFilter===topic?'active-filter':''}" data-topic="${topic}">${topic}</button>`).join('');
+  qsa('.word-filter').forEach(btn => btn.addEventListener('click', () => {
+    currentWordFilter = btn.dataset.topic;
+    renderTopics();
+    renderVocabulary();
+  }));
+}
 
-  qs('#topic-field-grid').innerHTML = content.topics.map(topic => `
-    <article class="feature-card card">
-      <h3>${topic.title}</h3>
-      <p>${topic.words.join(', ')}</p>
-    </article>
-  `).join('');
+function toggleSaveWord(word) {
+  const idx = state.savedWords.indexOf(word);
+  if (idx >= 0) state.savedWords.splice(idx, 1); else state.savedWords.push(word);
+  saveState();
+  renderVocabulary();
 }
 
 function renderVocabulary() {
-  qs('#vocab-list').innerHTML = content.vocabulary.map((item) => `
+  let words = content.vocabulary;
+  if (currentWordFilter !== 'all') words = words.filter(v => v.topic === currentWordFilter);
+  const dailySet = new Set(getDailyWords(8).map(w => w.korean));
+  qs('#vocab-list').innerHTML = words.map((item) => `
     <div class="vocab-item">
       <div class="vocab-card-inner">
         <div class="vocab-face front">
           <div class="vocab-top"><h3>${item.korean}</h3><span class="vocab-tag">${item.topic}</span></div>
-          <div class="vocab-meta">
-            <div><strong>Romanized:</strong> ${item.romanized}</div>
-            <div><strong>Phiên âm Việt:</strong> ${item.vietnamesePronunciation}</div>
-          </div>
-          <div class="vocab-meaning">Chạm để xem nghĩa</div>
+          <div class="vocab-meta"><div><strong>Romanized:</strong> ${item.romanized}</div><div><strong>Phiên âm Việt:</strong> ${item.vietnamesePronunciation}</div></div>
+          <div class="vocab-meaning">${dailySet.has(item.korean) ? '⭐ Từ trong gói hôm nay' : 'Chạm để xem nghĩa'}</div>
+          <button class="icon-btn save-word" data-word="${item.korean}" type="button">${state.savedWords.includes(item.korean) ? '★' : '☆'}</button>
         </div>
         <div class="vocab-face back">
           <div class="vocab-top"><h3>${item.meaning}</h3><span class="vocab-tag">${item.level}</span></div>
@@ -165,7 +179,14 @@ function renderVocabulary() {
     </div>
   `).join('');
 
-  qsa('.vocab-item').forEach(card => card.addEventListener('click', () => card.classList.toggle('flipped')));
+  qsa('.vocab-item').forEach(card => card.addEventListener('click', (e) => {
+    if (e.target.closest('.save-word')) return;
+    card.classList.toggle('flipped');
+  }));
+  qsa('.save-word').forEach(btn => btn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    toggleSaveWord(btn.dataset.word);
+  }));
 }
 
 function renderGrammar() {
@@ -174,34 +195,11 @@ function renderGrammar() {
     { title: 'Ngữ pháp trung cấp', items: content.grammar.intermediate },
     { title: 'Ngữ pháp nâng cao', items: content.grammar.advanced }
   ];
-
-  qs('#grammar-sections').innerHTML = blocks.map(block => `
-    <article class="grammar-card-item card">
-      <h3>${block.title}</h3>
-      ${block.items.map(item => `
-        <div class="grammar-pattern">${item.pattern}</div>
-        <p><strong>${item.title}</strong></p>
-        <p>${item.example}</p>
-      `).join('')}
-    </article>
-  `).join('');
+  qs('#grammar-sections').innerHTML = blocks.map(block => `<article class="grammar-card-item card"><h3>${block.title}</h3>${block.items.map(item => `<div class="grammar-pattern">${item.pattern}</div><p><strong>${item.title}</strong></p><p>${item.example}</p>`).join('')}</article>`).join('');
 }
 
 function renderDialogues() {
-  qs('#dialogue-list').innerHTML = content.dialogues.map(dialogue => `
-    <article class="dialogue-card card">
-      <h3>${dialogue.title}</h3>
-      ${dialogue.lines.map(line => `
-        <div class="dialogue-line">
-          <div class="speaker">${line.speaker}</div>
-          <div>
-            <div class="line-korean">${line.korean}</div>
-            <div class="line-vietnamese">${line.vietnamese}</div>
-          </div>
-        </div>
-      `).join('')}
-    </article>
-  `).join('');
+  qs('#dialogue-list').innerHTML = content.dialogues.map(dialogue => `<article class="dialogue-card card"><h3>${dialogue.title}</h3>${dialogue.lines.map(line => `<div class="dialogue-line"><div class="speaker">${line.speaker}</div><div><div class="line-korean">${line.korean}</div><div class="line-vietnamese">${line.vietnamese}</div></div></div>`).join('')}</article>`).join('');
 }
 
 function renderTopik() {
@@ -213,23 +211,31 @@ function renderTopik() {
 }
 
 function renderTests() {
-  qs('#test-cards').innerHTML = content.tests.map(test => `
-    <article class="test-card card"><h3>${test.title}</h3><p>${test.summary}</p></article>
-  `).join('');
+  qs('#test-cards').innerHTML = `
+    ${content.tests.map(test => `<article class="test-card card"><h3>${test.title}</h3><p>${test.summary}</p></article>`).join('')}
+    <article class="test-card card"><h3>Lịch sử quiz gần đây</h3><p>${state.quizHistory.length ? state.quizHistory.slice(-5).reverse().map(h => `${h.date}: ${h.score}/${h.total}`).join('<br>') : 'Chưa có lịch sử làm bài.'}</p></article>
+  `;
 
-  qs('#quiz-form').innerHTML = content.quiz.map((q, idx) => `
+  const dailyQuiz = getDailyQuizSet(10);
+  qs('#quiz-form').innerHTML = dailyQuiz.map((q, idx) => `
     <div class="quiz-question">
       <div class="quiz-question-head"><div class="question-number">${idx + 1}</div><strong>${q.question}</strong></div>
-      <div class="quiz-options">
-        ${q.options.map(opt => `<label class="quiz-option"><input type="radio" name="question-${q.id}" value="${opt}"><span>${opt}</span></label>`).join('')}
-      </div>
+      <div class="quiz-options">${q.options.map(opt => `<label class="quiz-option"><input type="radio" name="question-${q.id}" value="${opt}"><span>${opt}</span></label>`).join('')}</div>
     </div>
   `).join('');
 }
 
+function getDailyQuizSet(count=10) {
+  const start = dayIndex(content.quiz.length);
+  const arr = [];
+  for (let i = 0; i < Math.min(count, content.quiz.length); i++) arr.push(content.quiz[(start + i) % content.quiz.length]);
+  return arr;
+}
+
 function submitQuiz() {
+  const activeQuiz = getDailyQuizSet(10);
   let score = 0;
-  const results = content.quiz.map(q => {
+  const results = activeQuiz.map(q => {
     const checked = document.querySelector(`input[name="question-${q.id}"]:checked`);
     const userAnswer = checked ? checked.value : null;
     const correct = userAnswer === q.answer;
@@ -239,15 +245,18 @@ function submitQuiz() {
 
   const gainedXp = score * 20;
   state.totalXp += gainedXp;
-  if (score >= Math.ceil(content.quiz.length * 0.8)) state.badges += 1;
+  if (score >= Math.ceil(activeQuiz.length * 0.8)) state.badges += 1;
+  state.quizHistory.push({ date: new Date().toLocaleDateString('vi-VN'), score, total: activeQuiz.length });
+  state.quizHistory = state.quizHistory.slice(-20);
   saveState();
   updateProfileUI();
   renderAppInfo();
+  renderTests();
 
   const resultHtml = results.map(r => `${r.correct ? '✅' : '❌'} ${r.question}<br><span class="muted">Đáp án đúng: <strong>${r.answer}</strong>${r.userAnswer ? ` • Bạn chọn: ${r.userAnswer}` : ' • Bạn chưa chọn'}</span>`).join('<br><br>');
   const box = qs('#quiz-result');
   box.classList.remove('hidden');
-  box.innerHTML = `<strong>Kết quả:</strong> ${score}/${content.quiz.length} câu đúng • +${gainedXp} XP<br><br>${resultHtml}`;
+  box.innerHTML = `<strong>Kết quả:</strong> ${score}/${activeQuiz.length} câu đúng • +${gainedXp} XP<br><br>${resultHtml}`;
 }
 
 function bindUI() {
@@ -262,32 +271,10 @@ function bindUI() {
   qsa('.app-tab').forEach(tab => tab.addEventListener('click', () => switchScreen(tab.dataset.screen)));
 }
 
-function toggleTheme() {
-  state.darkMode = !state.darkMode;
-  saveState();
-  applyTheme();
-}
-
-function markStudyDone() {
-  state.streak += 1;
-  if (state.streak % 3 === 0) state.badges += 1;
-  saveState();
-  updateProfileUI();
-}
-
-function selectGoal(btn) {
-  qsa('.goal-btn').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
-  state.goal = btn.dataset.goal;
-}
-
-function startApp() {
-  state.onboardingDone = true;
-  saveState();
-  qs('#onboarding').classList.add('hidden');
-  document.body.classList.remove('no-scroll');
-  updateProfileUI();
-}
+function toggleTheme() { state.darkMode = !state.darkMode; saveState(); applyTheme(); }
+function markStudyDone() { state.streak += 1; if (state.streak % 3 === 0) state.badges += 1; saveState(); updateProfileUI(); }
+function selectGoal(btn) { qsa('.goal-btn').forEach(b => b.classList.remove('active')); btn.classList.add('active'); state.goal = btn.dataset.goal; }
+function startApp() { state.onboardingDone = true; saveState(); qs('#onboarding').classList.add('hidden'); document.body.classList.remove('no-scroll'); updateProfileUI(); }
 
 function initOnboarding() {
   if (!state.onboardingDone) {

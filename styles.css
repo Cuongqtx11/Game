@@ -416,3 +416,11 @@ button, input { font: inherit; }
     border-radius: 24px 24px 0 0;
   }
 }
+
+
+.clickable-card{cursor:pointer;border-color:#b9ccf5;background:linear-gradient(180deg,var(--card),#f7fbff)}
+.clickable-card h3{color:#214b8f}
+.clickable-card:hover{border-color:var(--primary)}
+.click-hint{display:inline-block;margin-top:10px;padding:6px 10px;border-radius:999px;background:#eef6ff;color:#2158a8;font-size:.76rem;font-weight:700}
+body.dark .clickable-card{background:var(--card)}
+body.dark .click-hint{background:#20314a;color:#cfe1ff}

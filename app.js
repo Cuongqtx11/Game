@@ -144,11 +144,15 @@ function startExercise(payload) {
 }
 
 function buildFillBlankQuestion(source) {
+  var displayQuestion = source.korean
+    ? `Điền nghĩa đúng cho từ: ${source.korean}`
+    : (source.question || 'Chọn đáp án đúng');
+
   return {
     id: `fill-${source.id}`,
-    question: `Điền nghĩa đúng cho từ: ${source.korean}`,
+    question: displayQuestion,
     prompt: 'Chọn đáp án đúng trong 15 giây',
-    options: shuffle(source.options.slice()),
+    options: Array.isArray(source.options) ? shuffle(source.options.slice()) : [],
     answer: source.answer
   };
 }
@@ -216,7 +220,7 @@ function renderChapters() {
     <div class="chapter-group">
       <div class="view-header compact"><div><h3>${group.group}</h3></div></div>
       <div class="chapter-items">
-        ${group.items.map(item => `<article class="chapter-card card lesson-open" data-unit="${item.id}"><h3>${item.title}</h3><p>${item.summary}</p><p><strong>${item.lessons.length}</strong> bài • <strong>${item.quizCount}</strong> quiz • <strong>${state.unitProgress[item.id] || 0}%</strong></p><div class="lesson-tags">${item.tags.map(tag => `<span class="lesson-tag">${tag}</span>`).join('')}</div></article>`).join('')}
+        ${group.items.map(item => `<article class="chapter-card card lesson-open clickable-card" data-unit="${item.id}"><h3>${item.title}</h3><p>${item.summary}</p><p><strong>${item.lessons.length}</strong> bài • <strong>${item.quizCount}</strong> quiz • <strong>${state.unitProgress[item.id] || 0}%</strong></p><div class="lesson-tags">${item.tags.map(tag => `<span class="lesson-tag">${tag}</span>`).join('')}</div><div class="click-hint">Bấm để mở bài học</div></article>`).join('')}
       </div>
     </div>`).join('');
   qsa('.lesson-open').forEach(card => card.addEventListener('click', () => openLessonDetail(card.dataset.unit)));
@@ -224,13 +228,13 @@ function renderChapters() {
 
 function renderQuick7() {
   const todayIdx = dayIndex(content.quick7Days.length);
-  qs('#quick7-grid').innerHTML = content.quick7Days.map((item, idx) => `<article class="feature-card card start-day" data-track="quick7" data-index="${idx}"><h3>${item.day} - ${item.title}</h3><p>${item.focus}</p>${idx===todayIdx?'<p><strong>⭐ Gợi ý hôm nay</strong></p>':''}<p><strong>Bấm để học ngay</strong></p></article>`).join('');
+  qs('#quick7-grid').innerHTML = content.quick7Days.map((item, idx) => `<article class="feature-card card start-day clickable-card" data-track="quick7" data-index="${idx}"><h3>${item.day} - ${item.title}</h3><p>${item.focus}</p>${idx===todayIdx?'<p><strong>⭐ Gợi ý hôm nay</strong></p>':''}<div class="click-hint">Bấm để học ngay</div></article>`).join('');
   bindTrackCards();
 }
 
 function renderSpeak30() {
   const day = dayIndex(content.speak30Days.length);
-  qs('#speak30-grid').innerHTML = content.speak30Days.map((item, idx) => `<article class="feature-card card start-day" data-track="speak30" data-index="${idx}"><h3>Day ${item.day}: ${item.title}</h3><p><strong>Từ khóa:</strong> ${item.keywords.join(', ')}</p><p><strong>Mẫu câu:</strong> ${item.phrase}</p>${idx===day?'<p><strong>🔥 Day gợi ý hiện tại</strong></p>':''}<p><strong>Bấm để học ngay</strong></p></article>`).join('');
+  qs('#speak30-grid').innerHTML = content.speak30Days.map((item, idx) => `<article class="feature-card card start-day clickable-card" data-track="speak30" data-index="${idx}"><h3>Day ${item.day}: ${item.title}</h3><p><strong>Từ khóa:</strong> ${item.keywords.join(', ')}</p><p><strong>Mẫu câu:</strong> ${item.phrase}</p>${idx===day?'<p><strong>🔥 Day gợi ý hiện tại</strong></p>':''}<div class="click-hint">Bấm để học ngay</div></article>`).join('');
   bindTrackCards();
 }
 

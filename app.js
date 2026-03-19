@@ -12,11 +12,13 @@ const state = {
   screen: 'home',
   savedWords: [],
   quizHistory: [],
-  unitProgress: {}
+  unitProgress: {},
+  wrongAnswers: []
 };
 
 let content = null;
 let currentWordFilter = 'all';
+let currentSearch = '';
 let exerciseState = null;
 let exerciseTimer = null;
 let dailyWordFlow = null;
@@ -104,6 +106,20 @@ function renderDailyWordsBox() {
   if (btn) btn.addEventListener('click', function(){ startDailyWordFlow(words); });
 }
 function renderSavedWordsBox() { const saved = content.vocabulary.filter(v => state.savedWords.includes(v.korean)); qs('#saved-words-box').innerHTML = saved.length ? `<ul class="mini-list">${saved.slice(0,12).map(w => `<li>${w.korean} — ${w.meaning}</li>`).join('')}</ul>` : 'Chưa có từ nào được lưu.'; }
+function renderWrongReviewBox() {
+  const wrongs = state.wrongAnswers.slice(-10).reverse();
+  const el = qs('#wrong-review-box');
+  if (!el) return;
+  el.innerHTML = wrongs.length ? `<ul class="mini-list">${wrongs.map(w => `<li>${w.q}<br><span class="muted">Đáp án: ${w.answer}</span></li>`).join('')}</ul>` : 'Chưa có câu sai để ôn lại.';
+}
+function renderSavedPracticeBox() {
+  const el = qs('#saved-practice-box');
+  if (!el) return;
+  if (!state.savedWords.length) { el.innerHTML = 'Chưa có từ lưu để luyện.'; return; }
+  el.innerHTML = `<p>Có ${state.savedWords.length} từ đã lưu sẵn sàng để luyện.</p><button id="start-saved-practice" class="primary-btn">Luyện từ đã lưu</button>`;
+  const btn = qs('#start-saved-practice');
+  if (btn) btn.addEventListener('click', startSavedWordsPractice);
+}
 
 function renderLearnModules() {
   const modules = content.learnMenu.filter(item => ['today','roadmap','quick7','speak30','topik','tests'].includes(item.id));
@@ -356,11 +372,21 @@ function renderTopics() {
 
 function toggleSaveWord(word) { const idx = state.savedWords.indexOf(word); if (idx>=0) state.savedWords.splice(idx,1); else state.savedWords.push(word); saveState(); renderVocabulary(); renderSavedWordsBox(); }
 function renderVocabulary() {
-  let words = content.vocabulary; if (currentWordFilter !== 'all') words = words.filter(v => v.topic === currentWordFilter);
+  let words = content.vocabulary;
+  if (currentWordFilter !== 'all') words = words.filter(v => v.topic === currentWordFilter);
+  if (currentSearch) {
+    const q = currentSearch.toLowerCase();
+    words = words.filter(v => v.korean.toLowerCase().indexOf(q) >= 0 || v.meaning.toLowerCase().indexOf(q) >= 0);
+  }
   const dailySet = new Set(getDailyWords(12).map(w => w.korean));
-  qs('#vocab-list').innerHTML = words.slice(0, 60).map(item => `<div class="vocab-item"><div class="vocab-card-inner"><div class="vocab-face front"><div class="vocab-top"><h3>${item.korean}</h3><span class="vocab-tag">${item.topic}</span></div><div class="vocab-meta"><div><strong>Romanized:</strong> ${item.romanized}</div><div><strong>Phiên âm Việt:</strong> ${item.vietnamesePronunciation}</div></div><div class="vocab-meaning">${dailySet.has(item.korean) ? '⭐ Từ trong gói hôm nay' : 'Chạm để xem nghĩa'}</div><button class="icon-btn save-word" data-word="${item.korean}" type="button">${state.savedWords.includes(item.korean) ? '★' : '☆'}</button></div><div class="vocab-face back"><div class="vocab-top"><h3>${item.meaning}</h3><span class="vocab-tag">${item.level}</span></div><div class="vocab-meta"><div><strong>Ngữ cảnh:</strong> ${item.context}</div></div><div class="vocab-meaning">Lật lại để tiếp tục</div></div></div></div>`).join('');
+  qs('#vocab-list').innerHTML = words.slice(0, 80).map(item => `<div class="vocab-item"><div class="vocab-card-inner"><div class="vocab-face front"><div class="vocab-top"><h3>${item.korean}</h3><span class="vocab-tag">${item.topic}</span></div><div class="vocab-meta"><div><strong>Romanized:</strong> ${item.romanized}</div><div><strong>Phiên âm Việt:</strong> ${item.vietnamesePronunciation}</div></div><div class="vocab-meaning">${dailySet.has(item.korean) ? '⭐ Từ trong gói hôm nay' : 'Chạm để xem nghĩa'}</div><button class="icon-btn save-word" data-word="${item.korean}" type="button">${state.savedWords.includes(item.korean) ? '★' : '☆'}</button></div><div class="vocab-face back"><div class="vocab-top"><h3>${item.meaning}</h3><span class="vocab-tag">${item.level}</span></div><div class="vocab-meta"><div><strong>Ngữ cảnh:</strong> ${item.context}</div></div><div class="vocab-meaning">Lật lại để tiếp tục</div></div></div></div>`).join('');
   qsa('.vocab-item').forEach(card => card.addEventListener('click', (e) => { if (e.target.closest('.save-word')) return; card.classList.toggle('flipped'); }));
   qsa('.save-word').forEach(btn => btn.addEventListener('click', (e) => { e.stopPropagation(); toggleSaveWord(btn.dataset.word); }));
+  const search = qs('#word-search');
+  if (search && !search.dataset.bound) {
+    search.dataset.bound = '1';
+    search.addEventListener('input', function(){ currentSearch = this.value.trim(); renderVocabulary(); });
+  }
 }
 
 function renderGrammar() {
@@ -371,9 +397,11 @@ function renderDialogues() { qs('#dialogue-list').innerHTML = content.dialogues.
 function renderTopik() { qs('#topik-grid').innerHTML = `<article class="feature-card card"><h3>TOPIK I</h3><p>${content.topik.topik1.join(' • ')}</p></article><article class="feature-card card"><h3>TOPIK II</h3><p>${content.topik.topik2.join(' • ')}</p></article><article class="feature-card card"><h3>Chiến thuật làm bài</h3><p>${content.topik.strategies.join(' • ')}</p></article><article class="feature-card card"><h3>Exam Modes</h3><p>${content.examCenter.practiceModes.join(' • ')}</p></article><article class="feature-card card"><h3>Mock Center</h3><p>${content.examCenter.topikMock.join(' • ')}</p></article><article class="feature-card card"><h3>Daily Review</h3><p>${content.examCenter.dailyReview.join(' • ')}</p></article>`; }
 
 function renderTests() {
-  qs('#test-cards').innerHTML = `${content.tests.map(test => `<article class="test-card card"><h3>${test.title}</h3><p>${test.summary}</p></article>`).join('')}<article class="test-card card"><h3>Lịch sử quiz gần đây</h3><p>${state.quizHistory.length ? state.quizHistory.slice(-5).reverse().map(h => `${h.date}: ${h.score}/${h.total}`).join('<br>') : 'Chưa có lịch sử làm bài.'}</p></article>`;
+  qs('#test-cards').innerHTML = `${content.tests.map(test => `<article class="test-card card"><h3>${test.title}</h3><p>${test.summary}</p></article>`).join('')}<article class="test-card card"><h3>Lịch sử quiz gần đây</h3><p>${state.quizHistory.length ? state.quizHistory.slice(-5).reverse().map(h => `${h.date}: ${h.score}/${h.total}`).join('<br>') : 'Chưa có lịch sử làm bài.'}</p></article>${(content.mockTests || []).map(test => `<article class="test-card card"><h3>${test.title}</h3><p>Level: ${test.level} • ${test.questionCount} câu</p></article>`).join('')}`;
   const dailyQuiz = getDailyQuizSet(8);
   qs('#quiz-form').innerHTML = dailyQuiz.map((q, idx) => `<div class="quiz-question"><div class="quiz-question-head"><div class="question-number">${idx + 1}</div><strong>${q.question}</strong></div><div class="quiz-options">${q.options.map(opt => `<label class="quiz-option"><input type="radio" name="question-${q.id}" value="${opt}"><span>${opt}</span></label>`).join('')}</div></div>`).join('');
+  renderWrongReviewBox();
+  renderSavedPracticeBox();
 }
 
 function submitQuiz() {
@@ -389,11 +417,20 @@ function submitQuiz() {
   const gainedXp = score * 20;
   state.totalXp += gainedXp;
   if (score >= Math.ceil(activeQuiz.length * 0.8)) state.badges += 1;
+  results.forEach(r => { if (!r.correct) state.wrongAnswers.push({ q: r.question, answer: r.answer }); });
+  state.wrongAnswers = state.wrongAnswers.slice(-50);
   state.quizHistory.push({ date: new Date().toLocaleDateString('vi-VN'), score, total: activeQuiz.length });
   state.quizHistory = state.quizHistory.slice(-20);
   saveState(); updateProfileUI(); renderAppInfo(); renderTests();
   qs('#quiz-result').classList.remove('hidden');
   qs('#quiz-result').innerHTML = `<strong>Kết quả:</strong> ${score}/${activeQuiz.length} câu đúng • +${gainedXp} XP<br><br>${results.map(r => `${r.correct ? '✅' : '❌'} ${r.question}<br><span class="muted">Đáp án đúng: <strong>${r.answer}</strong>${r.userAnswer ? ` • Bạn chọn: ${r.userAnswer}` : ' • Bạn chưa chọn'}</span>`).join('<br><br>')}`;
+}
+
+function startSavedWordsPractice() {
+  var words = content.vocabulary.filter(v => state.savedWords.indexOf(v.korean) >= 0).slice(0, 12);
+  if (!words.length) return;
+  var quizSet = getQuizForWords(words, 8);
+  startExercise({ title: 'Luyện từ đã lưu', questions: quizSet, mode: 'quiz' });
 }
 
 function renderScreenContent(screen) {

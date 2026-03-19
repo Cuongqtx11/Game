@@ -10,8 +10,16 @@
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
+  <div class="mobile-topbar">
+    <button id="menu-toggle" class="icon-btn">☰</button>
+    <div>
+      <strong>HanViet Quest</strong>
+      <div class="topbar-sub">Korean Learning App</div>
+    </div>
+  </div>
+
   <div class="app-shell">
-    <aside class="sidebar card glassy">
+    <aside id="sidebar" class="sidebar card glassy">
       <div class="brand">
         <div class="brand-badge">ㅎ</div>
         <div>
@@ -28,7 +36,7 @@
         <div class="progress-track big">
           <div id="xp-bar" class="progress-fill"></div>
         </div>
-        <p class="muted">Chọn cấp độ, học bài, ôn từ mới và làm quiz để tăng điểm.</p>
+        <p class="muted">Học bài, mở thẻ từ mới, làm quiz để tăng điểm.</p>
       </div>
 
       <nav class="sidebar-menu">
@@ -41,13 +49,13 @@
     </aside>
 
     <main class="main-content">
-      <header id="overview" class="hero card hero-card">
+      <header id="overview" class="hero card hero-card app-surface">
         <div class="hero-copy">
-          <span class="pill">FULL COURSE • KOREAN FOR VIETNAMESE</span>
-          <h1>Học tiếng Hàn từ cơ bản đến giao tiếp tự tin</h1>
+          <span class="pill">FULL COURSE • MOBILE + DESKTOP</span>
+          <h1>Học tiếng Hàn như một ứng dụng thật</h1>
           <p>
-            Một bản học tiếng Hàn hoàn chỉnh: có lộ trình rõ ràng, từ mới theo chủ đề, ngữ pháp,
-            hội thoại thực tế và bài kiểm tra kiểu game hóa để học đều tay hơn.
+            Giao diện kiểu app học ngôn ngữ chuyên nghiệp: có menu, các màn học mở dạng sheet/modal,
+            từ mới hiện như flashcard và tương thích cả điện thoại lẫn máy tính.
           </p>
           <div class="hero-stats">
             <div class="stat-box"><strong id="stat-levels">4</strong><span>Cấp độ</span></div>
@@ -55,21 +63,36 @@
             <div class="stat-box"><strong id="stat-vocab">0</strong><span>Từ mới</span></div>
             <div class="stat-box"><strong id="stat-quiz">0</strong><span>Câu hỏi</span></div>
           </div>
+          <div class="hero-actions">
+            <button id="open-learning-path" class="primary-btn">Mở màn học</button>
+            <button id="open-vocab-screen" class="secondary-btn">Xem thẻ từ mới</button>
+          </div>
         </div>
-        <div class="hero-mascot">
-          <div class="mascot-ring"></div>
-          <div class="mascot-card">
-            <div class="mascot-emoji">🐯</div>
-            <div>
-              <strong>Mission hôm nay</strong>
-              <p id="daily-mission">Hoàn thành 1 bài học, ôn 5 từ mới và làm 1 quiz.</p>
+        <div class="hero-phone-preview">
+          <div class="phone-shell">
+            <div class="phone-notch"></div>
+            <div class="phone-card active">
+              <div class="phone-badge">Bài học hôm nay</div>
+              <h3 id="level-title"></h3>
+              <p id="level-description" class="level-description"></p>
+              <div class="level-progress compact">
+                <span>Tiến độ</span>
+                <div class="progress-track">
+                  <div id="level-bar" class="progress-fill"></div>
+                </div>
+              </div>
+              <div class="mini-phone-cards">
+                <div class="mini-card">🔤 Hangul</div>
+                <div class="mini-card">💬 Giao tiếp</div>
+                <div class="mini-card">🧠 Quiz</div>
+              </div>
             </div>
           </div>
         </div>
       </header>
 
       <section class="top-grid">
-        <article class="card glassy level-switcher">
+        <article class="card glassy level-switcher app-surface">
           <div class="section-head">
             <div>
               <span class="mini-label">Chọn lộ trình</span>
@@ -78,21 +101,13 @@
             <span class="coin">⭐ Study Mode</span>
           </div>
           <div id="level-tabs" class="tabs"></div>
-          <div class="mode-summary">
-            <div>
-              <h3 id="level-title"></h3>
-              <p id="level-description" class="level-description"></p>
-            </div>
-            <div class="level-progress">
-              <span>Độ hoàn thiện lộ trình</span>
-              <div class="progress-track">
-                <div id="level-bar" class="progress-fill"></div>
-              </div>
-            </div>
+          <div class="quick-actions">
+            <button class="secondary-btn" id="open-dialogue-screen">Mở màn hội thoại</button>
+            <button class="secondary-btn" id="open-quiz-screen">Mở màn quiz</button>
           </div>
         </article>
 
-        <article class="card streak-card">
+        <article class="card streak-card app-surface">
           <div class="streak-fire">🔥</div>
           <div>
             <h3>Chuỗi học gợi ý</h3>
@@ -102,7 +117,7 @@
         </article>
       </section>
 
-      <section id="roadmap" class="card lesson-card">
+      <section id="roadmap" class="card lesson-card app-surface">
         <div class="section-head">
           <div>
             <span class="mini-label">Roadmap</span>
@@ -114,7 +129,7 @@
       </section>
 
       <section class="learning-grid">
-        <article id="vocabulary" class="card vocab-card">
+        <article id="vocabulary" class="card vocab-card app-surface">
           <div class="section-head">
             <div>
               <span class="mini-label">Flashcards</span>
@@ -126,7 +141,7 @@
           <div id="vocab-list" class="vocab-list"></div>
         </article>
 
-        <article id="dialogue" class="card dialogue-card">
+        <article id="dialogue" class="card dialogue-card app-surface">
           <div class="section-head">
             <div>
               <span class="mini-label">Communication</span>
@@ -139,7 +154,7 @@
       </section>
 
       <section class="learning-grid lower-grid">
-        <article class="card grammar-card">
+        <article class="card grammar-card app-surface">
           <div class="section-head">
             <div>
               <span class="mini-label">Grammar</span>
@@ -150,7 +165,7 @@
           <div id="grammar-list" class="grammar-list"></div>
         </article>
 
-        <article id="quiz" class="card quiz-section">
+        <article id="quiz" class="card quiz-section app-surface">
           <div class="section-head">
             <div>
               <span class="mini-label">Practice Arena</span>
@@ -158,7 +173,7 @@
             </div>
             <span class="badge-yellow">Quiz Battle</span>
           </div>
-          <p class="quiz-note">Làm bài trực tiếp trên web. Hệ thống chấm điểm ngay trên trình duyệt nên chạy tốt cả trên GitHub Pages.</p>
+          <p class="quiz-note">Làm bài trực tiếp trên web. Giao diện giờ có thể mở như màn app riêng trên mobile/desktop.</p>
           <form id="quiz-form" class="quiz-form"></form>
           <button id="submit-quiz" class="primary-btn">Nộp bài ngay</button>
           <div id="quiz-result" class="quiz-result hidden"></div>
@@ -166,6 +181,32 @@
       </section>
     </main>
   </div>
+
+  <div id="screen-overlay" class="screen-overlay hidden"></div>
+
+  <section id="learning-screen" class="app-screen hidden">
+    <div class="screen-header">
+      <div>
+        <div class="mini-label">Learning Screen</div>
+        <h3 id="screen-title">Màn học</h3>
+      </div>
+      <button class="icon-btn close-screen" data-close="learning-screen">✕</button>
+    </div>
+    <div id="screen-content" class="screen-content"></div>
+  </section>
+
+  <section id="vocab-modal" class="app-modal hidden">
+    <div class="modal-card">
+      <div class="screen-header">
+        <div>
+          <div class="mini-label">Flashcard</div>
+          <h3 id="vocab-modal-title">Từ mới</h3>
+        </div>
+        <button class="icon-btn close-screen" data-close="vocab-modal">✕</button>
+      </div>
+      <div id="vocab-modal-content" class="vocab-modal-content"></div>
+    </div>
+  </section>
 
   <script src="./app.js"></script>
 </body>

@@ -13,7 +13,22 @@ async function loadData() {
   renderLevelTabs();
   renderLevel();
   renderSidebarNavigation();
+  bindUI();
   qs('#submit-quiz').addEventListener('click', submitQuiz);
+}
+
+function bindUI() {
+  qs('#open-learning-path').addEventListener('click', () => openLearningScreen('lessons'));
+  qs('#open-vocab-screen').addEventListener('click', () => openLearningScreen('vocabulary'));
+  qs('#open-dialogue-screen').addEventListener('click', () => openLearningScreen('dialogues'));
+  qs('#open-quiz-screen').addEventListener('click', () => openLearningScreen('quiz'));
+  qs('#screen-overlay').addEventListener('click', closeAllScreens);
+  qsa('.close-screen').forEach(btn => btn.addEventListener('click', () => closeScreen(btn.dataset.close)));
+  qs('#menu-toggle').addEventListener('click', toggleSidebar);
+}
+
+function toggleSidebar() {
+  qs('#sidebar').classList.toggle('open');
 }
 
 function renderStats() {
@@ -48,7 +63,6 @@ function renderLevel() {
   qs('#xp-bar').style.width = `${Math.min(level.progress + 10, 100)}%`;
   qs('#xp-text').textContent = `${level.xp} XP`;
   qs('#streak-tip').textContent = getStreakTip(level.id);
-  qs('#daily-mission').textContent = getMission(level.id);
 
   renderLessons(level.id);
   renderTopics(level.topics);
@@ -68,16 +82,6 @@ function getStreakTip(levelId) {
   return tips[levelId] || '';
 }
 
-function getMission(levelId) {
-  const mission = {
-    beginner: 'Hoàn thành 1 bài Hangul, ôn 5 từ mới và trả lời 2 câu quiz nhập môn.',
-    elementary: 'Học 1 bài giao tiếp cơ bản, 1 chủ đề từ vựng và hoàn thành quiz thực hành.',
-    intermediate: 'Ôn hội thoại thực tế, ghi nhớ mẫu câu nguyên nhân / dự định và làm 2 câu khó.',
-    advanced: 'Luyện email/công việc lịch sự, đọc hội thoại nâng cao và chinh phục quiz chuyên sâu.'
-  };
-  return mission[levelId] || '';
-}
-
 function renderLessons(levelId) {
   const lessons = courseData.lessons.filter(item => item.level === levelId);
   qs('#curriculum').innerHTML = lessons.map(item => `
@@ -86,9 +90,7 @@ function renderLessons(levelId) {
       <div class="lesson-copy">
         <strong>${item.title}</strong>
         <span>${item.summary}</span>
-        <div class="lesson-tags">
-          ${item.tags.map(tag => `<span class="lesson-tag">${tag}</span>`).join('')}
-        </div>
+        <div class="lesson-tags">${item.tags.map(tag => `<span class="lesson-tag">${tag}</span>`).join('')}</div>
       </div>
     </div>
   `).join('');
@@ -112,31 +114,17 @@ function renderTopics(topics) {
 
 function topicLabel(topic) {
   const labels = {
-    all: 'Tất cả',
-    hangul: 'Hangul',
-    greetings: 'Chào hỏi',
-    'daily-life': 'Đời sống',
-    school: 'Trường học',
-    shopping: 'Mua sắm',
-    food: 'Ăn uống',
-    work: 'Công việc',
-    travel: 'Du lịch',
-    feelings: 'Cảm xúc',
-    business: 'Business',
-    social: 'Xã giao',
-    opinions: 'Ý kiến'
+    all: 'Tất cả', hangul: 'Hangul', greetings: 'Chào hỏi', 'daily-life': 'Đời sống', school: 'Trường học', shopping: 'Mua sắm', food: 'Ăn uống', work: 'Công việc', travel: 'Du lịch', feelings: 'Cảm xúc', business: 'Business', social: 'Xã giao', opinions: 'Ý kiến'
   };
   return labels[topic] || topic;
 }
 
 function renderVocabulary(levelId) {
   let vocab = courseData.vocabulary.filter(item => item.level === levelId);
-  if (currentTopic !== 'all') {
-    vocab = vocab.filter(item => item.topic === currentTopic);
-  }
+  if (currentTopic !== 'all') vocab = vocab.filter(item => item.topic === currentTopic);
 
-  qs('#vocab-list').innerHTML = vocab.length ? vocab.map(item => `
-    <div class="vocab-item">
+  qs('#vocab-list').innerHTML = vocab.length ? vocab.map((item, index) => `
+    <div class="vocab-item" data-vocab-index="${index}">
       <div class="vocab-top">
         <h3>${item.korean}</h3>
         <span class="vocab-tag">${topicLabel(item.topic)}</span>
@@ -149,6 +137,10 @@ function renderVocabulary(levelId) {
       <div class="vocab-meaning">Nghĩa: ${item.meaning}</div>
     </div>
   `).join('') : '<div class="empty-state">Chưa có từ vựng cho bộ lọc này.</div>';
+
+  qsa('.vocab-item').forEach((card, index) => {
+    card.addEventListener('click', () => openVocabModal(vocab[index]));
+  });
 }
 
 function renderDialogues(levelId) {
@@ -207,25 +199,18 @@ function submitQuiz() {
   const details = quiz.map((q) => {
     const checked = document.querySelector(`input[name="question-${q.id}"]:checked`);
     const userAnswer = checked ? checked.value : null;
-    const correct = userAnswer === q.answer || userAnswer === q.answer;
+    const correct = userAnswer === q.answer;
     if (correct) score += 1;
     return { ...q, userAnswer, correct };
   });
 
   const percent = quiz.length ? Math.round((score / quiz.length) * 100) : 0;
   const rankText = percent >= 80 ? 'Xuất sắc' : percent >= 60 ? 'Khá tốt' : 'Cần luyện thêm';
-  const html = details.map(item => `
-    ${item.correct ? '✅' : '❌'} ${item.question}<br>
-    <span class="muted">Đáp án đúng: <strong>${item.answer}</strong>${item.userAnswer ? ` • Bạn chọn: ${item.userAnswer}` : ' • Bạn chưa chọn'}</span>
-  `).join('<br><br>');
+  const html = details.map(item => `${item.correct ? '✅' : '❌'} ${item.question}<br><span class="muted">Đáp án đúng: <strong>${item.answer}</strong>${item.userAnswer ? ` • Bạn chọn: ${item.userAnswer}` : ' • Bạn chưa chọn'}</span>`).join('<br><br>');
 
   const resultBox = qs('#quiz-result');
   resultBox.classList.remove('hidden');
-  resultBox.innerHTML = `
-    <div><strong>Kết quả:</strong> ${score}/${quiz.length} câu đúng (${percent}%) - <strong>${rankText}</strong></div>
-    <div><strong>XP nhận được:</strong> +${score * 15}</div>
-    <div style="margin-top:10px;">${html}</div>
-  `;
+  resultBox.innerHTML = `<div><strong>Kết quả:</strong> ${score}/${quiz.length} câu đúng (${percent}%) - <strong>${rankText}</strong></div><div><strong>XP nhận được:</strong> +${score * 15}</div><div style="margin-top:10px;">${html}</div>`;
 
   const level = courseData.levels.find(item => item.id === currentLevel);
   if (level) {
@@ -242,8 +227,71 @@ function renderSidebarNavigation() {
       const id = btn.dataset.scroll;
       const target = document.getElementById(id);
       if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      qs('#sidebar').classList.remove('open');
     });
   });
+}
+
+function openLearningScreen(type) {
+  const screen = qs('#learning-screen');
+  const content = qs('#screen-content');
+  const level = courseData.levels.find(item => item.id === currentLevel);
+  const lessons = courseData.lessons.filter(item => item.level === currentLevel);
+  const vocab = courseData.vocabulary.filter(item => item.level === currentLevel).slice(0, 6);
+  const dialogues = courseData.dialogues.filter(item => item.level === currentLevel);
+  const quiz = courseData.quiz.filter(item => item.level === currentLevel);
+
+  if (type === 'lessons') {
+    qs('#screen-title').textContent = `${level.title} • Màn học`;
+    content.innerHTML = lessons.map(item => `<div class="screen-lesson"><strong>${item.icon} ${item.title}</strong><p>${item.summary}</p><div class="lesson-tags">${item.tags.map(tag => `<span class="lesson-tag">${tag}</span>`).join('')}</div></div>`).join('');
+  }
+  if (type === 'vocabulary') {
+    qs('#screen-title').textContent = `${level.title} • Thẻ từ mới`;
+    content.innerHTML = vocab.map(item => `<div class="screen-lesson"><div class="vocab-big-word">${item.korean}</div><p><strong>Nghĩa:</strong> ${item.meaning}</p><p><strong>Phiên âm:</strong> ${item.romanized}</p><p><strong>Ngữ cảnh:</strong> ${item.context}</p></div>`).join('');
+  }
+  if (type === 'dialogues') {
+    qs('#screen-title').textContent = `${level.title} • Màn hội thoại`;
+    content.innerHTML = dialogues.map(item => `<div class="screen-lesson"><strong>${item.title}</strong>${item.lines.map(line => `<div class="dialogue-line"><div class="speaker">${line.speaker}</div><div><div class="line-korean">${line.korean}</div><div class="line-vietnamese">${line.vietnamese}</div></div></div>`).join('')}</div>`).join('');
+  }
+  if (type === 'quiz') {
+    qs('#screen-title').textContent = `${level.title} • Màn luyện quiz`;
+    content.innerHTML = quiz.map((item, index) => `<div class="screen-lesson"><strong>Câu ${index + 1}</strong><p>${item.question}</p><div class="lesson-tags">${item.options.map(opt => `<span class="lesson-tag">${opt}</span>`).join('')}</div></div>`).join('');
+  }
+
+  openScreen('learning-screen');
+}
+
+function openVocabModal(item) {
+  qs('#vocab-modal-title').textContent = item.korean;
+  qs('#vocab-modal-content').innerHTML = `
+    <div class="vocab-big-word">${item.korean}</div>
+    <p><strong>Nghĩa tiếng Việt:</strong> ${item.meaning}</p>
+    <p><strong>Romanized:</strong> ${item.romanized}</p>
+    <p><strong>Phiên âm Việt:</strong> ${item.vietnamesePronunciation}</p>
+    <p><strong>Chủ đề:</strong> ${topicLabel(item.topic)}</p>
+    <p><strong>Ngữ cảnh sử dụng:</strong> ${item.context}</p>
+  `;
+  openScreen('vocab-modal');
+}
+
+function openScreen(id) {
+  qs('#screen-overlay').classList.remove('hidden');
+  qs(`#${id}`).classList.remove('hidden');
+  document.body.classList.add('no-scroll');
+}
+
+function closeScreen(id) {
+  qs(`#${id}`).classList.add('hidden');
+  if (!qsa('.app-screen:not(.hidden), .app-modal:not(.hidden)').length) {
+    qs('#screen-overlay').classList.add('hidden');
+    document.body.classList.remove('no-scroll');
+  }
+}
+
+function closeAllScreens() {
+  qsa('.app-screen, .app-modal').forEach(el => el.classList.add('hidden'));
+  qs('#screen-overlay').classList.add('hidden');
+  document.body.classList.remove('no-scroll');
 }
 
 loadData().catch(() => {

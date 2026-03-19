@@ -8,7 +8,8 @@ const state = {
   totalXp: 0,
   darkMode: false,
   onboardingDone: false,
-  goal: 'Giao tiếp hằng ngày'
+  goal: 'Giao tiếp hằng ngày',
+  screen: 'home'
 };
 
 let content = null;
@@ -26,6 +27,33 @@ function saveState() {
 
 function applyTheme() {
   document.body.classList.toggle('dark', state.darkMode);
+}
+
+function switchScreen(screen) {
+  state.screen = screen;
+  saveState();
+
+  qsa('.app-view').forEach(view => view.classList.add('hidden'));
+  qs(`#screen-${screen}`)?.classList.remove('hidden');
+
+  qsa('.app-tab').forEach(tab => tab.classList.remove('active'));
+  qsa(`.app-tab[data-screen="${screen}"]`).forEach(tab => tab.classList.add('active'));
+
+  renderSubmenu(screen);
+  qs('#sidebar').classList.remove('open');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function renderSubmenu(screen) {
+  const map = {
+    home: ['Bài học hôm nay', 'Daily Lesson', 'Quick Review', '7-Day Sprint', '30-Day Speaking'],
+    learn: ['Lộ trình học', 'Unit / Lesson / Quiz', 'Học nhanh 7 ngày', 'Giao tiếp 30 ngày'],
+    words: ['Từ mới theo lĩnh vực', 'Flashcards', 'Từ saved', 'Ôn từ'],
+    practice: ['Quiz theo cấp độ', 'Ngữ pháp', 'Hội thoại', 'TOPIK', 'Mock test'],
+    profile: ['Mục tiêu học', 'XP', 'Streak', 'Badge', 'Giao diện']
+  };
+
+  qs('#sidebar-submenu').innerHTML = (map[screen] || []).map(item => `<div class="submenu-item">${item}</div>`).join('');
 }
 
 function updateProfileUI() {
@@ -54,38 +82,20 @@ function renderAppInfo() {
   qs('#xp-bar').style.width = `${Math.min(18 + state.totalXp / 10, 100)}%`;
 }
 
-function renderSidebarMenu() {
-  const menu = qs('#sidebar-menu');
-  menu.innerHTML = content.learnMenu.map((item, index) => `
-    <button class="menu-item ${index === 0 ? 'active' : ''}" data-scroll="${item.id === 'today' ? 'today' : item.id}">${item.icon} ${item.title}</button>
+function renderLearnModules() {
+  const modules = content.learnMenu.filter(item => ['today','roadmap','quick7','speak30','topik','tests'].includes(item.id));
+  qs('#learn-modules').innerHTML = modules.map(item => `
+    <article class="feature-card card">
+      <h3>${item.icon} ${item.title}</h3>
+      <p>${item.summary}</p>
+    </article>
   `).join('');
-
-  qsa('.menu-item').forEach(btn => {
-    btn.addEventListener('click', () => {
-      qsa('.menu-item').forEach(i => i.classList.remove('active'));
-      btn.classList.add('active');
-      const el = document.getElementById(btn.dataset.scroll);
-      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      qs('#sidebar').classList.remove('open');
-    });
-  });
-}
-
-function renderBottomNav() {
-  qsa('.bottom-nav-item').forEach(btn => {
-    btn.addEventListener('click', () => {
-      qsa('.bottom-nav-item').forEach(i => i.classList.remove('active'));
-      btn.classList.add('active');
-      const el = document.getElementById(btn.dataset.scroll);
-      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    });
-  });
 }
 
 function renderChapters() {
   qs('#chapter-groups').innerHTML = content.chapters.map(group => `
     <div class="chapter-group">
-      <div class="section-title-row compact"><div><h3>${group.group}</h3></div></div>
+      <div class="view-header compact"><div><h3>${group.group}</h3></div></div>
       <div class="chapter-items">
         ${group.items.map(item => `
           <article class="chapter-card card">
@@ -135,8 +145,8 @@ function renderTopics() {
 }
 
 function renderVocabulary() {
-  qs('#vocab-list').innerHTML = content.vocabulary.map((item, index) => `
-    <div class="vocab-item" data-index="${index}">
+  qs('#vocab-list').innerHTML = content.vocabulary.map((item) => `
+    <div class="vocab-item">
       <div class="vocab-card-inner">
         <div class="vocab-face front">
           <div class="vocab-top"><h3>${item.korean}</h3><span class="vocab-tag">${item.topic}</span></div>
@@ -155,9 +165,7 @@ function renderVocabulary() {
     </div>
   `).join('');
 
-  qsa('.vocab-item').forEach(card => {
-    card.addEventListener('click', () => card.classList.toggle('flipped'));
-  });
+  qsa('.vocab-item').forEach(card => card.addEventListener('click', () => card.classList.toggle('flipped')));
 }
 
 function renderGrammar() {
@@ -171,7 +179,6 @@ function renderGrammar() {
     <article class="grammar-card-item card">
       <h3>${block.title}</h3>
       ${block.items.map(item => `
-        <div class="lesson-tags" style="margin-top:14px;"></div>
         <div class="grammar-pattern">${item.pattern}</div>
         <p><strong>${item.title}</strong></p>
         <p>${item.example}</p>
@@ -199,36 +206,22 @@ function renderDialogues() {
 
 function renderTopik() {
   qs('#topik-grid').innerHTML = `
-    <article class="feature-card card">
-      <h3>TOPIK I</h3>
-      <p>${content.topik.topik1.join(' • ')}</p>
-    </article>
-    <article class="feature-card card">
-      <h3>TOPIK II</h3>
-      <p>${content.topik.topik2.join(' • ')}</p>
-    </article>
-    <article class="feature-card card">
-      <h3>Chiến thuật làm bài</h3>
-      <p>${content.topik.strategies.join(' • ')}</p>
-    </article>
+    <article class="feature-card card"><h3>TOPIK I</h3><p>${content.topik.topik1.join(' • ')}</p></article>
+    <article class="feature-card card"><h3>TOPIK II</h3><p>${content.topik.topik2.join(' • ')}</p></article>
+    <article class="feature-card card"><h3>Chiến thuật làm bài</h3><p>${content.topik.strategies.join(' • ')}</p></article>
   `;
 }
 
 function renderTests() {
   qs('#test-cards').innerHTML = content.tests.map(test => `
-    <article class="test-card card">
-      <h3>${test.title}</h3>
-      <p>${test.summary}</p>
-    </article>
+    <article class="test-card card"><h3>${test.title}</h3><p>${test.summary}</p></article>
   `).join('');
 
   qs('#quiz-form').innerHTML = content.quiz.map((q, idx) => `
     <div class="quiz-question">
       <div class="quiz-question-head"><div class="question-number">${idx + 1}</div><strong>${q.question}</strong></div>
       <div class="quiz-options">
-        ${q.options.map(opt => `
-          <label class="quiz-option"><input type="radio" name="question-${q.id}" value="${opt}"><span>${opt}</span></label>
-        `).join('')}
+        ${q.options.map(opt => `<label class="quiz-option"><input type="radio" name="question-${q.id}" value="${opt}"><span>${opt}</span></label>`).join('')}
       </div>
     </div>
   `).join('');
@@ -263,11 +256,10 @@ function bindUI() {
   qs('#theme-toggle').addEventListener('click', toggleTheme);
   qs('#theme-toggle-mobile').addEventListener('click', toggleTheme);
   qs('#mark-study-done').addEventListener('click', markStudyDone);
-  qs('#open-learning-path').addEventListener('click', openLearningScreen);
+  qs('#open-learning-path').addEventListener('click', () => switchScreen('learn'));
   qsa('.goal-btn').forEach(btn => btn.addEventListener('click', () => selectGoal(btn)));
   qs('#start-app').addEventListener('click', startApp);
-  qsa('.close-screen').forEach(btn => btn.addEventListener('click', closeLearningScreen));
-  qs('#screen-overlay').addEventListener('click', closeLearningScreen);
+  qsa('.app-tab').forEach(tab => tab.addEventListener('click', () => switchScreen(tab.dataset.screen)));
 }
 
 function toggleTheme() {
@@ -297,25 +289,6 @@ function startApp() {
   updateProfileUI();
 }
 
-function openLearningScreen() {
-  qs('#screen-title').textContent = 'Lộ trình học nhanh';
-  qs('#screen-content').innerHTML = content.chapters.map(group => `
-    <div class="screen-lesson">
-      <h3>${group.group}</h3>
-      <p>${group.items.map(i => i.title).join(' • ')}</p>
-    </div>
-  `).join('');
-  qs('#screen-overlay').classList.remove('hidden');
-  qs('#learning-screen').classList.remove('hidden');
-  document.body.classList.add('no-scroll');
-}
-
-function closeLearningScreen() {
-  qs('#screen-overlay').classList.add('hidden');
-  qs('#learning-screen').classList.add('hidden');
-  if (state.onboardingDone) document.body.classList.remove('no-scroll');
-}
-
 function initOnboarding() {
   if (!state.onboardingDone) {
     qs('#onboarding').classList.remove('hidden');
@@ -330,8 +303,7 @@ async function init() {
   const res = await fetch('./data/content.json');
   content = await res.json();
   renderAppInfo();
-  renderSidebarMenu();
-  renderBottomNav();
+  renderLearnModules();
   renderChapters();
   renderQuick7();
   renderSpeak30();
@@ -344,6 +316,7 @@ async function init() {
   updateProfileUI();
   bindUI();
   initOnboarding();
+  switchScreen(state.screen || 'home');
 }
 
 init().catch(() => {

@@ -34,7 +34,7 @@
     <button id="theme-toggle-mobile" class="icon-btn">🌙</button>
   </div>
 
-  <div class="app-shell">
+  <div class="app-shell phase2-shell">
     <aside id="sidebar" class="sidebar card glassy">
       <div class="brand-row">
         <div class="brand">
@@ -57,127 +57,128 @@
           <span>🔥 <strong id="streak-count">0</strong> ngày</span>
           <span>🏅 <strong id="badge-count">0</strong> badge</span>
         </div>
-        <p class="muted">Hoàn thành bài học hằng ngày để giữ chuỗi học đều đặn.</p>
+        <p class="muted">Đi từng màn học, làm quiz và duy trì streak mỗi ngày.</p>
       </div>
 
-      <nav id="sidebar-menu" class="sidebar-menu"></nav>
+      <nav class="sidebar-menu main-tabs">
+        <button class="menu-item active app-tab" data-screen="home">🏠 Trang chủ</button>
+        <button class="menu-item app-tab" data-screen="learn">📚 Học</button>
+        <button class="menu-item app-tab" data-screen="words">💎 Từ mới</button>
+        <button class="menu-item app-tab" data-screen="practice">🎯 Luyện</button>
+        <button class="menu-item app-tab" data-screen="profile">👤 Cá nhân</button>
+      </nav>
+
+      <div id="sidebar-submenu" class="sidebar-submenu"></div>
     </aside>
 
-    <main class="main-content">
-      <section id="overview" class="hero hero-card card app-surface premium-hero">
-        <div class="hero-copy">
-          <span class="pill">FULL ROADMAP • SMOOTH • CLEAR</span>
-          <h1 id="app-title">HanViet Quest Premium</h1>
-          <p id="app-subtitle">Ứng dụng học tiếng Hàn bài bản: giao diện thoáng hơn, menu rõ hơn, chia khu vực học hợp lý hơn.</p>
-          <div class="hero-stats">
-            <div class="stat-box"><strong id="stat-levels">4</strong><span>Cấp độ</span></div>
-            <div class="stat-box"><strong id="stat-chapters">0</strong><span>Unit</span></div>
-            <div class="stat-box"><strong id="stat-vocab">0</strong><span>Từ mới</span></div>
-            <div class="stat-box"><strong id="stat-tests">0</strong><span>Bài test</span></div>
+    <main class="main-content phase2-content">
+      <section id="screen-home" class="app-view active-view">
+        <div class="hero hero-card card app-surface premium-hero">
+          <div class="hero-copy">
+            <span class="pill">HOME • DAILY LEARNING</span>
+            <h1 id="app-title">HanViet Quest Premium</h1>
+            <p id="app-subtitle">Ứng dụng học tiếng Hàn chia theo màn thật: Home, Learn, Words, Practice, Profile.</p>
+            <div class="hero-stats">
+              <div class="stat-box"><strong id="stat-levels">4</strong><span>Cấp độ</span></div>
+              <div class="stat-box"><strong id="stat-chapters">0</strong><span>Unit</span></div>
+              <div class="stat-box"><strong id="stat-vocab">0</strong><span>Từ mới</span></div>
+              <div class="stat-box"><strong id="stat-tests">0</strong><span>Bài test</span></div>
+            </div>
+            <div class="hero-actions">
+              <button id="open-learning-path" class="primary-btn">Tiếp tục học</button>
+              <button id="mark-study-done" class="secondary-btn">+1 ngày streak</button>
+            </div>
           </div>
-          <div class="hero-actions">
-            <button id="open-learning-path" class="primary-btn">Mở lộ trình học</button>
-            <button id="mark-study-done" class="secondary-btn">+1 ngày streak</button>
+          <div class="hero-panel card-lite">
+            <div class="mini-label">Bài học hôm nay</div>
+            <h3 id="today-title">Bài học hôm nay</h3>
+            <p id="today-focus"></p>
+            <ul id="today-tasks" class="simple-list"></ul>
           </div>
         </div>
-        <div class="hero-panel card-lite">
-          <div class="mini-label">Bài học hôm nay</div>
-          <h3 id="today-title">Bài học hôm nay</h3>
-          <p id="today-focus"></p>
-          <ul id="today-tasks" class="simple-list"></ul>
+
+        <div class="dashboard-grid">
+          <article class="feature-card card">
+            <h3>Daily Lesson</h3>
+            <p>Mở bài học hôm nay, học ngắn mà đều.</p>
+          </article>
+          <article class="feature-card card">
+            <h3>Quick Review</h3>
+            <p>Ôn nhanh từ mới và mẫu câu đã học gần đây.</p>
+          </article>
+          <article class="feature-card card">
+            <h3>7-Day Sprint</h3>
+            <p>Khóa nhập môn cấp tốc trong 7 ngày.</p>
+          </article>
+          <article class="feature-card card">
+            <h3>30-Day Speaking</h3>
+            <p>Lộ trình luyện giao tiếp 30 ngày rõ ràng.</p>
+          </article>
         </div>
       </section>
 
-      <section id="today" class="section-block">
-        <div class="section-title-row">
+      <section id="screen-learn" class="app-view hidden">
+        <div class="view-header">
           <div>
-            <span class="mini-label">Today</span>
-            <h2>Bài học hôm nay</h2>
+            <span class="mini-label">Learn Screen</span>
+            <h2>Học theo lộ trình</h2>
           </div>
-          <span class="badge-green">Daily Mission</span>
+          <span class="badge-purple">Unit / Lesson / Quiz / Test</span>
         </div>
-        <div class="feature-grid two-col">
-          <article class="feature-card card"><h3>1 bài học trọng tâm</h3><p>Một bài ngắn để học ngay, không bị ngợp.</p></article>
-          <article class="feature-card card"><h3>5 từ vựng mới</h3><p>Flashcard và ngữ cảnh thực tế để nhớ lâu hơn.</p></article>
-          <article class="feature-card card"><h3>1 bài kiểm tra nhanh</h3><p>Mini quiz giúp bạn chốt kiến thức trong ngày.</p></article>
-          <article class="feature-card card"><h3>Streak + XP</h3><p>Giữ nhịp học đều để app tăng động lực hằng ngày.</p></article>
-        </div>
-      </section>
-
-      <section id="roadmap" class="section-block">
-        <div class="section-title-row">
-          <div><span class="mini-label">Roadmap</span><h2>Lộ trình học theo Unit</h2></div>
-          <span class="badge-purple">Step by Step</span>
-        </div>
+        <div class="feature-grid two-col" id="learn-modules"></div>
         <div id="chapter-groups" class="stack-grid"></div>
-      </section>
-
-      <section id="quick7" class="section-block">
-        <div class="section-title-row">
-          <div><span class="mini-label">Quick Track</span><h2>Học nhanh 7 ngày</h2></div>
-          <span class="badge-yellow">7-Day Sprint</span>
+        <div class="section-divider"></div>
+        <div class="view-header">
+          <div><h3>Học nhanh 7 ngày</h3></div>
         </div>
         <div id="quick7-grid" class="feature-grid"></div>
-      </section>
-
-      <section id="speak30" class="section-block">
-        <div class="section-title-row">
-          <div><span class="mini-label">Speaking</span><h2>Giao tiếp trong 30 ngày</h2></div>
-          <span class="badge-blue">30-Day Plan</span>
+        <div class="section-divider"></div>
+        <div class="view-header">
+          <div><h3>Giao tiếp 30 ngày</h3></div>
         </div>
         <div id="speak30-grid" class="feature-grid three-col"></div>
       </section>
 
-      <section id="vocabulary" class="section-block">
-        <div class="section-title-row">
-          <div><span class="mini-label">Words</span><h2>Từ mới theo lĩnh vực</h2></div>
-          <span class="badge-purple">Topic-based</span>
+      <section id="screen-words" class="app-view hidden">
+        <div class="view-header">
+          <div>
+            <span class="mini-label">Words Screen</span>
+            <h2>Từ mới & lĩnh vực</h2>
+          </div>
+          <span class="badge-blue">Flashcards + Topics</span>
         </div>
         <div id="topic-groups" class="topic-grid"></div>
         <div id="vocab-list" class="vocab-list spacious"></div>
       </section>
 
-      <section id="grammar" class="section-block">
-        <div class="section-title-row">
-          <div><span class="mini-label">Grammar</span><h2>Ngữ pháp từ cơ bản đến nâng cao</h2></div>
-          <span class="badge-blue">Core Rules</span>
-        </div>
-        <div class="feature-grid three-col" id="grammar-sections"></div>
-      </section>
-
-      <section id="communication" class="section-block">
-        <div class="section-title-row">
-          <div><span class="mini-label">Communication</span><h2>Hội thoại và mẫu câu giao tiếp</h2></div>
-          <span class="badge-yellow">Real-life</span>
-        </div>
-        <div id="dialogue-list" class="stack-grid"></div>
-      </section>
-
-      <section id="topics" class="section-block">
-        <div class="section-title-row">
-          <div><span class="mini-label">Fields</span><h2>Chủ đề / lĩnh vực học</h2></div>
-          <span class="coin">12 lĩnh vực</span>
-        </div>
-        <div id="topic-field-grid" class="feature-grid three-col"></div>
-      </section>
-
-      <section id="topik" class="section-block">
-        <div class="section-title-row">
-          <div><span class="mini-label">TOPIK</span><h2>Luyện thi TOPIK</h2></div>
-          <span class="badge-green">Exam Track</span>
-        </div>
-        <div class="feature-grid three-col" id="topik-grid"></div>
-      </section>
-
-      <section id="tests" class="section-block">
-        <div class="section-title-row">
-          <div><span class="mini-label">Practice</span><h2>Bài kiểm tra và ôn tập</h2></div>
-          <span class="badge-yellow">Quiz & Test</span>
+      <section id="screen-practice" class="app-view hidden">
+        <div class="view-header">
+          <div>
+            <span class="mini-label">Practice Screen</span>
+            <h2>Luyện tập & kiểm tra</h2>
+          </div>
+          <span class="badge-yellow">Quiz / TOPIK / Review</span>
         </div>
         <div id="test-cards" class="feature-grid two-col"></div>
+        <div class="section-divider"></div>
+        <div class="view-header">
+          <div><h3>Ngữ pháp trọng tâm</h3></div>
+        </div>
+        <div id="grammar-sections" class="feature-grid three-col"></div>
+        <div class="section-divider"></div>
+        <div class="view-header">
+          <div><h3>Hội thoại thực tế</h3></div>
+        </div>
+        <div id="dialogue-list" class="stack-grid"></div>
+        <div class="section-divider"></div>
+        <div class="view-header">
+          <div><h3>Luyện thi TOPIK</h3></div>
+        </div>
+        <div id="topik-grid" class="feature-grid three-col"></div>
+        <div class="section-divider"></div>
         <div class="card quiz-section">
-          <div class="section-title-row compact">
-            <div><h3>Mini quiz mẫu</h3><p class="muted">Một bài ngắn để trải nghiệm ngay.</p></div>
+          <div class="view-header compact">
+            <div><h3>Mini quiz mẫu</h3><p class="muted">Trải nghiệm ngay trong màn Practice.</p></div>
           </div>
           <form id="quiz-form" class="quiz-form"></form>
           <button id="submit-quiz" class="primary-btn">Nộp bài</button>
@@ -185,10 +186,13 @@
         </div>
       </section>
 
-      <section id="profile" class="section-block">
-        <div class="section-title-row">
-          <div><span class="mini-label">Profile</span><h2>Hồ sơ học tập</h2></div>
-          <span class="badge-purple">My Progress</span>
+      <section id="screen-profile" class="app-view hidden">
+        <div class="view-header">
+          <div>
+            <span class="mini-label">Profile Screen</span>
+            <h2>Hồ sơ học tập</h2>
+          </div>
+          <span class="badge-green">My Progress</span>
         </div>
         <div class="feature-grid two-col">
           <article class="feature-card card"><h3>Mục tiêu học</h3><p id="profile-goal">Giao tiếp hằng ngày</p></article>
@@ -196,16 +200,18 @@
           <article class="feature-card card"><h3>Chuỗi học</h3><p id="profile-streak">0 ngày</p></article>
           <article class="feature-card card"><h3>Badge đã mở</h3><p id="profile-badges">0 badge</p></article>
         </div>
+        <div class="section-divider"></div>
+        <div class="feature-grid three-col" id="topic-field-grid"></div>
       </section>
     </main>
   </div>
 
   <div class="bottom-nav" id="bottom-nav">
-    <button class="bottom-nav-item active" data-scroll="overview">🏠<span>Home</span></button>
-    <button class="bottom-nav-item" data-scroll="roadmap">📚<span>Learn</span></button>
-    <button class="bottom-nav-item" data-scroll="vocabulary">💎<span>Words</span></button>
-    <button class="bottom-nav-item" data-scroll="tests">🎯<span>Practice</span></button>
-    <button class="bottom-nav-item" data-scroll="profile">👤<span>Profile</span></button>
+    <button class="bottom-nav-item active app-tab" data-screen="home">🏠<span>Home</span></button>
+    <button class="bottom-nav-item app-tab" data-screen="learn">📚<span>Learn</span></button>
+    <button class="bottom-nav-item app-tab" data-screen="words">💎<span>Words</span></button>
+    <button class="bottom-nav-item app-tab" data-screen="practice">🎯<span>Practice</span></button>
+    <button class="bottom-nav-item app-tab" data-screen="profile">👤<span>Profile</span></button>
   </div>
 
   <div id="screen-overlay" class="screen-overlay hidden"></div>

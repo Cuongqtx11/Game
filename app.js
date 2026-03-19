@@ -148,12 +148,17 @@ function buildFillBlankQuestion(source) {
     ? `Điền nghĩa đúng cho từ: ${source.korean}`
     : (source.question || 'Chọn đáp án đúng');
 
+  var explanation = source.korean
+    ? `Đây là đáp án đúng vì từ "${source.korean}" đi với nghĩa phù hợp là "${source.answer}".`
+    : `Đây là đáp án đúng vì nó khớp trực tiếp với yêu cầu của câu hỏi.`;
+
   return {
     id: `fill-${source.id}`,
     question: displayQuestion,
-    prompt: 'Chọn đáp án đúng trong 15 giây',
+    prompt: 'Chọn đáp án đúng trong 30 giây',
     options: Array.isArray(source.options) ? shuffle(source.options.slice()) : [],
-    answer: source.answer
+    answer: source.answer,
+    explanation: explanation
   };
 }
 
@@ -162,7 +167,10 @@ function renderExerciseQuestion() {
   if (exerciseState.index >= exerciseState.questions.length) return finishExercise();
   const q = buildFillBlankQuestion(exerciseState.questions[exerciseState.index]);
   exerciseState.current = q;
+  exerciseState.answered = false;
   qs('#exercise-progress').textContent = `Câu ${exerciseState.index + 1}/${exerciseState.questions.length}`;
+  qs('#exercise-feedback').classList.add('hidden');
+  qs('#exercise-feedback').innerHTML = '';
   qs('#exercise-body').innerHTML = `
     <div class="screen-lesson">
       <h3>${q.question}</h3>
@@ -170,34 +178,62 @@ function renderExerciseQuestion() {
       <div class="quiz-options">${q.options.map(opt => `<label class="quiz-option"><input type="radio" name="exercise-option" value="${opt}"><span>${opt}</span></label>`).join('')}</div>
     </div>
   `;
+  qsa('input[name="exercise-option"]').forEach(input => {
+    input.addEventListener('change', () => submitCurrentExerciseAnswer());
+  });
   startExerciseTimer();
 }
 
 function startExerciseTimer() {
   if (exerciseTimer) clearInterval(exerciseTimer);
-  let left = 15;
+  let left = 30;
   qs('#exercise-timer').textContent = left;
   exerciseTimer = setInterval(() => {
     left -= 1;
     qs('#exercise-timer').textContent = left;
     if (left <= 0) {
       clearInterval(exerciseTimer);
-      nextExerciseQuestion();
+      submitCurrentExerciseAnswer(true);
     }
   }, 1000);
 }
 
-function nextExerciseQuestion() {
-  if (!exerciseState) return;
+function submitCurrentExerciseAnswer(timeout) {
+  if (!exerciseState || exerciseState.answered) return;
   if (exerciseTimer) clearInterval(exerciseTimer);
   const checked = document.querySelector('input[name="exercise-option"]:checked');
   const userAnswer = checked ? checked.value : null;
   const current = exerciseState.current;
   const correct = userAnswer === current.answer;
+  exerciseState.answered = true;
   if (correct) exerciseState.score += 1;
-  exerciseState.answers.push({ q: current.question, userAnswer, answer: current.answer, correct });
+  exerciseState.answers.push({ q: current.question, userAnswer, answer: current.answer, correct, explanation: current.explanation });
+
+  const feedback = qs('#exercise-feedback');
+  feedback.classList.remove('hidden');
+  feedback.innerHTML = correct
+    ? `<strong>✅ Chính xác</strong><br>${current.explanation}<br><br>Tự chuyển câu sau trong 2 giây...`
+    : `<strong>❌ Chưa đúng</strong><br>Đáp án đúng là: <strong>${current.answer}</strong><br>${current.explanation}${timeout ? '<br><br>Hết thời gian cho câu này.' : ''}`;
+
+  if (correct) {
+    setTimeout(() => advanceExerciseQuestion(), 2000);
+  }
+}
+
+function advanceExerciseQuestion() {
+  if (!exerciseState) return;
   exerciseState.index += 1;
   renderExerciseQuestion();
+}
+
+function nextExerciseQuestion() {
+  if (!exerciseState) return;
+  if (!exerciseState.answered) {
+    submitCurrentExerciseAnswer(false);
+    if (exerciseState && exerciseState.answered && qs('#exercise-feedback').classList.contains('hidden')) return;
+    if (exerciseState && exerciseState.answered && exerciseState.answers[exerciseState.answers.length - 1].correct) return;
+  }
+  advanceExerciseQuestion();
 }
 
 function finishExercise() {
